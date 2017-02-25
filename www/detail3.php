@@ -418,7 +418,7 @@
 		<p class="comments__firsttext">Еще никто не оставил комментариев, станьте первым.</p>
 		<!-- // начальный текст в комментариях -->
 		<!-- кнопки для входа, чтобы оставить комментарий -->
-		<div class="comments__loginblock">
+		<div class="comments__loginblock" style="display:block;">
 			<p class="comments__logintext">Для того, что бы оставить комментарий необходимо войти через</p>
 			<div class="comments__logbuttons">
 				<a href="#loginform" class="button button_login fancybox">
@@ -443,7 +443,7 @@
 			</div>
 		</div>
 		<!-- // кнопки для входа, чтобы оставить комментарий -->
-		<div class="comments__block">
+		<div class="comments__block" style="display:none;">
 			<div class="comments__actionblock">
 				<div class="comments__shownew"><span>Новые</span>
 					<ul class="dropmenu comments__submenu">

@@ -393,7 +393,7 @@
 	</div>
 </section>
 
-<section class="comments">
+<section class="comments comments2">
 	<div class="container">
 		<h3 class="comments__heading">Комментарии</h3>
 		<form action="" class="comments__form" id="commentform">
@@ -415,7 +415,7 @@
 			<!-- // прикрепленные файлы -->
 		</form>
 		<!-- начальный текст в комментариях -->
-		<p class="comments__firsttext">Еще никто не оставил комментариев, станьте первым.</p>
+		<p class="comments__firsttext" style="display:block;">Еще никто не оставил комментариев, станьте первым.</p>
 		<!-- // начальный текст в комментариях -->
 		<!-- кнопки для входа, чтобы оставить комментарий -->
 		<div class="comments__loginblock">
@@ -443,7 +443,7 @@
 			</div>
 		</div>
 		<!-- // кнопки для входа, чтобы оставить комментарий -->
-		<div class="comments__block">
+		<div class="comments__block" style="display:none;">
 			<div class="comments__actionblock">
 				<div class="comments__shownew"><span>Новые</span>
 					<ul class="dropmenu comments__submenu">
