@@ -18,7 +18,7 @@
 		<div class="container">
 			<div class="actionblock__leftside">
 				<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a>Обзоры покупок</p>
-				<p class="actionblock__writereview"><a href="#" class="actionblock__icon actionblock__icon_plus"><span></span></a>Написать обзор</p>
+				<a href="#" class="actionblock__writereview"><span class="actionblock__icon actionblock__icon_plus"><span></span></span>Написать обзор</a>
 				<!-- кнопки при скролле -->
 				<a href="#" class="actionblock__icon actionblock__icon_search"><img src="img/icon_search.svg" alt="@@" width="19" height="19"></a>
 				<a href="#" class="actionblock__icon actionblock__icon_filter"><img src="img/icon_filter.svg" alt="@@"></a>
@@ -85,7 +85,7 @@
 					<li class="searchblock__option searchblock__option_default"><a href="#" data-default="по дате">по дате</a></li>
 					<!-- выпадающий список фильтра -->
 					<ul class="dropmenu searchblock__submenu">
-						<li><a href="#">Дата<img src="img/icon_arrow_select.svg" alt="@@"></a>
+						<li data-type="по дате"><a href="#">Дата<img src="img/icon_arrow_select.svg" alt="@@"></a>
 							<!-- дополнительный выпадающий список -->
 							<div class="searchblock__addmenu-wrapper">
 								<ul class="dropmenu searchblock__addmenu">
@@ -95,19 +95,87 @@
 							</div>
 							<!-- // дополнительный выпадающий список -->
 						</li>
-						<li><a href="#">Рейтинг<img src="img/icon_arrow_select.svg" alt="@@"></a></li>
-						<li><a href="#">Просмотры<img src="img/icon_arrow_select.svg" alt="@@"></a></li>
-						<li><a href="#">Комментарии<img src="img/icon_arrow_select.svg" alt="@@"></a></li>
+						<li data-type="по рейтингу"><a href="#">Рейтинг<img src="img/icon_arrow_select.svg" alt="@@"></a>
+							<!-- дополнительный выпадающий список -->
+							<div class="searchblock__addmenu-wrapper">
+								<ul class="dropmenu searchblock__addmenu">
+									<li><a href="#" data-value="(ниже-выше)">Ниже - Выше</a></li>
+									<li><a href="#" data-value="(выше-ниже)">Выше - Ниже</a></li>
+								</ul>
+							</div>
+							<!-- // дополнительный выпадающий список -->
+						</li>
+						<li data-type="по просмотрам"><a href="#">Просмотры<img src="img/icon_arrow_select.svg" alt="@@"></a>
+							<!-- дополнительный выпадающий список -->
+							<div class="searchblock__addmenu-wrapper">
+								<ul class="dropmenu searchblock__addmenu">
+									<li><a href="#" data-value="(меньше-больше)">Меньше - Больше</a></li>
+									<li><a href="#" data-value="(больше-меньше)">Больше - Меньше</a></li>
+								</ul>
+							</div>
+							<!-- // дополнительный выпадающий список -->
+						</li>
+						<li data-type="по комментариям"><a href="#">Комментарии<img src="img/icon_arrow_select.svg" alt="@@"></a>
+							<!-- дополнительный выпадающий список -->
+							<div class="searchblock__addmenu-wrapper">
+								<ul class="dropmenu searchblock__addmenu">
+									<li><a href="#" data-value="(меньше-больше)">Меньше - Больше</a></li>
+									<li><a href="#" data-value="(больше-меньше)">Больше - Меньше</a></li>
+								</ul>
+							</div>
+							<!-- // дополнительный выпадающий список -->
+						</li>
 					</ul>
 					<!-- // выпадающий список фильтра -->
 				</ul>
 				<!-- дополнительные настройки активного фильтра -->
 				<a href="#" class="searchblock__icon searchblock__icon_minus"><span></span></a>
 				<ul class="searchblock__menu searchblock__menu_select">
-					<li class="searchblock__option"><a href="#">выбрать</a></li>
-					<ul class="searchblock__submenu">
-						<li><a href="#"></a></li>
+					<li class="searchblock__option"><a href="#" data-default="выбрать">выбрать</a></li>
+					<!-- выпадающий список фильтра -->
+					<ul class="dropmenu searchblock__submenu">
+						<li data-type="по дате"><a href="#">Дата<img src="img/icon_arrow_select.svg" alt="@@"></a>
+							<!-- дополнительный выпадающий список -->
+							<div class="searchblock__addmenu-wrapper">
+								<ul class="dropmenu searchblock__addmenu">
+									<li><a href="#" data-value="(старые-новые)">Старые - Новые</a></li>
+									<li><a href="#" data-value="(новые-старые)">Новые - Старые</a></li>
+								</ul>
+							</div>
+							<!-- // дополнительный выпадающий список -->
+						</li>
+						<li data-type="по рейтингу"><a href="#">Рейтинг<img src="img/icon_arrow_select.svg" alt="@@"></a>
+							<!-- дополнительный выпадающий список -->
+							<div class="searchblock__addmenu-wrapper">
+								<ul class="dropmenu searchblock__addmenu">
+									<li><a href="#" data-value="(ниже-выше)">Ниже - Выше</a></li>
+									<li><a href="#" data-value="(выше-ниже)">Выше - Ниже</a></li>
+								</ul>
+							</div>
+							<!-- // дополнительный выпадающий список -->
+						</li>
+						<li data-type="по просмотрам"><a href="#">Просмотры<img src="img/icon_arrow_select.svg" alt="@@"></a>
+							<!-- дополнительный выпадающий список -->
+							<div class="searchblock__addmenu-wrapper">
+								<ul class="dropmenu searchblock__addmenu">
+									<li><a href="#" data-value="(меньше-больше)">Меньше - Больше</a></li>
+									<li><a href="#" data-value="(больше-меньше)">Больше - Меньше</a></li>
+								</ul>
+							</div>
+							<!-- // дополнительный выпадающий список -->
+						</li>
+						<li data-type="по комментариям"><a href="#">Комментарии<img src="img/icon_arrow_select.svg" alt="@@"></a>
+							<!-- дополнительный выпадающий список -->
+							<div class="searchblock__addmenu-wrapper">
+								<ul class="dropmenu searchblock__addmenu">
+									<li><a href="#" data-value="(меньше-больше)">Меньше - Больше</a></li>
+									<li><a href="#" data-value="(больше-меньше)">Больше - Меньше</a></li>
+								</ul>
+							</div>
+							<!-- // дополнительный выпадающий список -->
+						</li>
 					</ul>
+					<!-- // выпадающий список фильтра -->
 				</ul>
 				<!-- // дополнительные настройки активного фильтра -->
 				<a href="#" class="searchblock__icon searchblock__icon_plus"><span></span></a>

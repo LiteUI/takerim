@@ -24,7 +24,8 @@ body {transition: all 0.25s ease-in-out;
 	&__stat {color: #b3b5bb; font-weight: 300; margin: 0 45px;}
 	&__number {color: #262627; font-size: 19px; font-weight: 300; margin-bottom: 6px; display: inline-block;}
 	&__actions {margin-top: 53px; display: flex; border-top: 1px solid #eeeff1;}
-	&__action {display: inline-block; color: #262627; font-size: 16px; font-weight: 300; text-align: center; padding: 20px 15px; width: 50%;
+	&__action {display: inline-block; color: #262627; font-size: 16.5px; font-weight: 300; text-align: center; padding: 20px 15px; width: 50%;
+		&:hover {opacity: 0.6;}
 		&:first-child {border-right: 1px solid #eeeff1;}
 	}
 	
@@ -60,6 +61,7 @@ body {transition: all 0.25s ease-in-out;
 /*##############################*/
 
 .button {text-align:center; border:0; display:inline-block; padding: 0 18px; line-height: 50px; box-shadow: 0 4px 12px rgba(153, 204, 0, 0.3); border-radius: 30px; background-color: #99cc00; color: #fff; font-size: 19px;
+	&:hover {opacity: 0.7;}
 	&_social {width: 101px; display: inline-flex; justify-content: center; align-items: center; padding: 0;
 		span {display: inline-block; width: 50%; position: relative;}
 		img {position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;}
@@ -115,7 +117,7 @@ body {transition: all 0.25s ease-in-out;
 
 // Секции, header, footer и т.д. //
 
-.header {background-color: #0a1439; color: #fff; padding: 12px 0; transition: all 0.25s ease-in-out; position: fixed; left: 0; top: 0; z-index: 10; box-sizing: border-box; height: 60px;
+.header {background-color: #0a1439; color: #fff; padding: 12px 0; transition: height 0.25s ease-in-out, padding 0.25s ease-in-out; position: fixed; left: 0; top: 0; z-index: 10; box-sizing: border-box; height: 60px;
 	.container {display: flex; align-items: center; transition: all 0.25s ease-in-out;}
 	&__logoblock {display: inline-flex; align-items: center;}
 	&__text {display: none; color: #ffffff; font-size: 16px; font-weight: 300;}
@@ -168,62 +170,65 @@ body {transition: all 0.25s ease-in-out;
 	}
 	
 	&.full {height: 204px; padding: 47px 0 52px;}
-	
+	&.fancybox-margin {margin-left: -8.5px;}
 	.afterlogo {padding-left: 28px;}
 	
 }
 
 /*##############################*/
 
-.actions {position: fixed; left: 0; top: 60px; z-index: 5; transition: all 0.25s ease-in-out;
+.actions {position: fixed; left: 0; top: 60px; z-index: 5; transition: top 0.25s ease-in-out, pointer-events 0.25s ease-in-out;
+	.container {transition: all 0.25s ease-in-out;}
 	&.active {pointer-events: none;
 		.actionblock {padding: 12px 0; pointer-events: all;
 			.container {width: 1392px;}
 			&__icon {width: 36px; height: 36px;}
-			&__watchreview {font-size: 16px; padding-right: 25px;}
+			&__watchreview {font-size: 16px; padding-right: 25px; padding-left: 50px;}
 			&__watchreview:after {width: 2px;}
 			&__writereview {margin-left: 21px; font-size: 16px;}
-			&__icon_burger {position: relative; left: 0; margin-right: 14px;}
+			&__icon_burger {left: 0;}
 			&__icon_search, &__icon_filter {opacity: 1; pointer-events: all; width: auto; height: auto;
 				&:hover {opacity: 0.5;}
 			}
 		}
-		.searchblock {background-color: #fff; transform: translate3d(0,-100%,0);
-			&__icon_search {display: none;}
-			&__menu:first-of-type {margin-left: 0;}
+		.searchblock {transform: translate3d(0,-100%,0);
 			&__searchfield.active {transform: translate3d(0,100%,0);}
-			&.active {transform: translate3d(0,0,0); pointer-events: all;}
+			&__icon_search {opacity: 0; pointer-events: none;}
+			&.active {transform: translate3d(0,0,0); pointer-events: all; background-color: #fff;
+				.searchblock__icon_search {width: 0; margin-right: 0;}
+			}
 		}
 	}
 	&.fullheader {top: 204px;}
+	&.fancybox-margin {margin-left: -8.5px;}
 	
 	&_detail {
-		.actionblock__goodimage {display: none; width: 120px; height: 90px; position: relative; overflow: hidden; margin-left: 31px; top: -6px; border-radius: 3px;
+		.actionblock {height: 102px; padding: 0; display: flex; align-items: center;}
+		.actionblock__watchreview {white-space: nowrap; transition: all 0.5s ease-in-out;}
+		.actionblock__writereview {white-space: nowrap; transition: all 0.5s ease-in-out;}
+		.actionblock__goodimage {transform: scale3d(0,0,0); width: 120px; height: 90px; position: relative; overflow: hidden; margin-left: 31px; top: -6px; border-radius: 3px; transition: all 0.5s ease-in-out, opacity 0.2s ease-in-out; opacity: 0; pointer-events: none;
 			img {position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; min-width: 100%; min-height: 100%; width: 0; object-fit: cover;}
 		}
-		.actionblock__detailheading {display: none; color: #262627; font-size: 19px; font-weight: 300; margin-left: 31px;}
-		.actionblock__detailprice {display: none; color: #bfc1ca; font-size: 18px; font-weight: 700; margin-right: 17px;}
-		.actionblock .detail__button {display: none; margin-right: 30px;}
+		.actionblock__detailheading {transform: scale3d(0,0,0); max-width: 0; color: #262627; font-size: 19px; font-weight: 300; margin-left: 31px; transition: all 0.5s ease-in-out, opacity 0.2s ease-in-out; opacity: 0; pointer-events: none; white-space: nowrap;}
+		.actionblock__detailprice {transform: scale3d(0,0,0); color: #bfc1ca; font-size: 18px; font-weight: 700; margin-right: 17px; transition: all 0.5s ease-in-out, opacity 0.2s ease-in-out; opacity: 0; pointer-events: none;}
+		.actionblock .detail__button {transform: scale3d(0,0,0); transition: all 0.5s ease-in-out, opacity 0.2s ease-in-out; margin-right: 30px; opacity: 0; pointer-events: none;}
 		.actionblock__rightside {display: flex; align-items: center;}
+		.actionblock__login {margin-left: 0;}
+		.actionblock__account {flex-shrink: 0;}
 		&.active {
-			.actionblock {padding: 12px 0 6px;}
+			.actionblock {height: 120px; padding: 0;}
 			.actionblock__icon {width: 40px; height: 40px;}
-			.actionblock__watchreview {width: 40px; overflow: hidden; white-space: nowrap; padding: 0;
+			.actionblock__watchreview {max-width: 40px; color: transparent; padding: 0;
 				&:after {opacity: 0;}
 			}
-			.actionblock__writereview {width: 40px; overflow: hidden; white-space: nowrap; margin-left: 20px;}
-			.actionblock__goodimage {display: inline-block;}
-			.actionblock__detailheading {display: inline-block;}
-			.actionblock__detailprice {display: inline-block;}
-			.actionblock .detail__button {display: inline-block;}
-			.actionblock__icon_like {display: none;}
-			.actionblock__icon_notification {display: none;}
+			.actionblock__writereview {max-width: 40px; color: transparent;}
+			.actionblock__goodimage {opacity: 1; pointer-events: all; transform: scale3d(1,1,1);}
+			.actionblock__detailheading {transform: scale3d(1,1,1); opacity: 1; pointer-events: all;}
+			.actionblock__detailprice {transform: scale3d(1,1,1); opacity: 1; pointer-events: all;}
+			.actionblock .detail__button {transform: scale3d(1,1,1); opacity: 1; pointer-events: all;}
+			.actionblock__icon_like {max-width: 0; opacity: 0; pointer-events: none; margin: 0;}
+			.actionblock__icon_notification {max-width: 0; opacity: 0; pointer-events: none; margin: 0;}
 			.actionblock__username {white-space: nowrap; overflow: hidden; width: 40px;}
-			.actionblock__account_login {text-align: center;}
-			.actionblock__register {display: block;
-				&:after {display: none;}
-			}
-			.actionblock__login {display: block; margin-left: 0; margin-top: 20px;}
 		}
 	}
 }
@@ -275,10 +280,10 @@ body {transition: all 0.25s ease-in-out;
 		}
 	}
 	&__username {color: #262627; font-size: 16px; font-weight: 300; display: inline-block; vertical-align: middle;}
-	&__watchreview {font-size: 26px; color: #262627; font-weight: 300; position: relative; padding-right: 30px; transition: all 0.25s ease-in-out;
+	&__watchreview {font-size: 26px; color: #262627; font-weight: 300; position: relative; padding-right: 30px; transition: all 0.3s ease-in-out;
 		&:after {content: ""; position: absolute; right: 0; top: 0; bottom: 0; margin: auto; width: 1px; height: 30px; background-color: #262627; opacity: 0.1;}
 	}
-	&__writereview {margin-left: 30px; font-size: 19px; color: #262627; transition: all 0.25s ease-in-out;}
+	&__writereview {margin-left: 30px; font-size: 19px; color: #262627; transition: all 0.3s ease-in-out;}
 	&__account {
 		&_login {}
 		&_logged {display: none; position: relative;}
@@ -325,6 +330,7 @@ body {transition: all 0.25s ease-in-out;
 			.searchblock__option:after {transform: rotate(180deg);}
 			.searchblock__submenu {opacity: 1; pointer-events: all;}
 		}
+		&_categories {margin-left: 0;}
 		&_categories.active {
 			&:after {content: ""; display: inline-block; position: absolute; left: 50%; transform: translateX(-50%); bottom: -41px; margin: auto; width: 100%; height: 2px; background-color: #0a1439;}
 		}
@@ -337,8 +343,10 @@ body {transition: all 0.25s ease-in-out;
 			&:hover {background-color: #1c2547;}
 		}
 		img {position: absolute; right: 19px; top: 0; bottom: 0; margin: auto;}
-		li:hover {
-			.searchblock__addmenu-wrapper {opacity: 1; pointer-events: all;}
+		li {position: relative;
+			&:hover {
+				.searchblock__addmenu-wrapper {opacity: 1; pointer-events: all;}
+			}
 		}
 	}
 	&__addmenu-wrapper {position: absolute; left: 100%; top: 0; padding-left: 6px; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out;}
@@ -346,13 +354,21 @@ body {transition: all 0.25s ease-in-out;
 		a {white-space: nowrap; padding-right: 33px;}
 	}
 	&__icon {
-		&_plus {display: inline-block; width: 28px; height: 28px; border-radius: 1000px; background-color: rgba(#cecfd6, 0.7); margin-left: 26px; position: relative;
-			span {display: inline-block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; width: 12px; height: 2px; background-color: #f6f6f6;
-				&:after {content: ""; display: inline-block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; width: 12px; height: 2px; background-color: #f6f6f6; transform: rotate(90deg);}
+		&_plus {display: inline-block; width: 28px; height: 28px; border-radius: 1000px; background-color: rgba(#cecfd6, 0.7); margin-left: 26px; position: relative; transition: all 0.25s ease-in-out;
+			span {display: inline-block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; width: 12px; height: 2px; background-color: #f6f6f6; transition: all 0.25s ease-in-out;
+				&:after {content: ""; display: inline-block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; width: 12px; height: 2px; background-color: #f6f6f6; transform: rotate(90deg); transition: all 0.25s ease-in-out;}
+			}
+			&:hover {box-shadow: inset 0 0 0 2px rgba(#cecfd6, 0.7); background-color: #f6f6f6;
+				span {background-color: rgba(#cecfd6, 0.7);
+					&:after {background-color: rgba(#cecfd6, 0.7);}
+				}
 			}
 		}
-		&_minus {display: none; width: 28px; height: 28px; border-radius: 1000px; box-shadow: inset 0 0 0 2px rgba(#cecfd6, 0.7); margin-left: 20px; position: relative;
-			span {display: inline-block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; width: 12px; height: 2px; background-color: rgba(#cecfd6, 0.7);}
+		&_minus {display: none; width: 28px; height: 28px; border-radius: 1000px; box-shadow: inset 0 0 0 2px rgba(#cecfd6, 0.7); margin-left: 20px; position: relative; transition: all 0.25s ease-in-out;
+			span {display: inline-block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; width: 12px; height: 2px; background-color: rgba(#cecfd6, 0.7); transition: all 0.25s ease-in-out;}
+			&:hover {background-color: rgba(#cecfd6, 0.7); box-shadow: none;
+				span {background-color: #f6f6f6;}
+			}
 		}
 		&_view {
 			svg #icon_view1,
@@ -362,6 +378,7 @@ body {transition: all 0.25s ease-in-out;
 				svg #icon_view2 {fill: #0A1439;}
 			}
 		}
+		&_search {margin-right: 54px; transition: all 0.25s ease-in-out;}
 	}
 	&__searchfield {position: absolute; left: 0; top: 0; width: 100%; background-color: #fff; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out; border-top: 1px solid rgba(#262627, 0.1);
 		&.active {opacity: 1; pointer-events: all;}
@@ -416,11 +433,11 @@ body {transition: all 0.25s ease-in-out;
 			.reviews__card-wrapper {box-shadow: inset 0 0 0 0 #f6f6f6;}
 			.reviews__rating, .reviews__like, .reviews__shop {opacity: 1; pointer-events: all;}
 		}
-		&_big {width: 50%; padding-right: 300px; padding-top: 0;
+		&_big {width: 50%; padding-right: 310px; padding-top: 0;
 			.reviews__cardimage {position: absolute; width: 52%; right: 0; top: 0; height: 100%;}
 			.reviews__cardinfo {padding-top: 34px;}
-			.reviews__rating {left: 300px;}
-			.reviews__shop {top: 50%; right: 10px; transform: translate3d(50%, -50%, 0) rotate(90deg); transform-origin: 50% 51%;}
+			.reviews__rating {left: 313px;}
+			.reviews__shop {top: 50%; right: 10px; transform: translate3d(50%, -50%, 0) rotate(90deg); transform-origin: 50% 50%;}
 		}
 	}
 	&__card-wrapper {position: absolute; left: 0; top: 0; width: 100%; height: 100%; border-radius: 3px; overflow: hidden; box-shadow: inset 0 0 0 10px #f6f6f6, 0 0 0 5px #f6f6f6; box-sizing: border-box; z-index: 1; transition: all 0.25s ease-in-out;}
@@ -438,7 +455,7 @@ body {transition: all 0.25s ease-in-out;
 	}
 	&__author {flex: 1;}
 	&__price {color: #bfc1ca; font-size: 18px; font-weight: 700;}
-	&__shop {opacity: 0; pointer-events: none; position: absolute; top: 0; right: 26px; transform: translate3d(0,-50%,0); border-radius: 1000px; background-color: #0a1439; color: #ffffff; font-size: 16px; padding: 7px 14px; min-width: 127px; z-index: 2; overflow: hidden; transition: all 0.25s ease-in-out;
+	&__shop {opacity: 0; pointer-events: none; position: absolute; top: 0; right: 26px; transform: translate3d(0,-50%,0); border-radius: 1000px; background-color: #0a1439; color: #ffffff; font-size: 17px; padding: 7px 14px; min-width: 127px; z-index: 2; overflow: hidden; transition: all 0.25s ease-in-out;
 		span {position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out; text-align: center; line-height: 34px;}
 		&:hover {color: transparent;
 			span {opacity: 1; pointer-events: all; color: #fff;}
@@ -470,6 +487,7 @@ body {transition: all 0.25s ease-in-out;
 		&_prev {left: 0; transform: rotate(180deg);}
 		&_next {right: 0;}
 		img {position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;}
+		&:hover {opacity: 0.6;}
 	}
 	&__pagenumbers {
 		li {display: inline-block; opacity: 0.56; color: #151b2d; font-size: 16px; font-weight: 300; vertical-align: middle; margin-left: 44px; position: relative; width: 30px; text-align: center; transition: all 0.25s ease-in-out;
@@ -482,7 +500,9 @@ body {transition: all 0.25s ease-in-out;
 		}
 	}
 	&__more {border-top: 1px solid #e6e7e9; text-align: center; padding-top: 33px; padding-bottom: 52px;}
-	&__showmore {color: #262627; font-size: 19px; font-weight: 300;}
+	&__showmore {color: #262627; font-size: 19px; font-weight: 300;
+		&:hover {opacity: 0.6;}
+	}
 }
 
 /*##############################*/
@@ -507,7 +527,7 @@ body {transition: all 0.25s ease-in-out;
 
 /*##############################*/
 
-.detail {margin-top: 162px; padding-bottom: 63px;
+.detail {margin-top: 162px; padding-bottom: 58px;
 	&__header {padding: 58px 100px 64px; display: flex; justify-content: space-between; align-items: center;}
 	&__heading {max-width: 676px; color: #262627; font-size: 32px; font-weight: 300; line-height: 1.3em;}
 	&__button {padding: 0 24px;}
@@ -519,10 +539,13 @@ body {transition: all 0.25s ease-in-out;
 	}
 	&__usercard {width: 31.97%; text-align: center;}
 	&__reviewinfo {margin-top: 39px; padding: 0 100px; display: flex; justify-content: space-between; align-items: center;}
-	&__reviewlink {color: #c8c9cd; font-size: 16px; font-weight: 300; position: relative; padding-right: 45px;
+	&__reviewlink {opacity: 0.56; color: #151b2d; font-size: 16px; font-weight: 300; position: relative; padding-right: 45px;
+		&:hover {opacity: 1;}
 		&:after {content: ""; position: absolute; right: 0; top: 0; bottom: 0; margin: auto; width: 30px; height: 1px; background-color: #cecfd6; opacity: 0.7;}
 	}
-	&__reviewshop {margin-left: 12px; color: #c8c9cd; font-size: 16px; font-weight: 300; letter-spacing: 0.02em;}
+	&__reviewshop {margin-left: 12px; opacity: 0.56; color: #151b2d; font-size: 16px; font-weight: 300; letter-spacing: 0.02em;
+		&:hover {opacity: 1;}
+	}
 	&__reviewdate {color: #c8c9cd; font-size: 16px; font-weight: 300; letter-spacing: 0.03em;}
 	&__textblock {margin-top: 58px; padding: 0 200px;}
 	&__text {color: #494a4c; font-size: 18px; font-weight: 300; line-height: 1.7em;
@@ -539,13 +562,15 @@ body {transition: all 0.25s ease-in-out;
 	}
 	&__listname {color: #262627; font-size: 18px;}
 	&__list {margin-top: 20px; padding-left: 38px; max-width: 700px;
-		&_ordered {padding-left: 62px;
-			li {padding-left: 22px;}
+		&_ordered {counter-reset: num;
+			li {position: relative;
+				&:before {content: '0' counter(num); counter-increment: num; opacity: 0.5; color: #494a4c; font-size: 14.5px; font-weight: 300; line-height: 50px; margin-right: 32px;}
+			}
 		}
-		li {border-top: 1px solid #e5e6e9; font-size: 18px;
+		li {border-top: 1px solid #e5e6e9;
 			&:first-child {border-top: 0;}
 		}
-		p {color: #494a4c; font-size: 18px; font-weight: 300; line-height: 50px;}
+		p {color: #494a4c; font-size: 18px; font-weight: 300; line-height: 50px; display: inline-block;}
 		& + .detail__text {margin-top: 28px;}
 	}
 	&__linkblock {width: 700px; margin: 45px auto 47px; display: block; box-sizing: border-box; background-color: #fff; position: relative; padding: 42px 0; padding-left: 171px;}
@@ -585,22 +610,22 @@ body {transition: all 0.25s ease-in-out;
 		}
 		&_star {margin-right: 12px; transition: all 0.25s ease-in-out;
 			&:last-of-type {margin-right: 0;}
-			&.hover {background-color: #e8f0d1; border-color: #e8f0d1;
+			&.hover {background-color: #e8f0d1; border-color: transparent;
 				svg #icon_star {fill: #99cc00;}
 			}
-			&.one {background-color: #cb302f;
+			&.one {background-color: #cb302f; border-color: transparent;
 				svg #icon_star {fill: #f6f6f6;}
 			}
-			&.two {background-color: #e08d1a;
+			&.two {background-color: #e08d1a; border-color: transparent;
 				svg #icon_star {fill: #f6f6f6;}
 			}
-			&.three {background-color: #e2c333;
+			&.three {background-color: #e2c333; border-color: transparent;
 				svg #icon_star {fill: #f6f6f6;}
 			}
-			&.four {background-color: #99cc00;
+			&.four {background-color: #99cc00; border-color: transparent;
 				svg #icon_star {fill: #f6f6f6;}
 			}
-			&.five {background-color: #23cf46;
+			&.five {background-color: #23cf46; border-color: transparent;
 				svg #icon_star {fill: #f6f6f6;}
 			}
 		}
@@ -672,12 +697,26 @@ body {transition: all 0.25s ease-in-out;
 	&__loginblock {display: none; margin-top: 48px;}
 	&__logintext {opacity: 0.56; color: #151b2d; font-size: 16px; font-weight: 300; letter-spacing: 0.025em;}
 	&__block {padding: 0 100px; margin-top: 38px;}
-	&__shownew {opacity: 0.56; color: #151b2d; font-size: 16.5px; font-weight: 300; position: relative; padding-right: 20px; display: inline-block;
-		&:after {content: ""; display: inline-block; width: 0; height: 0; position: absolute; top: 6px; bottom: 0; right: 0; margin: auto; border-width: 3px; border-color: #262627 transparent transparent transparent; border-style: solid; opacity: 0.36; transition: all 0.25s ease-in-out; transform-origin: top center;}
+	&__shownew {opacity: 0.56; color: #151b2d; font-size: 16.5px; font-weight: 300; position: relative; display: inline-block; cursor: pointer; transition: all 0.25s ease-in-out;
+		span {position: relative; padding-right: 20px; display: inline-block;
+			&:after {content: ""; display: inline-block; width: 0; height: 0; position: absolute; top: 6px; bottom: 0; right: 0; margin: auto; border-width: 3px; border-color: #262627 transparent transparent transparent; border-style: solid; opacity: 0.36; transition: all 0.25s ease-in-out; transform-origin: 50% 25%;}
+		}
+		&:hover {opacity: 1;}
+		&.active {opacity: 1;
+			span:after {transform: rotate(180deg);}
+		}
+	}
+	&__submenu {position: absolute; left: 0; top: 100%; margin-top: 20px; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out; display: inline-block; z-index: 2;
+		&.active {opacity: 1; pointer-events: all;}
+		li {transition: all 0.25s ease-in-out;
+			&:hover {background-color: #1c2547;}
+		}
+		a {display: inline-block; padding: 16px; width: 100%; font-size: 16.5px;}
 	}
 	&__actionblock {display: flex; justify-content: space-between; align-items: center;}
 	&__action {opacity: 0.56; color: #151b2d; font-size: 16.5px; font-weight: 300; margin-left: 48px; letter-spacing: 0.03em;
 		&:first-child {margin-left: 0;}
+		&:hover {opacity: 1;}
 	}
 	&__list {margin-top: 37px;}
 	&__avatar {width: 60px; height: 60px; border-radius: 1000px; overflow: hidden; position: absolute; left: 0; top: 4px; 
@@ -725,12 +764,13 @@ body {transition: all 0.25s ease-in-out;
 			&:last-child {margin-right: 0;}
 		}
 	}
-	&__uploads {display: none; margin-top: 26px; padding-left: 88px;}
-	&__upload {width: 100px; height: 75px; overflow: hidden; position: relative; border-radius: 3px; display: inline-block; margin-right: 12px;
+	&__uploads {display: none; padding-left: 88px;}
+	&__upload {width: 100px; height: 75px; overflow: hidden; position: relative; border-radius: 3px; display: inline-block; margin-right: 12px; margin-top: 26px;
 		&:last-child {margin-right: 0;}
 		img {position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; min-width: 100%; min-height: 100%; width: 0; object-fit: cover;}
 	}
-	&__deleteupload {display: inline-block; position: absolute; right: 0; top: 0; width: 24px; height: 24px; border-radius: 3px; background-color: #0a1439;
+	&__deleteupload {display: inline-block; position: absolute; right: 0; top: 0; width: 24px; height: 24px; border-radius: 3px; background-color: #0a1439; cursor: pointer; transition: all 0.25s ease-in-out;
+		&:hover {opacity: 0.7;}
 		span {display: inline-block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; background-color: #fff; width: 14px; height: 2px; transform: rotate(45deg); transition: all 0.25s ease-in-out;
 			&:after {content: ""; display: inline-block; position: absolute; width: 14px; height: 2px; background-color: #fff; transform: rotate(90deg);}
 		}
@@ -771,17 +811,22 @@ body {transition: all 0.25s ease-in-out;
 		p {margin-top: 22px; opacity: 0.56; color: #151b2d; font-weight: 300;}
 	}
 	&__socialicon {display: inline-block; vertical-align: middle; width: 50px; height: 50px; border-radius: 1000px; position: relative; margin: 0 8px;
+		&:hover {opacity: 0.7;}
 		&_vk {background-color: #527eae; box-shadow: 0 4px 12px rgba(81, 126, 174, 0.3);}
 		&_fb {background-color: #3e67bf; box-shadow: 0 4px 12px rgba(62, 103, 191, 0.3);}
 		img {position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;}
 	}
 	&__field {padding: 0 48px; margin-top: 25px; position: relative;
-		input {width: 100%; opacity: 0.46; color: #262627; font-size: 19px; font-weight: 300; padding-bottom: 24px; border-bottom: 1px solid #cecfd6; padding-right: 90px;}
+		input {width: 100%; color: #262627; font-size: 19px; font-weight: 300; padding-bottom: 24px; border-bottom: 1px solid rgba(#cecfd6,0.46); padding-right: 90px;}
 	}
-	&__forgotpw {position: absolute; right: 50px; top: 2px; color: #262627; font-size: 16px; font-weight: 300;}
+	&__forgotpw {position: absolute; right: 50px; top: 2px; color: #262627; font-size: 16.5px; font-weight: 300;
+		&:hover {opacity: 0.7;}
+	}
 	&__button {margin-top: 30px; min-width: 191px;}
 	&__bottom {margin-top: 38px; border-top: 1px solid #eeeff1; padding: 0 97px; padding-bottom: 28px;}
-	&__register {color: #262627; font-size: 16.5px; font-weight: 300; display: inline-block; margin-top: -10px; padding: 0 10px; background-color: #fff;}
+	&__register {color: #262627; font-size: 16.5px; font-weight: 300; display: inline-block; margin-top: -10px; padding: 0 10px; background-color: #fff;
+		&:hover {opacity: 0.7;}
+	}
 	&__text {opacity: 0.56; color: #151b2d; font-size: 14px; font-weight: 300; margin-top: 26px; line-height: 1.4em;}
 	&.forvote {
 		.loginform__heading {

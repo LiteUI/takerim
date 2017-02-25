@@ -18,7 +18,7 @@
 		<div class="container">
 			<div class="actionblock__leftside">
 				<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a>Обзоры покупок</p>
-				<p class="actionblock__writereview"><a href="#" class="actionblock__icon actionblock__icon_plus"><span></span></a>Обзоры покупок</p>
+				<a href="#" class="actionblock__writereview"><span class="actionblock__icon actionblock__icon_plus"><span></span></span>Обзоры покупок</a>
 				<div class="actionblock__goodimage">
 					<img src="img/detail.png" alt="@@">
 				</div>
@@ -29,28 +29,18 @@
 				<a href="#" class="button detail__button">Ссылка на товар</a>
 				<!-- до входа в ЛК -->
 				<div class="actionblock__account actionblock__account_login">
-					<a href="#" class="actionblock__register">Регистрация</a>
 					<a href="#loginform" class="actionblock__login fancybox">Вход</a>
 				</div>
 				<!-- // до входа в ЛК -->
 				<!-- после входа в ЛК -->
 				<div class="actionblock__account actionblock__account_logged">
-					<a href="#" class="actionblock__icon actionblock__icon_like">
-						<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="likeSymbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="icon_like" transform="translate(-12.000000, -14.000000)" fill="#CECFD6"><path d="M19.9333422,17.0730566 C19.4753964,15.1079889 17.5917835,13.7959794 15.5589834,14.0261458 C13.5261833,14.2563122 11.9936821,15.9551157 12.0000196,17.9713173 C12.0000196,22.8984857 19.9333422,28 19.9333422,28 C19.9333422,28 27.8666648,22.8984857 27.8666648,17.9713173 C27.8676856,16.9202217 27.4446492,15.9118319 26.6907266,15.1682394 C25.9368041,14.4246468 24.9138324,14.0068413 23.8471147,14.0068418 C21.9776185,14.0077276 20.3555441,15.2785292 19.9333422,17.0730566 Z" id="likeShape"></path></g></g></svg>
-					</a>
-					<a href="#" class="actionblock__icon actionblock__icon_notification">
-						<img src="img/icon_bell.svg" alt="@@">
-						<!-- количество уведомлений -->
-						<span>6</span>
-						<!-- // количество уведомлений -->
-					</a>
 					<a href="#" class="actionblock__username">
 						<span class="actionblock__icon actionblock__icon_avatar">
 							<img src="img/avatar1.png" alt="@@">
 							<!-- крестик -->
 							<span></span>
 							<!-- // крестик -->
-						</span>Sorokins
+						</span>
 					</a>
 					<!-- информация о пользователе -->
 						<div class="dropmenu userinfo actionblock__userinfo">
@@ -455,7 +445,12 @@
 		<!-- // кнопки для входа, чтобы оставить комментарий -->
 		<div class="comments__block">
 			<div class="comments__actionblock">
-				<a href="#" class="comments__shownew">Новые</a>
+				<div class="comments__shownew"><span>Новые</span>
+					<ul class="dropmenu comments__submenu">
+						<li data-type="Новые"><a href="#">Новые</a></li>
+						<li data-type="Старые"><a href="#">Старые</a></li>
+					</ul>
+				</div>
 				<div class="comments__actions">
 					<a href="#" class="comments__action">+ Подписаться</a>
 					<a href="#" class="comments__action">Поделиться</a>
