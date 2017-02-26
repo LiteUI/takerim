@@ -2122,7 +2122,7 @@ body {
     display: inline-block;
     vertical-align: middle; }
     .share__count_rating {
-      margin-left: 24px; }
+      margin-left: 21px; }
   .share__myrating {
     position: absolute;
     left: 340px;
@@ -2734,9 +2734,7 @@ body {
   align-items: center;
   box-sizing: border-box;
   transform: translate3d(0, -100%, 0);
-  transition: all 0.25s ease-in-out;
-  opacity: 0;
-  pointer-events: none; }
+  transition: all 0.25s ease-in-out; }
   .thanks__ok {
     font-size: 16.5px; }
   .thanks.active {
