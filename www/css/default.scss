@@ -117,7 +117,7 @@ body {transition: all 0.25s ease-in-out;
 
 // Секции, header, footer и т.д. //
 
-.header {background-color: #0a1439; color: #fff; padding: 12px 0; transition: height 0.25s ease-in-out, padding 0.25s ease-in-out; position: fixed; left: 0; top: 0; z-index: 10; box-sizing: border-box; height: 60px;
+.header {background-color: #0a1439; color: #fff; padding: 12px 0; transition: height 0.25s ease-in-out, padding 0.25s ease-in-out; position: absolute; left: 0; top: 0; z-index: 10; box-sizing: border-box; height: 60px;
 	.container {display: flex; align-items: center; transition: all 0.25s ease-in-out;}
 	&__logoblock {display: inline-flex; align-items: center;}
 	&__text {display: none; color: #ffffff; font-size: 16.5px; font-weight: 300;}
@@ -177,11 +177,20 @@ body {transition: all 0.25s ease-in-out;
 
 /*##############################*/
 
-.actions {position: fixed; left: 0; top: 60px; z-index: 5; transition: top 0.25s ease-in-out, pointer-events 0.25s ease-in-out;
+.actions {position: absolute; left: 0; top: 60px; z-index: 5; transition: transform 0.25s ease-in-out;
 	.container {transition: all 0.25s ease-in-out;}
-	&.active {pointer-events: none;
+	&.sticky {transition: transform 0s ease-in-out; pointer-events: none; position: fixed; top: 0;
+		.searchblock {pointer-events: none; transform: translate3d(0,-100%,0);
+			&__searchfield.active {transform: translate3d(0,100%,0); opacity: 1; pointer-events: all;}
+			&__icon_search {opacity: 0; pointer-events: none;}
+			&.active {transform: translate3d(0,0,0); pointer-events: all; background-color: #fff; opacity: 1;
+				.searchblock__icon_search {width: 0; margin-right: 0;}
+			}
+		}
+	}
+	&.active {
 		.actionblock {padding: 12px 0; pointer-events: all;
-			.container {width: 1392px;}
+			.container {width: 100%; padding: 0 24px;}
 			&__icon {width: 36px; height: 36px;}
 			&__watchreview {font-size: 16.5px; padding-right: 25px; padding-left: 50px;}
 			&__watchreview:after {width: 2px;}
@@ -191,15 +200,9 @@ body {transition: all 0.25s ease-in-out;
 				&:hover {opacity: 0.5;}
 			}
 		}
-		.searchblock {transform: translate3d(0,-100%,0);
-			&__searchfield.active {transform: translate3d(0,100%,0);}
-			&__icon_search {opacity: 0; pointer-events: none;}
-			&.active {transform: translate3d(0,0,0); pointer-events: all; background-color: #fff;
-				.searchblock__icon_search {width: 0; margin-right: 0;}
-			}
-		}
 	}
-	&.fullheader {top: 204px;}
+	&.fullheader {transform: translate3d(0,144px,0);}
+	&.fullheader.sticky {margin-top: -144px;}
 	&.fancybox-margin {margin-left: -8.5px;}
 	
 	&_detail {
@@ -236,7 +239,7 @@ body {transition: all 0.25s ease-in-out;
 /*##############################*/
 
 .actionblock {box-shadow: 0 2px 30px rgba(25, 33, 44, 0.04); padding: 31px 0; background-color: #fff; transition: all 0.25s ease-in-out; position: relative; z-index: 3;
-	.container {display: flex; justify-content: space-between; align-items: center; transition: all 0.25s ease-in-out;}
+	.container {display: flex; justify-content: space-between; align-items: center; transition: all 0.25s ease-in-out; box-sizing: border-box;}
 	&__leftside {display: inline-flex; align-items: center;}
 	&__icon {display: inline-block; width: 40px; height: 40px; border-radius: 1000px; vertical-align: middle; transition: all 0.25s ease-in-out;
 		&_burger {position: absolute; left: -58px; top: 0; bottom: 0; margin: auto; background-color: #0a1439;
@@ -423,6 +426,8 @@ body {transition: all 0.25s ease-in-out;
 			.reviews__cardbottom {margin-top: 42px; margin-left: -10px;}
 			.reviews__rating {left: auto; top: 48px; right: 46px; opacity: 1; pointer-events: all;}
 			.reviews__like {top: 54px; right: 102px; opacity: 1; pointer-events: all; width: 26px; height: 26px;
+				svg:first-child {width: 26px; height: 25px;}
+				svg:last-child {width: 22px; height: 20px;}
 				svg #icon_cardlike {stroke: #d7d8dd; stroke-width: 2;}
 			}
 			.reviews__shop {position: static; opacity: 1; pointer-events: all; transform: translate3d(0,0,0); margin-left: 24px;}
@@ -437,7 +442,7 @@ body {transition: all 0.25s ease-in-out;
 			.reviews__cardimage {position: absolute; width: 52%; right: 0; top: 0; height: 100%; border-radius:0 3px 3px 0;}
 			.reviews__cardinfo {padding-top: 34px; border-radius:3px 0 0 3px;}
 			.reviews__rating {left: 313px;}
-			.reviews__shop {top: 50%; right: 1px; transform: translate3d(50%, -50%, 0) rotate(90deg); transform-origin: 50% 50%;}
+			.reviews__shop {top: auto; bottom: 18px; right: -100%; margin-right: 10px;}
 		}
 	}
 	&__card-wrapper {position: absolute; left: -10px; top: -10px; width: calc(100% + 20px); height: calc(100% + 20px); box-shadow: inset 0 0 0 20px #f6f6f6;
@@ -469,8 +474,8 @@ body {transition: all 0.25s ease-in-out;
 		&.four {background-color: #99cc00;}
 		&.five {background-color: #23cf46;}
 	}
-	&__like {opacity: 0; pointer-events: none; position: absolute; right: 34px; top: 34px; transition: all 0.25s ease-in-out; z-index: 1; cursor: pointer; width: 22px; height: 22px;
-		svg {position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+	&__like {opacity: 0; pointer-events: none; position: absolute; right: 34px; top: 34px; transition: all 0.25s ease-in-out; z-index: 1; cursor: pointer; width: 22px; height: 21px;
+		svg {position: absolute; left: 0; top: 0; bottom: 0; right: 0; margin: auto;}
 		svg #icon_cardlike,
 		svg #icon_cardliked {transition: all 0.25s ease-in-out;}
 		svg #icon_cardliked {opacity: 0; pointer-events: none;}
@@ -839,7 +844,7 @@ body {transition: all 0.25s ease-in-out;
 
 /*##############################*/
 
-.thanks {position: fixed; left: 0; top: 0; background-color: #99cc00; z-index: 15; padding: 16px 24px; color: #fff; width: 100%; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box; transform: translate3d(0,-100%,0); transition: all 0.25s ease-in-out;
+.thanks {position: fixed; left: 0; top: 0; background-color: #99cc00; z-index: 15; padding: 16px 24px; color: #fff; width: 100%; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box; transform: translate3d(0,-100%,0); transition: all 0.25s ease-in-out; opacity: 0; pointer-events: none;
 	&__ok {font-size: 16.5px;}
 	&.active {transform: translate3d(0,0,0); box-shadow: 0 4px 12px rgba(153, 204, 0, 0.3);}
 }
