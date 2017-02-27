@@ -13,7 +13,7 @@
 
 <?php include "blocks/header.php"; ?>
 
-<section class="actions">
+<section class="actions actions_main">
 	<div class="actionblock">
 		<div class="container">
 			<div class="actionblock__leftside">
@@ -21,7 +21,10 @@
 				<a href="#" class="actionblock__writereview"><span class="actionblock__icon actionblock__icon_plus"><span></span></span>Написать обзор</a>
 				<!-- кнопки при скролле -->
 				<a href="#" class="actionblock__icon actionblock__icon_search"><img src="img/icon_search.svg" alt="@@" width="19" height="19"></a>
-				<a href="#" class="actionblock__icon actionblock__icon_filter"><img src="img/icon_filter.svg" alt="@@"></a>
+				<a href="#" class="actionblock__icon actionblock__icon_filter">
+					<img src="img/icon_filter.svg" alt="@@">
+					<span></span>
+				</a>
 				<!-- // кнопки при скролле -->
 			</div>
 			<div class="actionblock__rightside">
@@ -82,15 +85,15 @@
 					<li class="searchblock__option"><a href="#">авторы</a></li>
 				</ul>
 				<ul class="searchblock__menu searchblock__menu_date">
-					<li class="searchblock__option searchblock__option_default"><a href="#" data-default="по дате">по дате</a></li>
+					<li class="searchblock__option"><a href="#" data-default="по дате">по дате</a><img class="searchblock__filterarrow" src="img/icon_arrow_filter.svg" alt="@@"></li>
 					<!-- выпадающий список фильтра -->
 					<ul class="dropmenu searchblock__submenu">
 						<li data-type="по дате"><a href="#">Дата<img src="img/icon_arrow_select.svg" alt="@@"></a>
 							<!-- дополнительный выпадающий список -->
 							<div class="searchblock__addmenu-wrapper">
 								<ul class="dropmenu searchblock__addmenu">
-									<li><a href="#" data-value="(старые-новые)">Старые - Новые</a></li>
-									<li><a href="#" data-value="(новые-старые)">Новые - Старые</a></li>
+									<li><a href="#" data-value="down">Старые - Новые</a></li>
+									<li><a href="#" data-value="up">Новые - Старые</a></li>
 								</ul>
 							</div>
 							<!-- // дополнительный выпадающий список -->
@@ -99,8 +102,8 @@
 							<!-- дополнительный выпадающий список -->
 							<div class="searchblock__addmenu-wrapper">
 								<ul class="dropmenu searchblock__addmenu">
-									<li><a href="#" data-value="(ниже-выше)">Ниже - Выше</a></li>
-									<li><a href="#" data-value="(выше-ниже)">Выше - Ниже</a></li>
+									<li><a href="#" data-value="down">Ниже - Выше</a></li>
+									<li><a href="#" data-value="up">Выше - Ниже</a></li>
 								</ul>
 							</div>
 							<!-- // дополнительный выпадающий список -->
@@ -109,8 +112,8 @@
 							<!-- дополнительный выпадающий список -->
 							<div class="searchblock__addmenu-wrapper">
 								<ul class="dropmenu searchblock__addmenu">
-									<li><a href="#" data-value="(меньше-больше)">Меньше - Больше</a></li>
-									<li><a href="#" data-value="(больше-меньше)">Больше - Меньше</a></li>
+									<li><a href="#" data-value="down">Меньше - Больше</a></li>
+									<li><a href="#" data-value="up">Больше - Меньше</a></li>
 								</ul>
 							</div>
 							<!-- // дополнительный выпадающий список -->
@@ -119,8 +122,8 @@
 							<!-- дополнительный выпадающий список -->
 							<div class="searchblock__addmenu-wrapper">
 								<ul class="dropmenu searchblock__addmenu">
-									<li><a href="#" data-value="(меньше-больше)">Меньше - Больше</a></li>
-									<li><a href="#" data-value="(больше-меньше)">Больше - Меньше</a></li>
+									<li><a href="#" data-value="down">Меньше - Больше</a></li>
+									<li><a href="#" data-value="up">Больше - Меньше</a></li>
 								</ul>
 							</div>
 							<!-- // дополнительный выпадающий список -->
@@ -131,15 +134,15 @@
 				<!-- дополнительные настройки активного фильтра -->
 				<a href="#" class="searchblock__icon searchblock__icon_minus"><span></span></a>
 				<ul class="searchblock__menu searchblock__menu_select">
-					<li class="searchblock__option"><a href="#" data-default="выбрать">выбрать</a></li>
+					<li class="searchblock__option"><a href="#" data-default="выбрать">выбрать</a><img class="searchblock__filterarrow" src="img/icon_arrow_filter.svg" alt="@@"></li>
 					<!-- выпадающий список фильтра -->
 					<ul class="dropmenu searchblock__submenu">
 						<li data-type="по дате"><a href="#">Дата<img src="img/icon_arrow_select.svg" alt="@@"></a>
 							<!-- дополнительный выпадающий список -->
 							<div class="searchblock__addmenu-wrapper">
 								<ul class="dropmenu searchblock__addmenu">
-									<li><a href="#" data-value="(старые-новые)">Старые - Новые</a></li>
-									<li><a href="#" data-value="(новые-старые)">Новые - Старые</a></li>
+									<li><a href="#" data-value="down">Старые - Новые</a></li>
+									<li><a href="#" data-value="up">Новые - Старые</a></li>
 								</ul>
 							</div>
 							<!-- // дополнительный выпадающий список -->
@@ -148,8 +151,8 @@
 							<!-- дополнительный выпадающий список -->
 							<div class="searchblock__addmenu-wrapper">
 								<ul class="dropmenu searchblock__addmenu">
-									<li><a href="#" data-value="(ниже-выше)">Ниже - Выше</a></li>
-									<li><a href="#" data-value="(выше-ниже)">Выше - Ниже</a></li>
+									<li><a href="#" data-value="down">Ниже - Выше</a></li>
+									<li><a href="#" data-value="up">Выше - Ниже</a></li>
 								</ul>
 							</div>
 							<!-- // дополнительный выпадающий список -->
@@ -158,8 +161,8 @@
 							<!-- дополнительный выпадающий список -->
 							<div class="searchblock__addmenu-wrapper">
 								<ul class="dropmenu searchblock__addmenu">
-									<li><a href="#" data-value="(меньше-больше)">Меньше - Больше</a></li>
-									<li><a href="#" data-value="(больше-меньше)">Больше - Меньше</a></li>
+									<li><a href="#" data-value="down">Меньше - Больше</a></li>
+									<li><a href="#" data-value="up">Больше - Меньше</a></li>
 								</ul>
 							</div>
 							<!-- // дополнительный выпадающий список -->
@@ -168,8 +171,8 @@
 							<!-- дополнительный выпадающий список -->
 							<div class="searchblock__addmenu-wrapper">
 								<ul class="dropmenu searchblock__addmenu">
-									<li><a href="#" data-value="(меньше-больше)">Меньше - Больше</a></li>
-									<li><a href="#" data-value="(больше-меньше)">Больше - Меньше</a></li>
+									<li><a href="#" data-value="down">Меньше - Больше</a></li>
+									<li><a href="#" data-value="up">Больше - Меньше</a></li>
 								</ul>
 							</div>
 							<!-- // дополнительный выпадающий список -->
@@ -320,7 +323,7 @@
 				<a href="#" class="searchblock__allcategories">Все категории</a>
 			</div>
 		</div>
-	<div class="searchblock__categories-overlay"></div>
+	<div class="overlay"></div>
 <!-- // список категорий -->
 
 	<div class="container">
@@ -348,8 +351,8 @@
 						<p class="reviews__author">Sorokins</p>
 						<p class="reviews__price">€ 499</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
@@ -377,8 +380,8 @@
 						<p class="reviews__author">Sorokins</p>
 						<p class="reviews__price">€ 499</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
@@ -406,8 +409,8 @@
 						<p class="reviews__author">Sorokins</p>
 						<p class="reviews__price">$ 649</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
@@ -435,8 +438,8 @@
 						<p class="reviews__author">Bezbod</p>
 						<p class="reviews__price">$ 149,00</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
@@ -464,8 +467,8 @@
 						<p class="reviews__author">Oke-Anis</p>
 						<p class="reviews__price">$ 789,00</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
@@ -493,8 +496,8 @@
 						<p class="reviews__author">Bezbod</p>
 						<p class="reviews__price">$ 99,00</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
@@ -522,8 +525,8 @@
 						<p class="reviews__author">Syncaine</p>
 						<p class="reviews__price">$ 50,99</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
@@ -551,8 +554,8 @@
 						<p class="reviews__author">Sorokins</p>
 						<p class="reviews__price">€ 199,59</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
@@ -580,8 +583,8 @@
 						<p class="reviews__author">Oke-Anis</p>
 						<p class="reviews__price">€ 499,00</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
@@ -609,8 +612,8 @@
 						<p class="reviews__author">Bezbod</p>
 						<p class="reviews__price">$ 259,00</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>

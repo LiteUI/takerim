@@ -26,7 +26,7 @@
 			</div>
 			<div class="actionblock__rightside">
 				<p class="actionblock__detailprice">€ 399,00</p>
-				<a href="#" class="button detail__button">Ссылка на товар</a>
+				<a href="#" class="button detail__button">Ссылка на товар<span>eBay</span></a>
 				<!-- до входа в ЛК -->
 				<div class="actionblock__account actionblock__account_login">
 					<a href="#loginform" class="actionblock__login fancybox">Вход</a>
@@ -34,6 +34,15 @@
 				<!-- // до входа в ЛК -->
 				<!-- после входа в ЛК -->
 				<div class="actionblock__account actionblock__account_logged">
+					<a href="#" class="actionblock__icon actionblock__icon_like">
+						<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="likeSymbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="icon_like" transform="translate(-12.000000, -14.000000)" fill="#CECFD6"><path d="M19.9333422,17.0730566 C19.4753964,15.1079889 17.5917835,13.7959794 15.5589834,14.0261458 C13.5261833,14.2563122 11.9936821,15.9551157 12.0000196,17.9713173 C12.0000196,22.8984857 19.9333422,28 19.9333422,28 C19.9333422,28 27.8666648,22.8984857 27.8666648,17.9713173 C27.8676856,16.9202217 27.4446492,15.9118319 26.6907266,15.1682394 C25.9368041,14.4246468 24.9138324,14.0068413 23.8471147,14.0068418 C21.9776185,14.0077276 20.3555441,15.2785292 19.9333422,17.0730566 Z" id="likeShape"></path></g></g></svg>
+					</a>
+					<a href="#" class="actionblock__icon actionblock__icon_notification">
+						<img src="img/icon_bell.svg" alt="@@">
+						<!-- количество уведомлений -->
+						<span>6</span>
+						<!-- // количество уведомлений -->
+					</a>
 					<a href="#" class="actionblock__username">
 						<span class="actionblock__icon actionblock__icon_avatar">
 							<img src="img/avatar1.png" alt="@@">
@@ -67,7 +76,7 @@
 			<h2 class="detail__heading">Обзор Bang &amp; Olufsen BeoPlay A2: портативный премиум-универсал</h2>
 			<div class="detail__header-right">
 				<p class="detail__price">€ 399,00</p>
-				<a href="#" class="button detail__button">Ссылка на товар</a>
+				<a href="#" class="button detail__button">Ссылка на товар<span>eBay</span></a>
 			</div>
 		</div>
 		<div class="detail__authorinfo">
@@ -82,8 +91,8 @@
 				<p class="usercard__name">Sorokins</p>
 				<p class="usercard__rank"><img src="img/icon_rank3.svg" alt="@@">Талант</p>
 				<div class="usercard__stats">
-					<p class="usercard__stat"><span class="usercard__number usercard__number_rating">4,3</span><br>Рейтинг</p>
-					<p class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span><br>Обзоров</p>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_rating">4,3</span><br>Рейтинг</a>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span><br>Обзоров</a>
 				</div>
 				<div class="usercard__actions">
 					<a href="#" class="usercard__action">+ Подписаться</a>
@@ -325,8 +334,8 @@
 						<p class="reviews__author">Sorokins</p>
 						<p class="reviews__price">€ 199,59</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
@@ -354,8 +363,8 @@
 						<p class="reviews__author">Oke-Anis</p>
 						<p class="reviews__price">€ 499,00</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
@@ -383,8 +392,8 @@
 						<p class="reviews__author">Bezbod</p>
 						<p class="reviews__price">$ 149,00</p>
 						<!-- название магазина -->
-						<a href="#" class="reviews__shop reviews__shop_name">GearBest.com
-						<span>В магазин</span></a>
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
 						<!-- // название магазина -->
 					</div>
 				</div>
