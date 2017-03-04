@@ -151,8 +151,8 @@
 				<p class="usercard__name">Sorokins</p>
 				<p class="usercard__rank"><img src="img/icon_rank3.svg" alt="@@">Талант</p>
 				<div class="usercard__stats">
-					<p class="usercard__stat"><span class="usercard__number usercard__number_rating">4,3</span>Рейтинг</p>
-					<p class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span>Обзоров</p>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_rating">4,3</span><br>Рейтинг</a>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span><br>Обзоров</a>
 				</div>
 				<div class="usercard__actions">
 					<a href="#" class="usercard__action">+ Подписаться</a>
@@ -251,8 +251,8 @@
 				<p class="usercard__name">Vologry</p>
 				<p class="usercard__rank"><img src="img/icon_rank4.svg" alt="@@">Мастер обзоров</p>
 				<div class="usercard__stats">
-					<p class="usercard__stat"><span class="usercard__number usercard__number_rating">3,6</span>Рейтинг</p>
-					<p class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span>Обзоров</p>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_rating">3,6</span><br>Рейтинг</a>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span><br>Обзоров</a>
 				</div>
 				<div class="usercard__actions">
 					<a href="#" class="usercard__action">Профиль</a>
@@ -266,8 +266,8 @@
 				<p class="usercard__name">Resawa</p>
 				<p class="usercard__rank"><img src="img/icon_rank5.svg" alt="@@">Бог обзоров</p>
 				<div class="usercard__stats">
-					<p class="usercard__stat"><span class="usercard__number usercard__number_rating">5,0</span>Рейтинг</p>
-					<p class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span>Обзоров</p>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_rating">5,0</span><br>Рейтинг</a>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span><br>Обзоров</a>
 				</div>
 				<div class="usercard__actions">
 					<a href="#" class="usercard__action">Профиль</a>
@@ -281,8 +281,8 @@
 				<p class="usercard__name">Maskit</p>
 				<p class="usercard__rank"><img src="img/icon_rank2.svg" alt="@@">Писатель</p>
 				<div class="usercard__stats">
-					<p class="usercard__stat"><span class="usercard__number usercard__number_rating">2,9</span>Рейтинг</p>
-					<p class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span>Обзоров</p>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_rating">2,9</span><br>Рейтинг</a>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span><br>Обзоров</a>
 				</div>
 				<div class="usercard__actions">
 					<a href="#" class="usercard__action">Профиль</a>
@@ -296,8 +296,8 @@
 				<p class="usercard__name">Kit-Kat</p>
 				<p class="usercard__rank"><img src="img/icon_rank1.svg" alt="@@">Новичок</p>
 				<div class="usercard__stats">
-					<p class="usercard__stat"><span class="usercard__number usercard__number_rating">1,4</span>Рейтинг</p>
-					<p class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span>Обзоров</p>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_rating">1,4</span><br>Рейтинг</a>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span><br>Обзоров</a>
 				</div>
 				<div class="usercard__actions">
 					<a href="#" class="usercard__action">Профиль</a>

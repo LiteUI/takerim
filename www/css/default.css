@@ -293,6 +293,8 @@ body {
     margin: 0 45px;
     display: block;
     font-size: 16px; }
+    .usercard__stat:hover {
+      opacity: 0.7; }
   .usercard__number {
     color: #262627;
     font-size: 19px;
@@ -875,7 +877,8 @@ body {
       opacity: 0; }
   .actions_detail.active .actionblock__writereview {
     max-width: 40px;
-    color: transparent; }
+    color: transparent;
+    font-size: 19px; }
   .actions_detail.active .actionblock__icon_like {
     max-width: 0;
     opacity: 0;
@@ -1474,7 +1477,7 @@ body {
 
 /*##############################*/
 .reviews {
-  margin-top: 64px;
+  margin-top: 60px;
   position: relative; }
   .reviews .container {
     width: 1194px; }
@@ -1956,8 +1959,6 @@ body {
   .detail__usercard {
     width: 31.97%;
     text-align: center; }
-    .detail__usercard .usercard__stat:hover {
-      opacity: 0.7; }
   .detail__reviewinfo {
     margin-top: 39px;
     padding: 0 100px;
