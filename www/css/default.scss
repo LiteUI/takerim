@@ -349,7 +349,7 @@ body {position: relative; margin-top: 204px;}
 	&__rightside {
 		.searchblock__icon {margin-right: 33px;}
 	}
-	&__menu {display: inline-block; position: relative; margin-left: 54px; padding-right: 18px;
+	&__menu {display: inline-block; position: relative; margin-left: 54px;
 		&_date {margin-left: 83px;
 			&:before {content: ""; display: inline-block; position: absolute; left: -42px; top: 0; bottom: 0; margin: auto; width: 1px; height: 30px; background-color: #dddfe2; opacity: 0.8;}
 		}
@@ -358,7 +358,7 @@ body {position: relative; margin-top: 204px;}
 			&:hover {color: rgba(#151b2d, 1);}
 		}
 		&.active {
-			.searchblock__option:after {transform: rotate(180deg);}
+			.searchblock__option > a:after {transform: rotate(180deg);}
 			.searchblock__submenu {opacity: 1; pointer-events: all;}
 		}
 		&_categories {margin-left: 0;}
@@ -367,7 +367,9 @@ body {position: relative; margin-top: 204px;}
 		}
 	}
 	&__option {
-		&:after {content: ""; display: inline-block; width: 0; height: 0; position: absolute; top: 6px; bottom: 0; right: 0; margin: auto; border-width: 3px; border-color: #262627 transparent transparent transparent; border-style: solid; opacity: 0.36; transition: all 0.25s ease-in-out; transform-origin: 50% 25%;}
+		> a {padding-right: 18px;
+			&:after {content: ""; display: inline-block; width: 0; height: 0; position: absolute; top: 6px; bottom: 0; right: 0; margin: auto; border-width: 3px; border-color: #262627 transparent transparent transparent; border-style: solid; opacity: 0.36; transition: all 0.25s ease-in-out; transform-origin: 50% 25%;}
+		}
 	}
 	&__submenu {position: absolute; opacity: 0; pointer-events: none; left: 0; top: 100%; margin-top: 38px; transition: all 0.25s ease-in-out;
 		a {color: #ffffff; font-size: 16.5px; font-weight: 300; width: 100%; position: relative; display: inline-block; opacity: 1; padding: 15px 23px; padding-right: 48px; border-radius: 3px; overflow: hidden;
@@ -654,32 +656,48 @@ body {position: relative; margin-top: 204px;}
 				svg #icon_like {fill: #99cc00;}
 			}
 		}
-		&_star {margin-right: 12px; transition: all 0.25s ease-in-out;
+		&_star {margin-right: 12px; transition: all 0.25s ease-in-out; border: 0;
+			svg {pointer-events: none;}
 			&:last-of-type {margin-right: 0;}
-			&.hover {background-color: #e8f0d1; border-color: transparent;
-				svg #icon_star {fill: #99cc00;}
+			&.active svg #icon_star {fill: #f6f6f6;}
+			&.noclick {pointer-events: none;}
+			&.one {
+				&.hover svg #icon_star {fill: #cb302f;}
+				span.hover {background-color: rgba(#cb302f,0.15);}
+				span.active {background-color: #cb302f;}
 			}
-			&.one {background-color: #cb302f; border-color: transparent;
-				svg #icon_star {fill: #f6f6f6;}
+			&.two {
+				&.hover svg #icon_star {fill: #e08d1a;}
+				span.hover {background-color: rgba(#e08d1a,0.15);}
+				span.active {background-color: #e08d1a;}
 			}
-			&.two {background-color: #e08d1a; border-color: transparent;
-				svg #icon_star {fill: #f6f6f6;}
+			&.three {
+				&.hover svg #icon_star {fill: #e2c333;}
+				span.hover {background-color: rgba(#e2c333,0.15);}
+				span.active {background-color: #e2c333;}
 			}
-			&.three {background-color: #e2c333; border-color: transparent;
-				svg #icon_star {fill: #f6f6f6;}
+			&.four {
+				&.hover svg #icon_star {fill: #99cc00;}
+				span.hover {background-color: rgba(#99cc00,0.15);}
+				span.active {background-color: #99cc00;}
 			}
-			&.four {background-color: #99cc00; border-color: transparent;
-				svg #icon_star {fill: #f6f6f6;}
+			&.five {
+				&.hover svg #icon_star {fill: #23cf46;}
+				span.hover {background-color: rgba(#23cf46,0.15);}
+				span.active {background-color: #23cf46;}
 			}
-			&.five {background-color: #23cf46; border-color: transparent;
-				svg #icon_star {fill: #f6f6f6;}
+			span {display: inline-block; width: 50%; height: 100%; border: 1px solid rgba(#cecfd6,0.5); box-sizing: border-box; transition: all 0.25s ease-in-out;
+				&:first-of-type {border-radius: 1000px 0 0 1000px; border-right: 0;}
+				&:last-of-type {border-radius: 0 1000px 1000px 0; border-left: 0;}
+				&.hover {border-color: transparent;}
+				&.active {border-color: transparent;}
 			}
 		}
 	}
 	&__count {color: #262627; font-size: 32px; font-weight: 300; line-height: 50px; display: inline-block; vertical-align: middle;
 		&_rating {margin-left: 21px;}
 	}
-	&__myrating {position: absolute; left: 340px; top: -3px; color: #8fbf00; border-radius: 1000px; border: 1px solid rgba(#99cc00,0.3); padding: 7px 14px; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out;
+	&__myrating {position: absolute; left: 340px; top: -3px; color: #8fbf00; border-radius: 1000px; border: 1px solid rgba(#99cc00,0.3); padding: 7px 14px; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out; white-space: nowrap;
 		&.active {opacity: 1; pointer-events: all;}
 		&.one {color: #cb302f; border-color: #cb302f;}
 		&.two {color: #e08d1a; border-color: #e08d1a;}

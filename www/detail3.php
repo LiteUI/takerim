@@ -203,19 +203,29 @@
 				<!-- моя оценка -->
 				<p class="share__myrating">Моя оценка <span>4</span></p>
 				<!-- // моя оценка -->
-				<a href="#loginform" class="share__icon share__icon_star fancybox">
+				<a href="#loginform" class="share__icon share__icon_star one fancybox">
+					<span data-rating="0,5"></span>
+					<span data-rating="1"></span>
 					<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="starPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="icon_star" transform="translate(-765.000000, -3481.000000)" fill="#D9DADF"><g id="starlast-block" transform="translate(0.000000, 2888.000000)"><g id="starrate" transform="translate(748.000000, 541.000000)"><g id="star1" transform="translate(1.000000, 36.000000)"><polygon id="Star" points="25 30.5067286 19.4376941 33.1190173 20.2032813 27.0217084 16 22.5388828 22.0354648 21.3828273 25 16 27.9645352 21.3828273 34 22.5388828 29.7967188 27.0217084 30.5623059 33.1190173"></polygon></g></g></g></g></g></svg>
 				</a>
-				<a href="#loginform" class="share__icon share__icon_star fancybox">
+				<a href="#loginform" class="share__icon share__icon_star two fancybox">
+					<span data-rating="1,5"></span>
+					<span data-rating="2"></span>
 					<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="starPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="icon_star" transform="translate(-765.000000, -3481.000000)" fill="#D9DADF"><g id="starlast-block" transform="translate(0.000000, 2888.000000)"><g id="starrate" transform="translate(748.000000, 541.000000)"><g id="star1" transform="translate(1.000000, 36.000000)"><polygon id="Star" points="25 30.5067286 19.4376941 33.1190173 20.2032813 27.0217084 16 22.5388828 22.0354648 21.3828273 25 16 27.9645352 21.3828273 34 22.5388828 29.7967188 27.0217084 30.5623059 33.1190173"></polygon></g></g></g></g></g></svg>
 				</a>
-				<a href="#loginform" class="share__icon share__icon_star fancybox">
+				<a href="#loginform" class="share__icon share__icon_star three fancybox">
+					<span data-rating="2,5"></span>
+					<span data-rating="3"></span>
 					<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="starPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="icon_star" transform="translate(-765.000000, -3481.000000)" fill="#D9DADF"><g id="starlast-block" transform="translate(0.000000, 2888.000000)"><g id="starrate" transform="translate(748.000000, 541.000000)"><g id="star1" transform="translate(1.000000, 36.000000)"><polygon id="Star" points="25 30.5067286 19.4376941 33.1190173 20.2032813 27.0217084 16 22.5388828 22.0354648 21.3828273 25 16 27.9645352 21.3828273 34 22.5388828 29.7967188 27.0217084 30.5623059 33.1190173"></polygon></g></g></g></g></g></svg>
 				</a>
-				<a href="#loginform" class="share__icon share__icon_star fancybox">
+				<a href="#loginform" class="share__icon share__icon_star four fancybox">
+					<span data-rating="3,5"></span>
+					<span data-rating="4"></span>
 					<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="starPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="icon_star" transform="translate(-765.000000, -3481.000000)" fill="#D9DADF"><g id="starlast-block" transform="translate(0.000000, 2888.000000)"><g id="starrate" transform="translate(748.000000, 541.000000)"><g id="star1" transform="translate(1.000000, 36.000000)"><polygon id="Star" points="25 30.5067286 19.4376941 33.1190173 20.2032813 27.0217084 16 22.5388828 22.0354648 21.3828273 25 16 27.9645352 21.3828273 34 22.5388828 29.7967188 27.0217084 30.5623059 33.1190173"></polygon></g></g></g></g></g></svg>
 				</a>
-				<a href="#loginform" class="share__icon share__icon_star fancybox">
+				<a href="#loginform" class="share__icon share__icon_star five fancybox">
+					<span data-rating="4,5"></span>
+					<span data-rating="5"></span>
 					<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="starPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="icon_star" transform="translate(-765.000000, -3481.000000)" fill="#D9DADF"><g id="starlast-block" transform="translate(0.000000, 2888.000000)"><g id="starrate" transform="translate(748.000000, 541.000000)"><g id="star1" transform="translate(1.000000, 36.000000)"><polygon id="Star" points="25 30.5067286 19.4376941 33.1190173 20.2032813 27.0217084 16 22.5388828 22.0354648 21.3828273 25 16 27.9645352 21.3828273 34 22.5388828 29.7967188 27.0217084 30.5623059 33.1190173"></polygon></g></g></g></g></g></svg>
 				</a>
 				<p class="share__count share__count_rating">4,3<span class="share__smallinfotext">голосов: 32</span></p>
