@@ -210,7 +210,7 @@ body {position: relative; margin-top: 204px;}
 			&__icon {width: 36px; height: 36px;}
 			&__watchreview {font-size: 16.5px; padding-right: 25px; padding-left: 50px;}
 			&__watchreview:after {width: 2px;}
-			&__writereview {margin-left: 21px; font-size: 16.5px;}
+			&__writereview {margin-left: 21px; font-size: 16.5px; line-height: 2em;}
 			&__icon_burger {left: 0;}
 			&__icon_search, &__icon_filter {opacity: 1; pointer-events: all; width: auto; height: auto;
 				&:hover {opacity: 0.5;}
@@ -248,7 +248,7 @@ body {position: relative; margin-top: 204px;}
 			.actionblock__watchreview {max-width: 40px; color: transparent; padding: 0;
 				&:after {opacity: 0;}
 			}
-			.actionblock__writereview {max-width: 40px; color: transparent; font-size: 19px;}
+			.actionblock__writereview {max-width: 40px; color: transparent; font-size: 19px; line-height: 1em;}
 			.actionblock__icon_like {max-width: 0; opacity: 0; pointer-events: none; margin: 0;}
 			.actionblock__icon_notification {max-width: 0; opacity: 0; pointer-events: none; margin: 0;}
 			.actionblock__username {white-space: nowrap; overflow: hidden; width: 40px;}

@@ -790,7 +790,8 @@ body {
       width: 2px; }
     .actions.active .actionblock__writereview {
       margin-left: 21px;
-      font-size: 16.5px; }
+      font-size: 16.5px;
+      line-height: 2em; }
     .actions.active .actionblock__icon_burger {
       left: 0; }
     .actions.active .actionblock__icon_search, .actions.active .actionblock__icon_filter {
@@ -893,7 +894,8 @@ body {
   .actions_detail.active .actionblock__writereview {
     max-width: 40px;
     color: transparent;
-    font-size: 19px; }
+    font-size: 19px;
+    line-height: 1em; }
   .actions_detail.active .actionblock__icon_like {
     max-width: 0;
     opacity: 0;
