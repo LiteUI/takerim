@@ -10,20 +10,23 @@
 					<li><a href="#">Форум</a></li>
 					<li class="active"><a href="#">Обзоры покупок</a></li>
 					<li><a href="#">Статьи</a></li>
+					<li><a href="#">ШопоПоиск</a></li>
 				</ul>
 				<ul class="menu__column">
 					<li><a href="#">Мой трек</a></li>
 					<li><a href="#">Проверь продавца на eBay</a></li>
 					<li><a href="#">Купоны</a></li>
+					<li><a href="#">ШопперКэшбек</a></li>
 				</ul>
 				<ul class="menu__column">
-					<li><a href="#">ШопоПоиск</a></li>
-					<li><a href="#">ШопперКэшбек</a></li>
+					<li><a href="#">Правила сайта</a></li>
+					<li><a href="#">Размещение рекламы</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="footer__bottom">
 			<p class="footer__copyright">&copy; TakerIm 2004-2016. Все права защищены</p>
+			<p class="footer__certificate">Свидетельство Роскомнадзора ЭЛ № ФС77-60626 от 20.01.2015<br> Запрещено для детей 18+</p>
 			<ul class="footer__links">
 				<li><a href="#" class="footer__mail">Contacts@taker.im</a></li>
 				<li><a href="#">Ссылка на текст про eBay</a></li>

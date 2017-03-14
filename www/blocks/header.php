@@ -50,6 +50,9 @@
 			</ul>
 		</div>
 		<!-- // расширенное меню -->
-		<a href="mailto:contact@taker.im" class="header__mail">Contact@taker.im</a>
+		<div class="header__rightblock">
+			<a href="mailto:contact@taker.im" class="header__mail">Contact@taker.im</a>
+			<p class="header__adults">18+</p>
+		</div>
 	</div>
 </header>
