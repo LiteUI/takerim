@@ -329,6 +329,7 @@
 	<div class="container">
 		<ul class="reviews__cards">
 			<li class="reviews__card">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -345,7 +346,7 @@
 				<div class="reviews__cardinfo">
 					<p class="reviews__date">19 окт</p>
 					<p class="reviews__name">Обзор портативной колонки Biolit 15</p>
-					<p class="reviews__text">В домашней акустике революций уже особенно не ожидается. конечно, есть Hi-Fi и дорогие системы, акустика для кино - там Dolby Atmos и другие обновления. Но вот именно для музыки, чтобы послушать дома и не городить огород из напольных конструкций, а при желании легко перенести колонку в другую комнату или другой дом - таких продуктов известно немного. <br>[...]</p>
+					<p class="reviews__text">В домашней акустике революций уже особенно не ожидается. конечно, есть Hi-Fi и дорогие системы, акустика для кино - там Dolby Atmos и другие обновления. Но вот именно для музыки, чтобы послушать дома и не городить огород из напольных конструкций, а при желании легко перенести колонку в другую комнату или другой дом - таких продуктов известно немного. <br><span class="reviews__text-more">[...]</span></p>
 					<div class="reviews__cardbottom">
 						<div class="reviews__avatar"><img src="img/avatar1.png" alt="@@"></div>
 						<p class="reviews__author">Sorokins</p>
@@ -356,8 +357,11 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
+			
 			<li class="reviews__card">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -374,7 +378,7 @@
 				<div class="reviews__cardinfo">
 					<p class="reviews__date">19 окт</p>
 					<p class="reviews__name">Портативная колонка Beoplay A1 от компании beoplay</p>
-					<p class="reviews__text">Когда выложил фотографию колонки в Instagram, многие спрашивали, ну а какой же реальный размер у колонки? Но тут дело не только в размере, но и в необычной форме в целом, А1 напоминает таблетку, где нижняя часть плоская, а верхняя с закруглениями, оттого и не получается сразу ухватить, как она выглядит. На пресс-фото устройство кажется маленьким, и я уже испугался, что в B&amp;O решились на отчаянный шаг - залезть в нишу JBL Clip и прочих [...]</p>
+					<p class="reviews__text">Когда выложил фотографию колонки в Instagram, многие спрашивали, ну а какой же реальный размер у колонки? Но тут дело не только в размере, но и в необычной форме в целом, А1 напоминает таблетку, где нижняя часть плоская, а верхняя с закруглениями, оттого и не получается сразу ухватить, как она выглядит. На пресс-фото устройство кажется маленьким, и я уже испугался, что в B&amp;O решились на отчаянный шаг - залезть в нишу JBL Clip и прочих <span class="reviews__text-more">[...]</span></p>
 					<div class="reviews__cardbottom">
 						<div class="reviews__avatar"><img src="img/avatar1.png" alt="@@"></div>
 						<p class="reviews__author">Sorokins</p>
@@ -385,8 +389,11 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
+			
 			<li class="reviews__card reviews__card_big">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -403,7 +410,7 @@
 				<div class="reviews__cardinfo">
 					<p class="reviews__date">4 окт</p>
 					<p class="reviews__name">Самый полный обзор Apple iPhone 7 и iPhone 7 Plus</p>
-					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам [...]</p>
+					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам <span class="reviews__text-more">[...]</span></p>
 					<div class="reviews__cardbottom">
 						<div class="reviews__avatar"><img src="img/avatar1.png" alt="@@"></div>
 						<p class="reviews__author">Sorokins</p>
@@ -414,8 +421,11 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
+			
 			<li class="reviews__card">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -432,7 +442,7 @@
 				<div class="reviews__cardinfo">
 					<p class="reviews__date">31 сен</p>
 					<p class="reviews__name">Сбалансированные беспроводные наушники Gravity</p>
-					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам [...]</p>
+					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам <span class="reviews__text-more">[...]</span></p>
 					<div class="reviews__cardbottom">
 						<div class="reviews__avatar"><img src="img/avatar1.png" alt="@@"></div>
 						<p class="reviews__author">Bezbod</p>
@@ -443,8 +453,11 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
+			
 			<li class="reviews__card">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -461,7 +474,7 @@
 				<div class="reviews__cardinfo">
 					<p class="reviews__date">26 сен</p>
 					<p class="reviews__name">Умный велосипед от нового игрока на рынке Shibusa</p>
-					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам [...]</p>
+					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам <span class="reviews__text-more">[...]</span></p>
 					<div class="reviews__cardbottom">
 						<div class="reviews__avatar"><img src="img/avatar1.png" alt="@@"></div>
 						<p class="reviews__author">Oke-Anis</p>
@@ -472,8 +485,11 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
+			
 			<li class="reviews__card">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -490,7 +506,7 @@
 				<div class="reviews__cardinfo">
 					<p class="reviews__date">20 сен</p>
 					<p class="reviews__name">Стильный Square Wireless Chip Reader</p>
-					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам [...]</p>
+					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам <span class="reviews__text-more">[...]</span></p>
 					<div class="reviews__cardbottom">
 						<div class="reviews__avatar"><img src="img/avatar1.png" alt="@@"></div>
 						<p class="reviews__author">Bezbod</p>
@@ -501,8 +517,11 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
+			
 			<li class="reviews__card">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -519,7 +538,7 @@
 				<div class="reviews__cardinfo">
 					<p class="reviews__date">17 сен</p>
 					<p class="reviews__name">Красный Induction Power Pack от Huggl</p>
-					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам [...]</p>
+					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам <span class="reviews__text-more">[...]</span></p>
 					<div class="reviews__cardbottom">
 						<div class="reviews__avatar"><img src="img/avatar1.png" alt="@@"></div>
 						<p class="reviews__author">Syncaine</p>
@@ -530,8 +549,11 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
+			
 			<li class="reviews__card reviews__card_big">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -548,7 +570,7 @@
 				<div class="reviews__cardinfo">
 					<p class="reviews__date">14 сен</p>
 					<p class="reviews__name">Обзор необычного вейпа в виде трубки, как у Холмса Holmes Pipe</p>
-					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам [...]</p>
+					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам <span class="reviews__text-more">[...]</span></p>
 					<div class="reviews__cardbottom">
 						<div class="reviews__avatar"><img src="img/avatar1.png" alt="@@"></div>
 						<p class="reviews__author">Sorokins</p>
@@ -559,8 +581,11 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
+			
 			<li class="reviews__card">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -577,7 +602,7 @@
 				<div class="reviews__cardinfo">
 					<p class="reviews__date">5 сен</p>
 					<p class="reviews__name">Инновационный мини холодильник OOINO Mini Refrigerator</p>
-					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам [...]</p>
+					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам <span class="reviews__text-more">[...]</span></p>
 					<div class="reviews__cardbottom">
 						<div class="reviews__avatar"><img src="img/avatar1.png" alt="@@"></div>
 						<p class="reviews__author">Oke-Anis</p>
@@ -588,8 +613,11 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
+			
 			<li class="reviews__card">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -606,7 +634,7 @@
 				<div class="reviews__cardinfo">
 					<p class="reviews__date">29 авг</p>
 					<p class="reviews__name">Кольцо с тревожной кнопкой - NIMB. Обзор новинки</p>
-					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам [...]</p>
+					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам <span class="reviews__text-more">[...]</span></p>
 					<div class="reviews__cardbottom">
 						<div class="reviews__avatar"><img src="img/avatar1.png" alt="@@"></div>
 						<p class="reviews__author">Bezbod</p>
@@ -617,6 +645,7 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
 		</ul>
 		<div class="reviews__pagination">

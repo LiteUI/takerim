@@ -18,7 +18,7 @@
 		<div class="container">
 			<div class="actionblock__leftside">
 				<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a>Обзоры покупок</p>
-				<a href="#" class="actionblock__writereview"><span class="actionblock__icon actionblock__icon_plus"><span></span></span>Обзоры покупок</a>
+				<a href="#" class="actionblock__writereview"><span class="actionblock__icon actionblock__icon_plus"><span></span></span>Написать обзор</a>
 				<div class="actionblock__goodimage">
 					<img src="img/detail.png" alt="@@">
 				</div>
@@ -322,6 +322,7 @@
 		<h3 class="interesting__heading">Интересные материалы</h3>
 		<ul class="reviews__cards">
 			<li class="reviews__card reviews__card_big">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -349,8 +350,11 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
+			
 			<li class="reviews__card">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -378,8 +382,11 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
+			
 			<li class="reviews__card">
+			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
 				<a href="detail.php" class="reviews__cardlink"></a>
 				<!-- иконки рейтинга и лайка -->
@@ -407,6 +414,7 @@
 						<!-- // название магазина -->
 					</div>
 				</div>
+			</div>
 			</li>
 		</ul>
 	</div>
