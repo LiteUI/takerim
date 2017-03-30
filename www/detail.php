@@ -71,6 +71,18 @@
 </section>
 
 <section class="detail">
+	<div class="detail__actions">
+		<div class="container">
+			<div class="detail__actions-left">
+				<a href="#" class="detail__action"><img src="img/icon_edit.svg" alt="@@">Редактировать</a>
+				<a href="#" class="detail__action"><img src="img/icon_del.svg" alt="@@">Удалить</a>
+			</div>
+			<div class="detail__actions-right">
+				<a href="#" class="detail__action detail__action_hide"><img src="img/icon_hide.svg" alt="@@">Скрыть</a>
+				<a href="#" class="detail__action detail__action_allow"><img src="img/icon_allow.svg" alt="@@">Одобрить</a>
+			</div>
+		</div>
+	</div>
 	<div class="container">
 		<div class="detail__header">
 			<h2 class="detail__heading">Обзор Bang &amp; Olufsen BeoPlay A2: портативный премиум-универсал</h2>
@@ -124,7 +136,7 @@
 				<li><p>Сменные вилки</p></li>
 			</ul>
 			<p class="detail__text">При взгляде на BeoPlay 2 меня не оставляет другая мысль. Отважатся ли дизайнеры B&amp;O сделать совсем маленькую колонку? Ведь это очень большой риск – но и очень большой рынок. Особенно в 2015-ом году, портативное аудио сейчас на взлете, эта тенденция становится еще актуальнее, чем в году уходящем. Дизайнер этого устройства – Cecilie Manz, она же отвечала за разработку BeoLit 12. Я уже ранее делал обзор не нее, посмотреть его вы можее здесь:</p>
-			<a href="#" class="detail__linkblock">
+			<a href="#" class="detail__linkblock shadow-hover">
 				<span class="detail__linkimage"><img src="img/goods_small.png" alt="@@"></span>
 				<p class="detail__linkname">Обзор аудиосистемы Bang&amp;Olufsen Beolit 12</p>
 				<p class="detail__linksite">www.taker.im</p>
@@ -252,7 +264,15 @@
 <section class="topauthors">
 	<div class="container">
 		<h3 class="topauthors__heading">ТОП авторов</h3>
-		<div class="topauthors__cards">
+		<div class="sorting-list topauthors__sorting-list">
+			<a href="#" class="sorting-list__link">ТОП за неделю</a>
+			<ul class="dropmenu sorting-list__submenu">
+				<li><a href="#">ТОП за неделю</a></li>
+				<li><a href="#">ТОП за месяц</a></li>
+				<li><a href="#">ТОП за год</a></li>
+			</ul>
+		</div>
+		<div class="topauthors__cards js-navcards">
 			<div class="usercard usercard_small topauthors__usercard">
 				<div class="usercard__status">
 					<svg class="usercard__statusbar usercard__statusbar_master"><path></svg>
@@ -313,14 +333,39 @@
 					<a href="#" class="usercard__action">Профиль</a>
 				</div>
 			</div>
+			<div class="usercard usercard_small topauthors__usercard">
+				<div class="usercard__status">
+					<svg class="usercard__statusbar usercard__statusbar_master"><path></svg>
+					<div class="usercard__avatar"><img src="img/avatar1.png" alt="@@"></div>
+				</div>
+				<p class="usercard__name">Vologry</p>
+				<p class="usercard__rank"><img src="img/icon_rank4.svg" alt="@@">Мастер обзоров</p>
+				<div class="usercard__stats">
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_rating">3,6</span><br>Рейтинг</a>
+					<a href="#" class="usercard__stat"><span class="usercard__number usercard__number_reviews">27</span><br>Обзоров</a>
+				</div>
+				<div class="usercard__actions">
+					<a href="#" class="usercard__action">Профиль</a>
+				</div>
+			</div>
+			<a href="#" class="morecard topauthors__morecard">
+				<img src="img/icon_im2.svg" alt="@@" class="morecard__icon">
+				<p class="morecard__text morecard__text_showall">Показать всех<br> авторов</p>
+				<p class="morecard__text">еще</p>
+				<p class="morecard__count">+769</p>
+			</a>
 		</div>
+	</div>
+	<div class="cardnav topauthors__cardnav">
+		<a href="#" class="cardnav__arrow prev"><img src="img/navarrow.svg" alt="@@"></a>
+		<a href="#" class="cardnav__arrow next"><img src="img/navarrow.svg" alt="@@"></a>
 	</div>
 </section>
 
 <section class="interesting">
 	<div class="container">
 		<h3 class="interesting__heading">Интересные материалы</h3>
-		<ul class="reviews__cards">
+		<ul class="reviews__cards js-navcards">
 			<li class="reviews__card reviews__card_big">
 			<div class="reviews__card-shadow">
 				<div class="reviews__card-wrapper"></div>
@@ -416,7 +461,52 @@
 				</div>
 			</div>
 			</li>
+			
+			<li class="reviews__card">
+			<div class="reviews__card-shadow">
+				<div class="reviews__card-wrapper"></div>
+				<a href="detail.php" class="reviews__cardlink"></a>
+				<!-- иконки рейтинга и лайка -->
+				<span class="reviews__rating four">4,3</span>
+				<span class="reviews__like reviews__like_grey">
+					<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M253.00001,37.5120647 C252.480492,35.2662731 250.34362,33.7668336 248.037502,34.0298809 C245.731384,34.2929283 243.992833,36.2344179 244.000022,38.5386483 C244.000022,44.1696979 253.00001,50 253.00001,50 C253.00001,50 261.999998,44.1696979 261.999998,38.5386483 C262.001156,37.3373962 261.521241,36.1849507 260.66595,35.3351307 C259.81066,34.4853107 258.650146,34.0078186 257.440004,34.0078192 C255.319147,34.0088315 253.478979,35.4611762 253.00001,37.5120647 Z" id="cardlikepath-1"></path><mask id="cardlikemask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="22" height="20"><rect x="242" y="32" width="22" height="20" fill="white"></rect><use xlink:href="#cardlikepath-1" fill="black"></use></mask></defs><g id="cardlikeSymbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="icon_cardlike" transform="translate(-242.000000, -32.000000)" stroke="#FFFFFF" stroke-width="4"><use id="cardlikefavorite" mask="url(#cardlikemask-2)" xlink:href="#cardlikepath-1"></use></g></g></svg>
+					
+					<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="cardlikedPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="icon_cardliked" transform="translate(-366.000000, -138.000000)" fill="#99CC00"><g id="cardlikedcontetn" transform="translate(132.000000, 114.000000)"><g id="cardlikedfavorite" transform="translate(234.000000, 0.000000)"><path d="M9.00001006,27.5120647 C8.48049172,25.2662731 6.34361993,23.7668336 4.03750219,24.0298809 C1.73138446,24.2929283 -0.00716735518,26.2344179 2.2217174e-05,28.5386483 C2.2217174e-05,34.1696979 9.00001006,40 9.00001006,40 C9.00001006,40 17.9999979,34.1696979 17.9999979,28.5386483 C18.0011559,27.3373962 17.5212407,26.1849507 16.6659504,25.3351307 C15.8106601,24.4853107 14.6501461,24.0078186 13.4400041,24.0078192 C11.319147,24.0088315 9.47897855,25.4611762 9.00001006,27.5120647 Z"></path></g></g></g></g></svg>
+				</span>
+				<!-- // иконки рейтинга и лайка -->
+				<div class="reviews__cardimage">
+					<img src="img/goods10.png" alt="@@">
+				</div>
+				<div class="reviews__cardinfo">
+					<p class="reviews__date">29 авг</p>
+					<p class="reviews__name">Кольцо с тревожной кнопкой - NIMB. Обзор новинки</p>
+					<p class="reviews__text">На этот раз Apple официально представила новые iPhone7 и iPhone 7 Plus - не в Twitter, а со сцены выставочного центра. Оказалось, этой "утечкой", если можно так ее назвать, мы с вами не увидели и половины того, чем на самом делемогут похвастаться новые смартфоны корпорации. Как и обещали, разберем все по полочкам <span class="reviews__text-more">[...]</span></p>
+					<div class="reviews__cardbottom">
+						<div class="reviews__avatar"><img src="img/avatar1.png" alt="@@"></div>
+						<p class="reviews__author">Bezbod</p>
+						<p class="reviews__price">$ 259,00</p>
+						<!-- название магазина -->
+						<a href="#" class="reviews__shop"><span class="reviews__shopname">GearBest.com</span>
+						<span class="reviews__shophover">В магазин</span></a>
+						<!-- // название магазина -->
+					</div>
+				</div>
+			</div>
+			</li>
+			
+			<li class="reviews__card">
+				<a href="#" class="morecard interesting__morecard shadow-hover">
+					<img src="img/icon_im2.svg" alt="@@" class="morecard__icon">
+					<p class="morecard__text morecard__text_showall">Показать все<br> темы форума</p>
+					<p class="morecard__text">еще</p>
+					<p class="morecard__count">+8425</p>
+				</a>
+			</li>
 		</ul>
+	</div>
+	<div class="cardnav interesting__cardnav">
+		<a href="#" class="cardnav__arrow prev"><img src="img/navarrow.svg" alt="@@"></a>
+		<a href="#" class="cardnav__arrow next"><img src="img/navarrow.svg" alt="@@"></a>
 	</div>
 </section>
 
@@ -470,6 +560,79 @@
 			</div>
 		</div>
 		<!-- // кнопки для входа, чтобы оставить комментарий -->
+	</div>
+	<div class="comments__topcomments">
+		<div class="cardnav comments__cardnav">
+			<a href="#" class="cardnav__arrow prev"><img src="img/navarrow.svg" alt="@@"></a>
+			<a href="#" class="cardnav__arrow next"><img src="img/navarrow.svg" alt="@@"></a>
+		</div>
+		<div class="container">
+			<div class="comments__topcomments-head">
+				<h4 class="comments__topcomments-heading">ТОП комментариев</h4>
+				<div class="sorting-list comments__sorting-list">
+					<a href="#" class="sorting-list__link">ТОП за неделю</a>
+					<ul class="dropmenu sorting-list__submenu">
+						<li><a href="#">ТОП за неделю</a></li>
+						<li><a href="#">ТОП за месяц</a></li>
+						<li><a href="#">ТОП за год</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="comments__cards js-navcards">
+				<a href="#" class="comments__card">
+					<div class="comments__avatar"><img src="img/avatar1.png" alt="@@"></div>
+					<p class="comments__cardname">Sorokins</p>
+					<p class="comments__cardtext">39 комментариев</p>
+				</a>
+				<a href="#" class="comments__card">
+					<div class="comments__avatar"><img src="img/avatar1.png" alt="@@"></div>
+					<p class="comments__cardname">Nikola</p>
+					<p class="comments__cardtext">39 комментариев</p>
+				</a>
+				<a href="#" class="comments__card">
+					<div class="comments__avatar"><img src="img/avatar1.png" alt="@@"></div>
+					<p class="comments__cardname">Exelenz</p>
+					<p class="comments__cardtext">17 комментариев</p>
+				</a>
+				<a href="#" class="comments__card">
+					<div class="comments__avatar"><img src="img/avatar1.png" alt="@@"></div>
+					<p class="comments__cardname">Oke-Anis</p>
+					<p class="comments__cardtext">17 комментариев</p>
+				</a>
+				<a href="#" class="comments__card">
+					<div class="comments__avatar"><img src="img/avatar1.png" alt="@@"></div>
+					<p class="comments__cardname">Sorokins</p>
+					<p class="comments__cardtext">39 комментариев</p>
+				</a>
+				<a href="#" class="comments__card">
+					<div class="comments__avatar"><img src="img/avatar1.png" alt="@@"></div>
+					<p class="comments__cardname">Nikola</p>
+					<p class="comments__cardtext">39 комментариев</p>
+				</a>
+				<a href="#" class="comments__card">
+					<div class="comments__avatar"><img src="img/avatar1.png" alt="@@"></div>
+					<p class="comments__cardname">Nikola</p>
+					<p class="comments__cardtext">39 комментариев</p>
+				</a>
+				<a href="#" class="comments__card">
+					<div class="comments__avatar"><img src="img/avatar1.png" alt="@@"></div>
+					<p class="comments__cardname">Nikola</p>
+					<p class="comments__cardtext">39 комментариев</p>
+				</a>
+				<a href="#" class="comments__card">
+					<div class="comments__avatar"><img src="img/avatar1.png" alt="@@"></div>
+					<p class="comments__cardname">Nikola</p>
+					<p class="comments__cardtext">39 комментариев</p>
+				</a>
+				<a href="#" class="comments__card">
+					<div class="comments__avatar"><img src="img/avatar1.png" alt="@@"></div>
+					<p class="comments__cardname">Nikola</p>
+					<p class="comments__cardtext">39 комментариев</p>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="container">
 		<div class="comments__block">
 			<div class="comments__actionblock">
 				<div class="comments__shownew"><span>Новые</span>
