@@ -348,7 +348,7 @@
 					<a href="#" class="usercard__action">Профиль</a>
 				</div>
 			</div>
-			<a href="#" class="morecard topauthors__morecard">
+			<a href="#" class="morecard topauthors__morecard shadow-hover">
 				<img src="img/icon_im2.svg" alt="@@" class="morecard__icon">
 				<p class="morecard__text morecard__text_showall">Показать всех<br> авторов</p>
 				<p class="morecard__text">еще</p>
