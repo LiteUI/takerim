@@ -1,6 +1,7 @@
 // Адаптивная верстка //
 @media (max-width:1919px) {
 	.container_navcards {margin: 0 24px; overflow: visible;}
+	.cardnav:before, .cardnav:after {display: none;}
 	.cardnav__arrow.prev {left: -24px;}
 	.cardnav__arrow.next {right: -24px;}
 }

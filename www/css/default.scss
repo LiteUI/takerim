@@ -1,7 +1,7 @@
 @import "basics";
 
 .page {position: relative; margin-top: 204px;}
-.container_navcards {width: auto; overflow: hidden; max-width: 1872px; position: relative;}
+.container_navcards {width: auto; overflow: hidden; max-width: 1872px; position: relative; padding: 12px 0; box-sizing: border-box;}
 
 .overlay {position: absolute; left: 0; top: 0; background-color: #000; width: 100%; height: 100%; z-index: 2; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out;
 	&.active {opacity: 0.5; pointer-events: all;}
@@ -136,21 +136,26 @@
 
 /*##############################*/
 
-.cardnav {position: absolute; left: 0; top: 0; bottom: 0; margin: auto; width: 100%; height: 140px; pointer-events: none; z-index: 4;
-	&__arrow {display: inline-block; position: absolute; top: 0; bottom: 0; margin: auto; transition: all 0.25s ease-in-out; opacity: 0; pointer-events: none; width: 42px; height: 100%;
+.cardnav {position: absolute; left: 0; top: 0; bottom: 0; margin: auto; width: 100%; height: 100%; pointer-events: none; z-index: 4;
+	&:before, &:after {content: ""; display: inline-block; position: absolute; top: 0; bottom: 0; margin: auto; width: 1px; height: 100%; background-color: #e5e6e9; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out;}
+	&:before {left: -1px;}
+	&:after {right: 0;}
+	&__arrow {display: inline-block; position: absolute; top: 0; bottom: 0; margin: auto; transition: all 0.25s ease-in-out; opacity: 0; pointer-events: none; width: 42px; height: 140px;
 		img {position: absolute; top: 0; pointer-events: none;}
-		&.prev {left: 0; transform: translate3d(-2px,0,0);
+		&.prev {left: 0;
 			img {transform: rotateY(180deg); transform-origin: center; left: 0;}
 		}
-		&.next {right: 0; transform: translate3d(2px,0,0);
+		&.next {right: 0;
 			img {right: 0;}
 		}
 		&:hover {transform: translate3d(0,0,0);}
 	}
 	&.right-arrow {
+		&:after {opacity: 1;}
 		.cardnav__arrow.next {opacity: 1; pointer-events: all;}
 	}
 	&.left-arrow {
+		&:before {opacity: 1;}
 		.cardnav__arrow.prev {opacity: 1; pointer-events: all;}
 	}
 }
@@ -816,9 +821,10 @@
 
 .topauthors {border-top: 1px solid #e5e6e9; padding-top: 44px; padding-bottom: 50px; position: relative;
 	.container {position: relative;}
+	.container_navcards {margin-top: 49px;}
 	&__heading {color: #262627; font-size: 26px; font-weight: 300;}
-	&__cards {margin-top: 49px; display: flex; justify-content: space-between; transition: all 1s ease-in-out;}
-	&__usercard {width: 276px; border-radius: 3px; box-shadow: 0 6px 36px 0 rgba(#19212D,0.02); margin-left: 24px; margin-top: 10px; margin-bottom: 10px;
+	&__cards {display: flex; justify-content: space-between; transition: all 1s ease-in-out;}
+	&__usercard {width: 276px; border-radius: 3px; box-shadow: 0 6px 36px 0 rgba(#19212D,0.02); margin-left: 24px;
 		&:first-child {margin-left: 0;}
 	}
 	&__sorting-list {position: absolute; top: 9px; right: 0;}
@@ -827,14 +833,16 @@
 
 /*##############################*/
 
-.interesting {border-top: 1px solid #e5e6e9; padding-top: 44px; padding-bottom: 38px; position: relative;
+.interesting {border-top: 1px solid #e5e6e9; padding-top: 44px; position: relative;
+	.container_navcards {margin-top: 39px; padding: 2px 0;}
 	&__heading {color: #262627; font-size: 26px; font-weight: 300;}
-	.reviews__cards {margin-top: 39px; flex-wrap: nowrap; transition: all 1s ease-in-out; margin-left: -10px; margin-right: -10px;}
+	.reviews__cards {flex-wrap: nowrap; transition: all 1s ease-in-out; padding-bottom: 46px;}
 	.reviews__card {width: 296px; flex-shrink: 0; margin-left: 4px;
 		&:first-child {margin-left: 0;}
 		&_big {width: 596px;}
 	}
 	&__morecard {height: 100%; width: 100%; padding: 40px;}
+	.cardnav {height: calc(100% - 46px); bottom: 46px;}
 }
 
 /*##############################*/
