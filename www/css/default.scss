@@ -1,6 +1,7 @@
 @import "basics";
 
-body {position: relative; margin-top: 204px;}
+.page {position: relative; margin-top: 204px;}
+.container_navcards {width: auto; overflow: hidden; max-width: 1872px; position: relative;}
 
 .overlay {position: absolute; left: 0; top: 0; background-color: #000; width: 100%; height: 100%; z-index: 2; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out;
 	&.active {opacity: 0.5; pointer-events: all;}
@@ -822,15 +823,13 @@ body {position: relative; margin-top: 204px;}
 	}
 	&__sorting-list {position: absolute; top: 9px; right: 0;}
 	&__morecard {margin-left: 14px; width: 296px; padding: 40px;}
-	&__cardnav {top: 75px;}
 }
 
 /*##############################*/
 
 .interesting {border-top: 1px solid #e5e6e9; padding-top: 44px; padding-bottom: 38px; position: relative;
-	.container {width: 1194px;}
-	&__heading {color: #262627; font-size: 26px; font-weight: 300; margin: 0 10px;}
-	.reviews__cards {margin-top: 39px; flex-wrap: nowrap; transition: all 1s ease-in-out;}
+	&__heading {color: #262627; font-size: 26px; font-weight: 300;}
+	.reviews__cards {margin-top: 39px; flex-wrap: nowrap; transition: all 1s ease-in-out; margin-left: -10px; margin-right: -10px;}
 	.reviews__card {width: 296px; flex-shrink: 0; margin-left: 4px;
 		&:first-child {margin-left: 0;}
 		&_big {width: 596px;}
@@ -888,7 +887,7 @@ body {position: relative; margin-top: 204px;}
 	&__avatar {width: 60px; height: 60px; border-radius: 1000px; overflow: hidden; position: absolute; left: 0; top: 4px; 
 		img {position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; min-width: 100%; min-height: 100%; width: 0; object-fit: cover;}
 	}
-	&__comment {padding-left: 78px; position: relative; margin-top: 36px; cursor: pointer;
+	&__comment {padding-left: 78px; position: relative; margin-top: 36px;
 		&:first-child {margin-top: 0;}
 		&:hover {
 			.comments__actionicons {opacity: 1; pointer-events: all;}
@@ -924,7 +923,9 @@ body {position: relative; margin-top: 204px;}
 		&:before {content: "·"; margin-right: 10px;}
 	}
 	&__text {color: #494a4c; font-size: 16.5px; font-weight: 300; margin-top: 4px; letter-spacing: 0.01em; line-height: 1.6em;}
-	&__answerlink {opacity: 0.4; color: #151b2d; font-size: 16.5px; font-weight: 300; margin-top: 4px; display: inline-block; letter-spacing: 0.02em;}
+	&__answerlink {opacity: 0.4; color: #151b2d; font-size: 16.5px; font-weight: 300; margin-top: 4px; display: inline-block; letter-spacing: 0.02em;
+		&:hover {opacity: 1;}
+	}
 	&__logbuttons {margin-top: 27px; display: flex; align-items: center;
 		a {margin-right: 12px;
 			&:last-child {margin-right: 0;}
@@ -957,11 +958,10 @@ body {position: relative; margin-top: 204px;}
 		svg #icon_commentdislike {transition: all 0.25s ease-in-out;}
 	}
 	&__rating {display: inline-block; vertical-align: middle; margin-left: 12px; color: #8dbc00;}
-	&__topcomments {margin-top: 41px; position: relative;}
-	&__topcomments-head {display: flex; justify-content: space-between; align-items: center;}
+	&__topcomments {margin-top: 41px; position: relative; display: flex; justify-content: space-between; align-items: center; z-index: 2;}
 	&__topcomments-heading {color: #262627; font-size: 19px; font-weight: 300;}
 	&__sorting-list {position: relative;}
-	&__cards {display: flex; margin-top: 40px; position: relative; transition: all 1s ease-in-out;}
+	&__cards {display: flex; position: relative; transition: all 1s ease-in-out;}
 	&__card {width: 276px; background-color: #fff; border-radius: 3px; padding: 34px 34px 30px; padding-left: 102px; display: inline-block; position: relative; flex-shrink: 0; margin-left: 24px; box-sizing: border-box; box-shadow: 0 6px 36px rgba(25, 33, 44, 0.02);
 		&:hover {box-shadow: 0 36px 36px 0 rgba(25, 33, 45, 0.10);}
 		&:first-child {margin-left: 0;}
@@ -969,7 +969,7 @@ body {position: relative; margin-top: 204px;}
 	}
 	&__cardname {color: #262627; font-size: 16px;}
 	&__cardtext {color: #494a4c; font-size: 16.5px; font-weight: 300; margin-top: 7px;}
-	&__cardnav {top: 67px;}
+	.container_navcards {margin-top: 40px;}
 }
 
 // Секции, header, footer и т.д. //

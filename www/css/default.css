@@ -100,8 +100,7 @@ input:-webkit-autofill:active {
 
 html {
   width: 100%;
-  height: 100%;
-  overflow-x: hidden; }
+  height: 100%; }
 
 body {
   width: 100%;
@@ -109,6 +108,9 @@ body {
   font-size: 0;
   font-family: "Foco", Arial, sans-serif;
   background-color: #f6f6f6; }
+
+html, body {
+  overflow-x: hidden; }
 
 header, section, footer {
   width: 100%;
@@ -188,9 +190,15 @@ select, input, textarea {
   font-size: 14px;
   display: inline-block; }
 
-body {
+.page {
   position: relative;
   margin-top: 204px; }
+
+.container_navcards {
+  width: auto;
+  overflow: hidden;
+  max-width: 1872px;
+  position: relative; }
 
 .overlay {
   position: absolute;
@@ -2619,8 +2627,6 @@ body {
     margin-left: 14px;
     width: 296px;
     padding: 40px; }
-  .topauthors__cardnav {
-    top: 75px; }
 
 /*##############################*/
 .interesting {
@@ -2628,17 +2634,16 @@ body {
   padding-top: 44px;
   padding-bottom: 38px;
   position: relative; }
-  .interesting .container {
-    width: 1194px; }
   .interesting__heading {
     color: #262627;
     font-size: 26px;
-    font-weight: 300;
-    margin: 0 10px; }
+    font-weight: 300; }
   .interesting .reviews__cards {
     margin-top: 39px;
     flex-wrap: nowrap;
-    transition: all 1s ease-in-out; }
+    transition: all 1s ease-in-out;
+    margin-left: -10px;
+    margin-right: -10px; }
   .interesting .reviews__card {
     width: 296px;
     flex-shrink: 0;
@@ -2844,8 +2849,7 @@ body {
   .comments__comment {
     padding-left: 78px;
     position: relative;
-    margin-top: 36px;
-    cursor: pointer; }
+    margin-top: 36px; }
     .comments__comment:first-child {
       margin-top: 0; }
     .comments__comment:hover .comments__actionicons {
@@ -2955,6 +2959,8 @@ body {
     margin-top: 4px;
     display: inline-block;
     letter-spacing: 0.02em; }
+    .comments__answerlink:hover {
+      opacity: 1; }
   .comments__logbuttons {
     margin-top: 27px;
     display: flex;
@@ -3051,11 +3057,11 @@ body {
     color: #8dbc00; }
   .comments__topcomments {
     margin-top: 41px;
-    position: relative; }
-  .comments__topcomments-head {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    z-index: 2; }
   .comments__topcomments-heading {
     color: #262627;
     font-size: 19px;
@@ -3064,7 +3070,6 @@ body {
     position: relative; }
   .comments__cards {
     display: flex;
-    margin-top: 40px;
     position: relative;
     transition: all 1s ease-in-out; }
   .comments__card {
@@ -3096,8 +3101,8 @@ body {
     font-size: 16.5px;
     font-weight: 300;
     margin-top: 7px; }
-  .comments__cardnav {
-    top: 67px; }
+  .comments .container_navcards {
+    margin-top: 40px; }
 
 .popup {
   display: none; }
@@ -3221,16 +3226,13 @@ body {
     transform: translate3d(0, 0, 0);
     box-shadow: 0 4px 12px rgba(153, 204, 0, 0.3); }
 
-@media (max-width: 1000px) {
-  .container {
-    /*width:600px*/ } }
-
-@media (max-width: 649px) {
-  .container {
-    /*width:400px*/ } }
-
-@media (max-width: 479px) {
-  .container {
-    /*width:90%*/ } }
+@media (max-width: 1919px) {
+  .container_navcards {
+    margin: 0 24px;
+    overflow: visible; }
+  .cardnav__arrow.prev {
+    left: -24px; }
+  .cardnav__arrow.next {
+    right: -24px; } }
 
 /*# sourceMappingURL=default.css.map */

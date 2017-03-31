@@ -10,7 +10,7 @@
 </head>
 
 <body> 
-
+<div class="page">
 <?php include "blocks/header.php"; ?>
 
 <section class="actions actions_main">
@@ -670,7 +670,7 @@
 </section>
 
 <?php include "blocks/footer.php"; ?>
-
+</div>
 <?php include "blocks/forms.php"; ?>
 <?php include "blocks/scripts.php"; ?>
 </body>
