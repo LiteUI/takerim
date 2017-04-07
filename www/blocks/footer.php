@@ -8,7 +8,7 @@
 			<div class="menu footer__menu">
 				<ul class="menu__column">
 					<li><a href="#">Форум</a></li>
-					<li class="active"><a href="#">Обзоры покупок</a></li>
+					<li><a href="#">Обзоры покупок</a></li>
 					<li><a href="#">Статьи</a></li>
 					<li><a href="#">ШопоПоиск</a></li>
 				</ul>

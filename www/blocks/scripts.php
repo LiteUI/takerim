@@ -23,6 +23,9 @@
 <!-- модальные окна !-->
 <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
 
+<!-- Pagepiling -->
+<script type="text/javascript" src="js/pagepiling/jquery.pagepiling.js"></script>
+
 <script src="js/scripts.min.js"></script>
 
 <script src="https://use.typekit.net/ucx7jki.js"></script>

@@ -5,12 +5,12 @@
     <?php include "blocks/head.php"; ?>
     <meta name="robots" content="all">
     <?php include "blocks/meta.php"; ?>
-    <title></title>
+    <title>Taker.IM</title>
     <?php include "blocks/css.php"; ?>
 </head>
 
 <body data-login="logoff">
-<div class="page">
+<div class="page page_detail">
 <?php include "blocks/header.php"; ?>
 
 <section class="actions actions_detail">

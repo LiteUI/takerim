@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="header__logoblock">
 			<a href="index.php" class="header__logo">
-				<img src="img/logo_takerim.svg" alt="@@" width="93" height="36">
+				<img src="img/logo_takerim2.png" alt="@@" width="93" height="36">
 				<!-- ссылка на главную -->
 				<span class="header__mainlink"><span><img src="img/icon_arrow.svg" alt="@@"></span>Главная</span>
 				<!-- // ссылка на главную -->
@@ -14,7 +14,7 @@
 		<!-- обычное меню -->
 		<ul class="menu header__menu header__menu_short">
 			<li><a href="#">Форум</a></li>
-			<li class="active"><a href="#">Обзоры</a></li>
+			<li><a href="#">Обзоры</a></li>
 			<li><a href="#">Статьи</a></li>
 			<li><a href="#">МойТрек</a></li>
 			<li><a href="#">Проверь продавца на eBay</a></li>

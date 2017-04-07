@@ -6,3 +6,4 @@
 <link rel="stylesheet" href="css/default.css"/>
 
 <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css"/>
+<link rel="stylesheet" href="js/pagepiling/jquery.pagepiling.css"/>
