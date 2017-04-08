@@ -209,7 +209,7 @@ select, input, textarea {
     flex-direction: column;
     align-items: stretch; }
   .content_footer {
-    padding: 120px 0 476px; }
+    padding: 120px 0 440px; }
 
 .container_navcards {
   width: auto;
@@ -1890,7 +1890,7 @@ select, input, textarea {
     margin-top: 12px; }
     .formscreen__form input {
       background-color: transparent;
-      border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
       width: 100%;
       line-height: 72px;
       color: #ffffff;
@@ -1902,10 +1902,12 @@ select, input, textarea {
       transition: all 0.25s ease-in-out;
       min-width: 175px;
       opacity: 0;
-      pointer-events: none; }
+      pointer-events: none;
+      transform: translate3d(0, 20px, 0); }
       .formscreen__form button.active {
         opacity: 1;
-        pointer-events: all; }
+        pointer-events: all;
+        transform: translate3d(0, 0, 0); }
     .formscreen__form .inputblock {
       position: relative; }
       .formscreen__form .inputblock .more {
@@ -1949,19 +1951,6 @@ select, input, textarea {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  .formscreen_ebay {
-    z-index: 4;
-    background-color: #5356ad; }
-    .formscreen_ebay .header {
-      top: 5px;
-      background-color: transparent; }
-      .formscreen_ebay .header .container {
-        width: 100%;
-        padding: 0 24px;
-        box-sizing: border-box; }
-    .formscreen_ebay > .container img {
-      width: 603px;
-      height: 462px; }
   .formscreen .sorting-list {
     position: relative; }
     .formscreen .sorting-list__link {
@@ -1975,6 +1964,19 @@ select, input, textarea {
       right: auto;
       left: 0;
       margin-top: 10px; }
+  .formscreen_ebay {
+    z-index: 4;
+    background-image: linear-gradient(180deg, #5356ad 0%, #474ba0 100%); }
+    .formscreen_ebay .header {
+      top: 5px;
+      background-color: transparent; }
+      .formscreen_ebay .header .container {
+        width: 100%;
+        padding: 0 24px;
+        box-sizing: border-box; }
+    .formscreen_ebay > .container img {
+      width: 603px;
+      height: 462px; }
   .formscreen_mytrack {
     z-index: 2;
     background-image: linear-gradient(180deg, #7fc266 0%, #2aa176 100%); }
@@ -2474,7 +2476,8 @@ select, input, textarea {
   .forums__cards {
     display: flex;
     justify-content: space-between;
-    transition: all 1s ease-in-out; }
+    transition: all 1s ease-in-out;
+    padding-bottom: 36px; }
   .forums__card {
     width: 276px;
     border-radius: 3px;

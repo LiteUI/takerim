@@ -6,7 +6,7 @@
 
 .content {position: relative; padding: 120px 0; display: flex; justify-content: center; align-items: center; box-sizing: border-box; overflow: hidden; min-height: 100%;
 	&_column {flex-direction: column; align-items: stretch;}
-	&_footer {padding: 120px 0 476px;}
+	&_footer {padding: 120px 0 440px;}
 }
 
 .container_navcards {width: auto; overflow: hidden; max-width: 1872px; position: relative; padding: 12px 0; box-sizing: border-box;}
@@ -561,9 +561,9 @@
 	&__heading {margin-top: 30px; font-size: 42px; font-weight: 300; line-height: 1.27em;}
 	p.bottom {position: absolute; bottom: 53px; right: 60px; color:#a3a5d0; font-size:17px;}
 	&__form {margin-top: 12px;
-		input {background-color: transparent; border-bottom: 3px solid rgba(white, 0.1); width: 100%;  line-height: 72px; color: #ffffff; font-size: 19px; font-weight: 300; letter-spacing: 1px;}
-		button {display: block; transition: all 0.25s ease-in-out; min-width: 175px; opacity: 0; pointer-events: none;
-			&.active {opacity: 1; pointer-events: all;}
+		input {background-color: transparent; border-bottom: 1px solid rgba(white, 0.1); width: 100%;  line-height: 72px; color: #ffffff; font-size: 19px; font-weight: 300; letter-spacing: 1px;}
+		button {display: block; transition: all 0.25s ease-in-out; min-width: 175px; opacity: 0; pointer-events: none; transform: translate3d(0,20px,0);
+			&.active {opacity: 1; pointer-events: all; transform: translate3d(0,0,0);}
 		}
     	.inputblock {position: relative;
 			.more {display: inline-block; width: 35px; height: 35px; position: absolute; left: 0; top: 0; bottom: 0; margin: auto; display: flex; justify-content: space-between; align-items: center; padding: 0 9px; box-sizing: border-box; opacity: 0; pointer-events: none; background-color: #5356ad; transition: all 0.25s ease-in-out;
@@ -574,17 +574,17 @@
     	&.filled .inputblock .more {opacity:1;}
 	}
 	&__actions {margin-top: 40px; display: flex; justify-content: space-between; align-items: center;}
-	&_ebay {z-index: 4; background-color: #5356ad;
-		.header {top: 5px; background-color: transparent;
-			.container {width: 100%; padding: 0 24px; box-sizing: border-box;}
-		}
-		> .container img {width: 603px; height: 462px;}
-	}
 	.sorting-list {position: relative;
 		&__link {color: #ffffff; font-size: 19px; font-weight: 300;
 			&:after {opacity: 1; border-color: #fff transparent transparent transparent;}
 		}
 		&__submenu {right: auto; left: 0; margin-top: 10px;}
+	}
+	&_ebay {z-index: 4; background-image: linear-gradient(180deg, #5356ad 0%, #474ba0 100%);
+		.header {top: 5px; background-color: transparent;
+			.container {width: 100%; padding: 0 24px; box-sizing: border-box;}
+		}
+		> .container img {width: 603px; height: 462px;}
 	}
 	&_mytrack {z-index: 2; background-image: linear-gradient(180deg, #7fc266 0%, #2aa176 100%);
 		.header {height: 204px; padding: 47px 0 52px;}
@@ -742,7 +742,7 @@
 	.actionblock {background-color: #f6f6f6; box-shadow: none; padding: 16px 0 !important;}
 	&__heading {color: #262627; font-size: 32px; font-weight: 300;}
 	.container_navcards {margin-top: 42px; padding: 2px 0;}
-	&__cards {display: flex; justify-content: space-between; transition: all 1s ease-in-out;}
+	&__cards {display: flex; justify-content: space-between; transition: all 1s ease-in-out; padding-bottom: 36px;}
 	&__card {width: 276px; border-radius: 3px; box-shadow: 0 6px 36px 0 rgba(#19212D,0.02); margin-left: 24px; flex-shrink: 0; margin-top: 10px; margin-bottom: 10px;
 		&:first-child {margin-left: 0;}
 		&:hover {box-shadow: 0 36px 36px 0 rgba(25, 33, 45, 0.10); position: relative; z-index: 2;}
