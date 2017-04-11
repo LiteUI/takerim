@@ -15,6 +15,7 @@
 
 <!-- Вход в ЛК -->
 <form class="loginform popup" id="loginform" action="send.php" method="post">
+	<a href="#" class="loginform__close"><span></span></a>
 	<div class="loginform__head">
 		<p class="loginform__heading loginform__heading_main">Вход</p>
 		<!-- при попытке проголосовать -->

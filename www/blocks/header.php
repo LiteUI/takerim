@@ -1,6 +1,7 @@
 <header class="header">
 	<div class="container">
 		<div class="header__logoblock">
+			<a href="#" class="header__burger"><span></span></a>
 			<a href="index.php" class="header__logo">
 				<img src="img/logo_takerim2.png" alt="@@" width="93" height="36">
 				<!-- ссылка на главную -->
@@ -8,7 +9,7 @@
 				<!-- // ссылка на главную -->
 			</a>
 			<!-- текст при расширенном меню -->
-			<p class="afterlogo header__text">Все об онлайн-шопинге<br> и продаже на интернет-аукционах</p>
+			<p class="afterlogo header__text desktop">Все об онлайн-шопинге<br> и продаже на интернет-аукционах</p>
 			<!-- // текст при расширенном меню -->
 		</div>
 		<!-- обычное меню -->
@@ -50,6 +51,7 @@
 			</ul>
 		</div>
 		<!-- // расширенное меню -->
+		<p class="afterlogo header__text mobile">Все об онлайн-шопинге<br> и продаже на интернет-аукционах</p>
 		<div class="header__rightblock">
 			<a href="mailto:contact@taker.im" class="header__mail">Contact@taker.im</a>
 			<p class="header__adults">18+</p>

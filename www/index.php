@@ -10,16 +10,33 @@
 </head>
 
 <body> 
-<div class="page page_main" id="pagepiling">
+<div class="page page_main pagepiling">
 
 <section class="formscreen formscreen_ebay section pp-scrollable">
 	<div class="content">
 		<?php include "blocks/header.php"; ?>
 		
+		
+		<div class="formscreen__actions actions actions_main active sticky">
+			<div class="actionblock">
+			<div class="container">
+				<div class="actionblock__leftside">
+					<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a></p>
+				</div>
+				<div class="actionblock__rightside">
+					<a href="index.php" class="actionblock__logo">
+						<img src="img/logo_takerim2.png" alt="@@" width="93" height="36">
+					</a>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		
 		<div class="container">
-			<p class="formscreen__preheading">Проверь продавца на eBay</p>
-			<h2 class="formscreen__heading">Введите ник продавца или ссылку на его товар или магазин на eBay</h2>
-			<form action="send.php" method="post" autocomplete="off" class="formscreen__form">
+			<p class="formscreen__preheading animated delay1 bounceInUp">Проверь продавца на eBay</p>
+			<h2 class="formscreen__heading animated delay1 bounceInUp">Введите ник продавца или ссылку на его товар или магазин на eBay</h2>
+			<form action="send.php" method="post" autocomplete="off" class="formscreen__form animated delay1 bounceInUp">
 				<div class="inputblock">
 			    	<div class="more">
 			    		<span class="more__dot"></span>
@@ -28,13 +45,13 @@
 			    	</div>
 				    <input type="text" name="seller">
 				</div>
-				<div class="formscreen__actions">
+				<div class="formscreen__form-bottom">
 					<button class="button button_pink" type="submit">Проверить</button>
 				</div>
 			</form>
-			<img src="img/together.svg" alt="@@">
+			<img src="img/together.svg" alt="@@" class="animated delay2 bounceInUp">
 		</div>
-		    <a href="#reviews" class="scroll-link"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Обзоры покупок</span></a>
+		    <a href="#reviews" class="scroll-link animated fadeInUp"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Обзоры покупок</span></a>
 	</div>
 </section>
 
@@ -45,8 +62,8 @@
 			<div class="actionblock">
 			<div class="container">
 				<div class="actionblock__leftside">
-					<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a>Обзоры покупок</p>
-					<a href="#" class="actionblock__writereview"><span class="actionblock__icon actionblock__icon_plus"><span></span></span>Написать обзор</a>
+					<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a><span class="text">Обзоры покупок</span></p>
+					<a href="#" class="actionblock__writereview"><span class="actionblock__icon actionblock__icon_plus"><span></span></span><span class="text">Написать обзор</span></a>
 					<!-- кнопки при скролле -->
 					<a href="#" class="actionblock__icon actionblock__icon_search"><img src="img/icon_search.svg" alt="@@" width="19" height="19"></a>
 					<a href="#" class="actionblock__icon actionblock__icon_filter">
@@ -58,6 +75,7 @@
 				<div class="actionblock__rightside">
 					<!-- до входа в ЛК -->
 					<div class="actionblock__account actionblock__account_login">
+						<a href="#loginform" class="actionblock__account-icon fancybox"><img src="img/icon_user.svg" alt="@@" width="19"></a>
 						<a href="#" class="actionblock__register">Регистрация</a>
 						<a href="#loginform" class="actionblock__login fancybox">Вход</a>
 					</div>
@@ -595,6 +613,7 @@
 				</li>
 			</ul>
 		</div>
+		<a href="#" class="reviews__showmore">Показать еще</a>
 		<a href="#mytrack" class="scroll-link"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Мой трек</span><span class="scroll-link__text scroll-link__text_second">Узнать больше</span></a>
 	</div>
 </section>
@@ -603,15 +622,18 @@
 	<div class="content">
 		<?php include "blocks/header.php"; ?>
 		
-		<div class="reviews__actions actions actions_main active sticky">
+		<div class="formscreen__actions actions actions_main active sticky">
 			<div class="actionblock">
 			<div class="container">
 				<div class="actionblock__leftside">
-					<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a>Мой трек</p>
+					<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a><span class="text">Мой трек</span></p>
 				</div>
 				<div class="actionblock__rightside">
 					<!-- до входа в ЛК -->
 					<div class="actionblock__account actionblock__account_login">
+						<a href="#loginform" class="actionblock__account-icon fancybox">
+							<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18.5 22" width="19px"><defs><clipPath id="clip-path" transform="translate(0 2)"><circle cx="9" cy="7" r="7" fill="none"/></clipPath></defs><title>icon_user</title><path d="M1,19c0-3.6,2.8-6.8,4.5-7" transform="translate(0 2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M13,12c1.7,0.2,4.5,3.3,4.5,7" transform="translate(0 2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><g clip-path="url(#clip-path)"><path d="M2,7A7,7,0,0,1,16,7,7,7,0,0,1,2,7Z" transform="translate(0 2)" fill="none" stroke="#fff" stroke-miterlimit="50" stroke-width="4"/></g></svg>
+						</a>
 						<a href="#" class="actionblock__register">Регистрация</a>
 						<a href="#loginform" class="actionblock__login fancybox">Вход</a>
 					</div>
@@ -655,9 +677,9 @@
 		</div>
 		
 		<div class="container">
-			<p class="formscreen__preheading">Отслеживание почтовых отправлений</p>
-			<h2 class="formscreen__heading">Введите трек-номер (идентификатор) отправления:</h2>
-			<form action="send.php" method="post" autocomplete="off" class="formscreen__form">
+			<p class="formscreen__preheading animated delay1">Отслеживание почтовых отправлений</p>
+			<h2 class="formscreen__heading animated delay1">Введите трек-номер (идентификатор) отправления:</h2>
+			<form action="send.php" method="post" autocomplete="off" class="formscreen__form animated delay1">
 				<div class="inputblock">
 			    	<div class="more">
 			    		<span class="more__dot"></span>
@@ -666,7 +688,7 @@
 			    	</div>
 				    <input type="text" name="tracknumber">
 				</div>
-				<div class="formscreen__actions">
+				<div class="formscreen__form-bottom">
 					<div class="sorting-list formscreen__sorting-list">
 						<p class="sorting-list__heading">Страна получателя</p>
 						<a href="#" class="sorting-list__link">Россия</a>
@@ -678,7 +700,7 @@
 					<button class="button" type="submit">Проверить</button>
 				</div>
 			</form>
-			<img src="img/mytrack.png" alt="@@">
+			<img src="img/mytrack.png" alt="@@" class="animated delay2">
 		</div>
 		    <a href="#forums" class="scroll-link"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Форум</span></a>
 	</div>
@@ -691,8 +713,8 @@
 			<div class="actionblock">
 			<div class="container">
 				<div class="actionblock__leftside">
-					<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a>Форум</p>
-					<a href="#" class="actionblock__writereview"><span class="actionblock__icon actionblock__icon_plus"><span></span></span>Открыть тему</a>
+					<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a><span class="text">Форум</span></p>
+					<a href="#" class="actionblock__writereview"><span class="actionblock__icon actionblock__icon_plus"><span></span></span><span class="text">Открыть тему</span></a>
 					<!-- кнопки при скролле -->
 					<a href="#" class="actionblock__icon actionblock__icon_search"><img src="img/icon_search.svg" alt="@@" width="19" height="19"></a>
 					<!-- // кнопки при скролле -->
@@ -700,6 +722,7 @@
 				<div class="actionblock__rightside">
 					<!-- до входа в ЛК -->
 					<div class="actionblock__account actionblock__account_login">
+						<a href="#loginform" class="actionblock__account-icon fancybox"><img src="img/icon_user.svg" alt="@@" width="19"></a>
 						<a href="#" class="actionblock__register">Регистрация</a>
 						<a href="#loginform" class="actionblock__login fancybox">Вход</a>
 					</div>
@@ -1039,8 +1062,9 @@
 				</a>
 			</div>
 		</div>
-		
-		<?php include "blocks/footer.php"; ?></div>
+		<a href="#" class="forums__showmore">Показать еще</a>
+	</div>
+	<?php include "blocks/footer.php"; ?>
 </section>
 
 </div>
