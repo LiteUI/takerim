@@ -692,10 +692,18 @@
 					<div class="sorting-list formscreen__sorting-list">
 						<p class="sorting-list__heading">Страна получателя</p>
 						<a href="#" class="sorting-list__link">Россия</a>
-						<ul class="dropmenu sorting-list__submenu">
-							<li><a href="#">Россия</a></li>
-							<li><a href="#">Китай</a></li>
-						</ul>
+						<div class="dropmenu sorting-list__submenu">
+							<div class="sorting-list__scrollable">
+								<li><a href="#">Россия</a></li>
+								<li><a href="#">Китай</a></li>
+								<li><a href="#">Россия</a></li>
+								<li><a href="#">Китай</a></li>
+								<li><a href="#">Россия</a></li>
+								<li><a href="#">Китай</a></li>
+								<li><a href="#">Россия</a></li>
+								<li><a href="#">Китай</a></li>
+							</div>
+						</div>
 					</div>
 					<button class="button" type="submit">Проверить</button>
 				</div>

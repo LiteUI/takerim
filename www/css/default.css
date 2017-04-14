@@ -2014,7 +2014,9 @@ select, input, textarea {
     .formscreen .sorting-list__submenu {
       right: auto;
       left: 0;
-      margin-top: 10px; }
+      margin-top: 10px;
+      height: 102px;
+      overflow-y: scroll; }
   .formscreen_ebay {
     background-image: linear-gradient(180deg, #5356ad 0%, #474ba0 100%); }
     .formscreen_ebay .header {
@@ -2086,8 +2088,8 @@ select, input, textarea {
       pointer-events: none; }
     .reviews__cards.stripes .reviews__card {
       width: 100%; }
-      .reviews__cards.stripes .reviews__card:nth-child(n+5) {
-        display: none; }
+      .reviews__cards.stripes .reviews__card:last-child {
+        width: 296px; }
       .reviews__cards.stripes .reviews__card:hover .reviews__card-wrapper {
         box-shadow: inset 0 0 0 10px #f6f6f6; }
     .reviews__cards.stripes .reviews__card-shadow {
