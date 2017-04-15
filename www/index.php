@@ -10,9 +10,10 @@
 </head>
 
 <body> 
-<div class="page page_main pagepiling">
+<div class="page page_main verstaScroll">
 
-<section class="formscreen formscreen_ebay section pp-scrollable">
+<section class="formscreen formscreen_ebay section">
+	<div class="section-overlay"></div>
 	<div class="content">
 		<?php include "blocks/header.php"; ?>
 		
@@ -51,11 +52,12 @@
 			</form>
 			<img src="img/together.svg" alt="@@" class="animated delay2 bounceInUp">
 		</div>
-		    <a href="#reviews" class="scroll-link animated fadeInUp"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Обзоры покупок</span></a>
+		    <a href="#reviews" class="scroll-link animated fadeInUp nav"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Обзоры покупок</span></a>
 	</div>
 </section>
 
-<section class="reviews section pp-scrollable" id="reviews">
+<section class="reviews section" id="reviews">
+	<div class="section-overlay"></div>
 	<div class="content content_column">
 		<?php include "blocks/header.php"; ?>
 		<div class="reviews__actions actions actions_main active sticky">
@@ -614,11 +616,12 @@
 			</ul>
 		</div>
 		<a href="#" class="reviews__showmore">Показать еще</a>
-		<a href="#mytrack" class="scroll-link"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Мой трек</span><span class="scroll-link__text scroll-link__text_second">Узнать больше</span></a>
+		<a href="#mytrack" class="scroll-link nav"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Мой трек</span><span class="scroll-link__text scroll-link__text_second">Узнать больше</span></a>
 	</div>
 </section>
 
-<section class="formscreen formscreen_mytrack section pp-scrollable" id="mytrack">
+<section class="formscreen formscreen_mytrack section" id="mytrack">
+	<div class="section-overlay"></div>
 	<div class="content">
 		<?php include "blocks/header.php"; ?>
 		
@@ -710,11 +713,12 @@
 			</form>
 			<img src="img/mytrack.png" alt="@@" class="animated delay2">
 		</div>
-		    <a href="#forums" class="scroll-link"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Форум</span></a>
+		    <a href="#forums" class="scroll-link nav"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Форум</span></a>
 	</div>
 </section>
 
-<section class="forums section pp-scrollable" id="forums">
+<section class="forums section" id="forums">
+	<div class="section-overlay"></div>
 	<div class="content content_column content_footer">
 		<?php include "blocks/header.php"; ?>
 		<div class="forums__actions actions actions_main active sticky">
@@ -1072,7 +1076,10 @@
 		</div>
 		<a href="#" class="forums__showmore">Показать еще</a>
 	</div>
-	<?php include "blocks/footer.php"; ?>
+</section>
+
+<section class="section section_footer">
+    <?php include "blocks/footer.php"; ?>
 </section>
 
 </div>

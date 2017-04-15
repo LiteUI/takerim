@@ -4,9 +4,9 @@
 	&_detail {margin-top: 204px;}
 }
 
-.content {position: relative; padding: 120px 0; display: flex; justify-content: center; align-items: center; box-sizing: border-box; overflow: hidden; min-height: 100%;
+.content {position: relative; padding: 120px 0; display: flex; justify-content: center; align-items: center; box-sizing: border-box; overflow: hidden; min-height: 100vh;
 	&_column {flex-direction: column; align-items: stretch;}
-	&_footer {min-height: 100vh;}
+    &_footer {min-height: 100%;}
 }
 
 .container_navcards {width: auto; overflow: hidden; max-width: 1872px; position: relative; padding: 12px 0; box-sizing: border-box;}
@@ -14,6 +14,12 @@
 .overlay {position: absolute; left: 0; top: 0; background-color: #000; width: 100%; height: 100%; z-index: 2; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out;
 	&.active {opacity: 0.5; pointer-events: all;}
 }
+
+.section {position: relative;
+    &_footer {display: flex; align-items: center;}
+}
+
+.section-overlay {background-color: black; opacity: 0; pointer-events: none; width: 100%; height: 100%; left: 0; top: 0; position: absolute; z-index: 2;}
 
 .usercard {background-color: #fff; padding-top: 54px; text-align: center;
 	&__status {width: 138px; height: 138px; border-radius: 1000px; border: 1px solid #e2e2e6; margin: 0 auto; position: relative;}
@@ -779,7 +785,7 @@
 
 /*##############################*/
 
-.footer {border-top: 1px solid #e6e7e9; padding: 52px 0;
+.footer {border-top: 1px solid #e6e7e9; padding: 52px 0; background-color: #f6f6f6;
 	&__top {display: flex; justify-content: space-between; align-items: flex-start;}
 	&__logoblock {display: flex; align-items: center;}
 	&__menu {color: #262627; font-weight: 300;
