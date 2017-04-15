@@ -1917,7 +1917,6 @@ select, input, textarea {
   min-height: 100vh;
   position: relative;
   box-sizing: border-box;
-  transition: all 1.2s cubic-bezier(0.25, 1, 0.25, 1);
   top: 0;
   opacity: 1; }
   .formscreen__actions {
