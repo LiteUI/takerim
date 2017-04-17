@@ -2031,7 +2031,7 @@ select, input, textarea {
       right: auto;
       left: 0;
       margin-top: 10px;
-      height: 102px;
+      height: 255px;
       overflow-y: scroll; }
   .formscreen_ebay {
     background-image: linear-gradient(180deg, #5356ad 0%, #474ba0 100%); }
@@ -4182,5 +4182,17 @@ select, input, textarea {
   .footer__copyright {
     width: 100%;
     margin-left: 0; } }
+
+@media (max-height: 980px) {
+  .formscreen .sorting-list__submenu {
+    height: 204px; } }
+
+@media (max-height: 880px) {
+  .formscreen .sorting-list__submenu {
+    height: 153px; } }
+
+@media (max-height: 780px) {
+  .formscreen .sorting-list__submenu {
+    height: 102px; } }
 
 /*# sourceMappingURL=default.css.map */

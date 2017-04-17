@@ -696,7 +696,7 @@
 						<p class="sorting-list__heading">Страна получателя</p>
 						<a href="#" class="sorting-list__link">Россия</a>
 						<div class="dropmenu sorting-list__submenu">
-							<div class="sorting-list__scrollable">
+							<ul class="sorting-list__scrollable">
 								<li><a href="#">Россия</a></li>
 								<li><a href="#">Китай</a></li>
 								<li><a href="#">Россия</a></li>
@@ -705,7 +705,7 @@
 								<li><a href="#">Китай</a></li>
 								<li><a href="#">Россия</a></li>
 								<li><a href="#">Китай</a></li>
-							</div>
+							</ul>
 						</div>
 					</div>
 					<button class="button" type="submit">Проверить</button>
@@ -719,7 +719,7 @@
 
 <section class="forums section" id="forums">
 	<div class="section-overlay"></div>
-	<div class="content content_column content_footer">
+	<div class="content content_column">
 		<?php include "blocks/header.php"; ?>
 		<div class="forums__actions actions actions_main active sticky">
 			<div class="actionblock">

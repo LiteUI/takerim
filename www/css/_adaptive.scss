@@ -144,4 +144,16 @@
 	.footer__mail {width: 100%;}
 	.footer__copyright {width: 100%; margin-left: 0;}
 }
+
+@media (max-height:980px) {
+	.formscreen .sorting-list__submenu {height: 204px;}
+}
+
+@media (max-height:880px) {
+	.formscreen .sorting-list__submenu {height: 153px;}
+}
+
+@media (max-height:780px) {
+	.formscreen .sorting-list__submenu {height: 102px;}
+}
 // Адаптивная верстка //
