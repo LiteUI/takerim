@@ -144,7 +144,7 @@
 .morecard {display: inline-flex; width: 276px; box-shadow: 0 4px 12px rgba(153, 204, 0, 0.3); border-radius: 3px; background-color: #99cc00; background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.4) 0%, rgba(35, 105, 191, 0.4) 48%, rgba(148, 200, 55, 0.4) 100%); background-blend-mode: overlay; flex-shrink: 0; color: #fff;	box-sizing: border-box; padding: 30px; flex-direction: column; align-items: flex-start;
 	&__icon {margin-bottom: 19px;}
 	&__text {font-size: 19px; font-weight: 300; line-height: 26px;
-		&_showall {flex: 1;}
+		&_showall {flex: 1 0;}
 	}
 	&__count {font-size: 42px; font-weight: 300; line-height: 53px;}
 }
@@ -602,7 +602,10 @@
 		&__link {color: #ffffff; font-size: 19px; font-weight: 300;
 			&:after {opacity: 1; border-color: #fff transparent transparent transparent;}
 		}
-		&__submenu {right: auto; left: 0; margin-top: 10px; height: 255px; overflow-y: scroll;}
+		&__submenu {right: auto; left: 0; margin-top: 10px;
+			li {padding-right: 10px;}
+		}
+		&__scrollable {height: 255px;}
 	}
 	&_ebay {background-image: linear-gradient(180deg, #5356ad 0%, #474ba0 100%);
 		.header {top: 5px; background-color: transparent;
@@ -672,7 +675,7 @@
 		&_big {width: 50%;
 			.reviews__card-shadow {padding-right: 310px;}
 			.reviews__cardimage {position: absolute; width: 52%; right: 0; top: 0; height: 100%; border-radius:0 3px 3px 0;}
-			.reviews__cardinfo {padding-top: 34px; border-radius:3px 0 0 3px;}
+			.reviews__cardinfo {padding-top: 34px; border-radius:3px 0 0 3px; flex: 1 0 100%;}
 			.reviews__rating {left: 313px;}
 			.reviews__shop {top: auto; bottom: 18px; right: -100%; margin-right: 10px;}
 		}
@@ -1199,9 +1202,9 @@
 
 /*##############################*/
 
-.thanks {position: fixed; left: 0; top: 0; background-color: #99cc00; z-index: 15; padding: 16px 24px; color: #fff; width: 100%; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box; transform: translate3d(0,-100%,0); transition: all 0.25s ease-in-out;
+.thanks {position: fixed; left: 0; top: 0; background-color: #99cc00; z-index: 15; padding: 16px 24px; color: #fff; width: 100%; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box; transform: translate3d(0,-100%,0); transition: all 0.25s ease-in-out; opacity: 0; pointer-events: none;
 	&__ok {font-size: 16.5px;}
-	&.active {transform: translate3d(0,0,0); box-shadow: 0 4px 12px rgba(153, 204, 0, 0.3);}
+	&.active {transform: translate3d(0,0,0); box-shadow: 0 4px 12px rgba(153, 204, 0, 0.3); opacity: 1; pointer-events: all;}
 }
 
 // Всплывающие окна и другие элементы сайта //

@@ -23,8 +23,8 @@
 <!-- модальные окна !-->
 <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
 
-<!-- Pagepiling -->
-<script type="text/javascript" src="js/pagepiling/jquery.pagepiling.js"></script>
+<!-- Scrollbar -->
+<script type="text/javascript" src="js/scrollbar/jquery.scrollbar.js"></script>
 
 <script src="js/scripts.min.js"></script>
 

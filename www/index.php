@@ -696,7 +696,7 @@
 						<p class="sorting-list__heading">Страна получателя</p>
 						<a href="#" class="sorting-list__link">Россия</a>
 						<div class="dropmenu sorting-list__submenu">
-							<ul class="sorting-list__scrollable">
+							<ul class="sorting-list__scrollable scrollbar-inner">
 								<li><a href="#">Россия</a></li>
 								<li><a href="#">Китай</a></li>
 								<li><a href="#">Россия</a></li>
