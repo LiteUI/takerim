@@ -95,6 +95,7 @@
     left: 0;
     top: 0;
     width: 100%;
+	transform: translate3d(0,0,0);
 }
 
 .scrollbar-inner > .scroll-element.scroll-x {
