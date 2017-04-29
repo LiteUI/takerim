@@ -79,7 +79,7 @@
 
 /*##############################*/
 
-.button {text-align:center; border:0; display:inline-block; padding: 0 18px; line-height: 50px; box-shadow: 0 4px 12px rgba(153, 204, 0, 0.3); border-radius: 30px; background-color: #99cc00; color: #fff; font-size: 19px;
+.button {text-align:center; border:0; display:inline-block; padding: 0 18px; line-height: 50px; box-shadow: 0 4px 12px rgba(153, 204, 0, 0.3); border-radius: 30px; background-color: #99cc00; color: #fff; font-size: 19px; cursor: pointer;
 	&:hover, &.active:hover {opacity: 0.7;}
 	&_social {width: 101px; display: inline-flex; justify-content: center; align-items: center; padding: 0;
 		span {display: inline-block; width: 50%; position: relative;}
@@ -102,6 +102,7 @@
 	}
 	&_login {background-color: transparent; box-shadow: none; border: 1px solid #dadbe0; position: relative; color: #262627; font-weight: 300; padding-left: 66px; padding-right: 29px;}
 	&_pink {background-color: #ff73b3; box-shadow: 0 15px 35px rgba(255, 114, 179, 0.33);}
+	&_grey {background-color: transparent; box-shadow: none; border: 1px solid #dadbe0; position: relative; color: #262627; font-weight: 300; padding-left: 36px; padding-right: 36px; letter-spacing: 0.02em;}
 }
 
 /*##############################*/
@@ -805,7 +806,7 @@
 	&__trademark {opacity: 0.7; color: #262627; font-size: 14px; font-weight: 300; letter-spacing: 0.015em; line-height: 1.6em;
 		& + .footer__trademark {margin-top: 20px;}
 	}
-	&__copyright {opacity: 0.7; color: #262627; font-size: 14px; font-weight: 300; letter-spacing: 0.02em; flex-grow: 1; margin-left: 20px;}
+	&__copyright {opacity: 0.7; color: #262627; font-size: 14px; font-weight: 300; letter-spacing: 0.02em; flex-grow: 1; margin-left: 20px; flex: 1;}
 	&__certificate {opacity: 0.7; color: #262627; font-size: 14px; font-weight: 300; letter-spacing: 0.015em; line-height: 1.6em; width: 100%;}
 	&__links {
 		li {display: inline-block; color: #262627; font-size: 14px; font-weight: 300; margin-left: 72px; letter-spacing: 0.015em;
@@ -893,6 +894,8 @@
 	&__linkname {color: #262627; font-size: 19px; font-weight: 300;}
 	&__linksite {margin-top: 6px; color: #a0a2aa; font-weight: 300;}
 }
+
+@import "ebay";
 
 /*##############################*/
 
@@ -1014,6 +1017,8 @@
 	&__morecard {height: 100%; width: 100%; padding: 40px;}
 	.cardnav {height: calc(100% - 46px); bottom: 46px;}
 }
+
+/*##############################*/
 
 /*##############################*/
 
