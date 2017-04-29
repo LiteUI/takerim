@@ -85,7 +85,7 @@
 			<p class="formscreen__cardheading">Недавно проверенные продавцы</p>
 		 </div>
 		 <div class="container_navcards">
-		 	<div class="cardnav formscreen__cardnav">
+		 	<div class="cardnav formscreen__cardnav cardnav_ebay">
 				<a href="#" class="cardnav__arrow prev"><img src="img/navarrow.svg" alt="@@"></a>
 				<a href="#" class="cardnav__arrow next"><img src="img/navarrow.svg" alt="@@"></a>
 			</div>
@@ -276,6 +276,8 @@
 	<a href="#" class="second__detail-button">Детальная информация</a>
 </section>
 
+<section class="ebay-allinfo">
+
 <section class="moreinfo">
 	<div class="container container_big">
 		<div class="table">
@@ -441,6 +443,8 @@
 <?php include "blocks/ebay/ebay-history.php"; ?>
 
 <?php include "blocks/comments.php"; ?>
+
+</section>
 
 <?php include "blocks/footer.php"; ?>
 
