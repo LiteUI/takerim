@@ -5933,7 +5933,8 @@ html.ebay-page {
   display: flex;
   z-index: 100;
   transition: all 0.7s cubic-bezier(0.25, 1, 0.25, 1);
-  pointer-events: none; }
+  pointer-events: none;
+  font-weight: 300; }
   /* line 1503, C:/Projects/home/takerim/www/css/default.scss */
   .topblock.visible {
     top: 0;
