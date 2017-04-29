@@ -2969,13 +2969,13 @@ select, input, textarea {
       pointer-events: all;
       transform: translate3d(0, 0, 0);
       margin-left: 24px; }
-  /* line 761, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 762, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__card {
     width: 25%;
     margin-bottom: 0.3%;
     box-sizing: border-box;
     position: relative; }
-    /* line 762, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 763, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__card:after {
       content: "";
       display: inline-block;
@@ -2992,29 +2992,29 @@ select, input, textarea {
       z-index: 5;
       transition: all 0.25s ease-in-out;
       pointer-events: none; }
-    /* line 763, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 764, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__card:hover {
       z-index: 2; }
-      /* line 764, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 765, C:/Projects/home/takerim/www/css/default.scss */
       .reviews__card:hover:after {
         width: calc(100%);
         height: calc(100%);
         box-shadow: 0 36px 36px 0 rgba(25, 33, 45, 0.1); }
-      /* line 765, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 766, C:/Projects/home/takerim/www/css/default.scss */
       .reviews__card:hover .reviews__card-wrapper {
         box-shadow: inset 0 0 0 10px #f6f6f6;
         border-radius: 13px; }
-      /* line 766, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 767, C:/Projects/home/takerim/www/css/default.scss */
       .reviews__card:hover .reviews__rating, .reviews__card:hover .reviews__like, .reviews__card:hover .reviews__shop {
         opacity: 1;
         pointer-events: all; }
-    /* line 768, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 769, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__card_big {
       width: 50%; }
-      /* line 769, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 770, C:/Projects/home/takerim/www/css/default.scss */
       .reviews__card_big .reviews__card-shadow {
         padding-right: 310px; }
-      /* line 770, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 771, C:/Projects/home/takerim/www/css/default.scss */
       .reviews__card_big .reviews__cardimage {
         position: absolute;
         width: 52%;
@@ -3022,21 +3022,21 @@ select, input, textarea {
         top: 0;
         height: 100%;
         border-radius: 0 3px 3px 0; }
-      /* line 771, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 772, C:/Projects/home/takerim/www/css/default.scss */
       .reviews__card_big .reviews__cardinfo {
         padding-top: 34px;
         border-radius: 3px 0 0 3px;
         flex: 1 0 100%; }
-      /* line 772, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 773, C:/Projects/home/takerim/www/css/default.scss */
       .reviews__card_big .reviews__rating {
         left: 313px; }
-      /* line 773, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 774, C:/Projects/home/takerim/www/css/default.scss */
       .reviews__card_big .reviews__shop {
         top: auto;
         bottom: 18px;
         right: -100%;
         margin-right: 10px; }
-  /* line 776, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 777, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__card-wrapper {
     position: absolute;
     left: -10px;
@@ -3049,7 +3049,7 @@ select, input, textarea {
     box-sizing: border-box;
     z-index: 1;
     transition: all 0.25s ease-in-out; }
-  /* line 777, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 778, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__card-shadow {
     position: relative;
     display: flex;
@@ -3058,7 +3058,7 @@ select, input, textarea {
     border-radius: 3px;
     overflow: hidden;
     height: 100%; }
-  /* line 778, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 779, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__cardlink {
     position: absolute;
     left: 0;
@@ -3066,7 +3066,7 @@ select, input, textarea {
     width: 100%;
     height: 100%;
     z-index: 1; }
-  /* line 779, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 780, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__cardimage {
     height: 217px;
     position: relative;
@@ -3075,10 +3075,10 @@ select, input, textarea {
     display: inline-flex;
     justify-content: center;
     align-items: center; }
-    /* line 780, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 781, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__cardimage img {
       max-width: 100%; }
-  /* line 782, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 783, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__cardinfo {
     padding: 24px 36px 34px;
     position: relative;
@@ -3086,12 +3086,12 @@ select, input, textarea {
     display: flex;
     flex-direction: column;
     border-radius: 0 0 3px 3px; }
-  /* line 783, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 784, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__date {
     opacity: 0.56;
     color: #151b2d;
     font-weight: 300; }
-  /* line 784, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 785, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__name {
     margin-top: 11px;
     color: #262627;
@@ -3100,22 +3100,22 @@ select, input, textarea {
     flex: 1;
     letter-spacing: 0.01em;
     line-height: 1.4em; }
-  /* line 785, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 786, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__text {
     display: none;
     color: #494a4c;
     font-size: 16.5px;
     font-weight: 300;
     margin-top: 28px; }
-    /* line 786, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 787, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__text-more {
       opacity: .7; }
-  /* line 788, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 789, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__cardbottom {
     margin-top: 46px;
     display: flex;
     align-items: center; }
-  /* line 789, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 790, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__avatar {
     width: 36px;
     height: 36px;
@@ -3123,7 +3123,7 @@ select, input, textarea {
     overflow: hidden;
     position: relative;
     margin-right: 12px; }
-    /* line 790, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 791, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__avatar img {
       position: absolute;
       left: 0;
@@ -3135,15 +3135,15 @@ select, input, textarea {
       min-height: 100%;
       width: 0;
       object-fit: cover; }
-  /* line 792, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 793, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__author {
     flex: 1; }
-  /* line 793, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 794, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__price {
     color: #bfc1ca;
     font-size: 18px;
     font-weight: 700; }
-  /* line 794, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 795, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__shop {
     opacity: 0;
     pointer-events: none;
@@ -3160,21 +3160,21 @@ select, input, textarea {
     z-index: 2;
     overflow: hidden;
     transition: all 0.25s ease-in-out; }
-    /* line 796, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 797, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__shop:hover .reviews__shopname {
       transform: translate3d(-100%, 0, 0);
       opacity: 0;
       pointer-events: none; }
-    /* line 797, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 798, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__shop:hover .reviews__shophover {
       transform: translate3d(0, 0, 0);
       opacity: 1;
       pointer-events: all; }
-  /* line 800, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 801, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__shopname {
     display: inline-block;
     transition: all 0.25s ease-in-out; }
-  /* line 801, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 802, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__shophover {
     display: inline-block;
     position: absolute;
@@ -3190,7 +3190,7 @@ select, input, textarea {
     text-align: center;
     line-height: 34px;
     transform: translate3d(100%, 0, 0); }
-  /* line 802, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 803, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__rating {
     opacity: 0;
     pointer-events: none;
@@ -3209,22 +3209,22 @@ select, input, textarea {
     background-color: #23d247;
     transition: all 0.25s ease-in-out;
     z-index: 1; }
-    /* line 803, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 804, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__rating.one {
       background-color: #cb302f; }
-    /* line 804, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 805, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__rating.two {
       background-color: #e08d1a; }
-    /* line 805, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 806, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__rating.three {
       background-color: #e2c333; }
-    /* line 806, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 807, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__rating.four {
       background-color: #99cc00; }
-    /* line 807, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 808, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__rating.five {
       background-color: #23cf46; }
-  /* line 809, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 810, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__like {
     opacity: 0;
     pointer-events: none;
@@ -3236,7 +3236,7 @@ select, input, textarea {
     cursor: pointer;
     width: 22px;
     height: 21px; }
-    /* line 810, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 811, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__like svg {
       position: absolute;
       left: 0;
@@ -3244,35 +3244,35 @@ select, input, textarea {
       bottom: 0;
       right: 0;
       margin: auto; }
-    /* line 811, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 812, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__like svg #icon_cardlike,
     .reviews__like svg #icon_cardliked {
       transition: all 0.25s ease-in-out; }
-    /* line 813, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 814, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__like svg #icon_cardliked {
       opacity: 0;
       pointer-events: none; }
-    /* line 815, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 816, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__like_grey svg #icon_cardlike {
       stroke: #d7d8dd; }
-    /* line 818, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 819, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__like.active svg #icon_cardlike {
       opacity: 0;
       pointer-events: none; }
-    /* line 819, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 820, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__like.active svg #icon_cardliked {
       opacity: 1;
       pointer-events: all; }
-    /* line 821, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 822, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__like.visible {
       opacity: 1;
       pointer-events: all; }
-  /* line 823, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 824, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__pagination {
     position: relative;
     text-align: center;
     margin: 37px 10px 32px; }
-  /* line 824, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 825, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__pagearrow {
     position: absolute;
     top: 0;
@@ -3280,14 +3280,14 @@ select, input, textarea {
     margin: auto;
     width: 18px;
     height: 23px; }
-    /* line 825, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 826, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__pagearrow_prev {
       left: 0;
       transform: rotate(180deg); }
-    /* line 826, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 827, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__pagearrow_next {
       right: 0; }
-    /* line 827, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 828, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__pagearrow img {
       position: absolute;
       left: 0;
@@ -3295,10 +3295,10 @@ select, input, textarea {
       top: 0;
       bottom: 0;
       margin: auto; }
-    /* line 828, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 829, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__pagearrow:hover {
       opacity: 0.6; }
-  /* line 831, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 832, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__pagenumbers li {
     display: inline-block;
     opacity: 0.56;
@@ -3311,19 +3311,19 @@ select, input, textarea {
     width: 30px;
     text-align: center;
     transition: all 0.25s ease-in-out; }
-    /* line 832, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 833, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__pagenumbers li:first-child {
       margin-left: 0; }
-    /* line 833, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 834, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__pagenumbers li:hover {
       color: #262627;
       opacity: 1; }
-    /* line 834, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 835, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__pagenumbers li.active {
       color: #262627;
       font-size: 19px;
       opacity: 1; }
-      /* line 835, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 836, C:/Projects/home/takerim/www/css/default.scss */
       .reviews__pagenumbers li.active:after {
         content: "";
         display: inline-block;
@@ -3335,59 +3335,59 @@ select, input, textarea {
         width: 112px;
         height: 2px;
         background-color: #0a1439; }
-    /* line 837, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 838, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__pagenumbers li a {
       display: block; }
-  /* line 840, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 841, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__more {
     border-top: 1px solid #e6e7e9;
     text-align: center;
     padding-top: 33px;
     padding-bottom: 52px; }
-  /* line 841, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 842, C:/Projects/home/takerim/www/css/default.scss */
   .reviews .container_navcards {
     margin-top: 43px;
     padding: 2px 0; }
-  /* line 842, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 843, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__heading {
     color: #262627;
     font-size: 32px;
     font-weight: 300; }
-  /* line 843, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 844, C:/Projects/home/takerim/www/css/default.scss */
   .reviews .reviews__cards {
     flex-wrap: nowrap;
     transition: all 1s ease-in-out;
     padding-bottom: 46px; }
-  /* line 844, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 845, C:/Projects/home/takerim/www/css/default.scss */
   .reviews .reviews__card {
     width: 296px;
     flex-shrink: 0;
     margin-left: 4px; }
-    /* line 845, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 846, C:/Projects/home/takerim/www/css/default.scss */
     .reviews .reviews__card:first-child {
       margin-left: 0; }
-    /* line 846, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 847, C:/Projects/home/takerim/www/css/default.scss */
     .reviews .reviews__card_big {
       width: 596px; }
-  /* line 848, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 849, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__morecard {
     height: 100%;
     width: 100%;
     padding: 40px 40px 33px; }
-  /* line 849, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 850, C:/Projects/home/takerim/www/css/default.scss */
   .reviews .cardnav {
     height: calc(100% - 46px);
     bottom: 46px; }
-  /* line 850, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 851, C:/Projects/home/takerim/www/css/default.scss */
   .reviews .scroll-link__text {
     color: #262627; }
-  /* line 851, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 852, C:/Projects/home/takerim/www/css/default.scss */
   .reviews .scroll-link__mouse {
     border-color: #cbcdd3; }
-    /* line 852, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 853, C:/Projects/home/takerim/www/css/default.scss */
     .reviews .scroll-link__mouse:after {
       background-color: #323233; }
-  /* line 854, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 855, C:/Projects/home/takerim/www/css/default.scss */
   .reviews__showmore {
     display: block;
     color: #262627;
@@ -3401,49 +3401,49 @@ select, input, textarea {
     margin-top: -21px;
     width: 185px;
     text-align: center; }
-    /* line 855, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 856, C:/Projects/home/takerim/www/css/default.scss */
     .reviews__showmore:hover {
       opacity: 0.6; }
 
 /*##############################*/
-/* line 861, C:/Projects/home/takerim/www/css/default.scss */
+/* line 862, C:/Projects/home/takerim/www/css/default.scss */
 .forums {
   position: relative;
   min-height: 100vh;
   box-sizing: border-box;
   background-color: #f6f6f6; }
-  /* line 862, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 863, C:/Projects/home/takerim/www/css/default.scss */
   .forums .header {
     height: 204px;
     padding: 47px 0 52px; }
-  /* line 863, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 864, C:/Projects/home/takerim/www/css/default.scss */
   .forums__actions {
     top: 0;
     width: 100%; }
-    /* line 864, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 865, C:/Projects/home/takerim/www/css/default.scss */
     .forums__actions.sticky {
       position: absolute; }
-  /* line 866, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 867, C:/Projects/home/takerim/www/css/default.scss */
   .forums .actionblock {
     background-color: #f6f6f6;
     box-shadow: none;
     padding: 16px 0 !important; }
-  /* line 867, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 868, C:/Projects/home/takerim/www/css/default.scss */
   .forums__heading {
     color: #262627;
     font-size: 32px;
     font-weight: 300; }
-  /* line 868, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 869, C:/Projects/home/takerim/www/css/default.scss */
   .forums .container_navcards {
     margin-top: 42px;
     padding: 2px 0; }
-  /* line 869, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 870, C:/Projects/home/takerim/www/css/default.scss */
   .forums__cards {
     display: flex;
     justify-content: space-between;
     transition: all 1s ease-in-out;
     padding-bottom: 36px; }
-  /* line 870, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 871, C:/Projects/home/takerim/www/css/default.scss */
   .forums__card {
     width: 276px;
     border-radius: 3px;
@@ -3452,25 +3452,25 @@ select, input, textarea {
     flex-shrink: 0;
     margin-top: 10px;
     margin-bottom: 10px; }
-    /* line 871, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 872, C:/Projects/home/takerim/www/css/default.scss */
     .forums__card:first-child {
       margin-left: 0; }
-    /* line 872, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 873, C:/Projects/home/takerim/www/css/default.scss */
     .forums__card:hover {
       box-shadow: 0 36px 36px 0 rgba(25, 33, 45, 0.1);
       position: relative;
       z-index: 2; }
-  /* line 874, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 875, C:/Projects/home/takerim/www/css/default.scss */
   .forums__sorting-list {
     position: absolute;
     top: 9px;
     right: 0; }
-  /* line 875, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 876, C:/Projects/home/takerim/www/css/default.scss */
   .forums__morecard {
     margin-left: 14px;
     width: 296px;
     padding: 40px 40px 33px; }
-  /* line 876, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 877, C:/Projects/home/takerim/www/css/default.scss */
   .forums__showmore {
     display: block;
     color: #262627;
@@ -3484,60 +3484,60 @@ select, input, textarea {
     margin-top: -17px;
     width: 185px;
     text-align: center; }
-    /* line 877, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 878, C:/Projects/home/takerim/www/css/default.scss */
     .forums__showmore:hover {
       opacity: 0.6; }
 
 /*##############################*/
-/* line 884, C:/Projects/home/takerim/www/css/default.scss */
+/* line 885, C:/Projects/home/takerim/www/css/default.scss */
 .footer {
   border-top: 1px solid #e6e7e9;
   padding: 52px 0;
   background-color: #f6f6f6; }
-  /* line 885, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 886, C:/Projects/home/takerim/www/css/default.scss */
   .footer__top {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; }
-  /* line 886, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 887, C:/Projects/home/takerim/www/css/default.scss */
   .footer__logoblock {
     display: flex;
     align-items: center; }
-  /* line 887, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 888, C:/Projects/home/takerim/www/css/default.scss */
   .footer__menu {
     color: #262627;
     font-weight: 300; }
-    /* line 888, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 889, C:/Projects/home/takerim/www/css/default.scss */
     .footer__menu .menu__column {
       margin-left: 57px; }
-      /* line 889, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 890, C:/Projects/home/takerim/www/css/default.scss */
       .footer__menu .menu__column:first-child {
         margin-left: 0; }
-      /* line 890, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 891, C:/Projects/home/takerim/www/css/default.scss */
       .footer__menu .menu__column:last-child {
         margin-left: 42px;
         margin-right: 21px; }
-    /* line 892, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 893, C:/Projects/home/takerim/www/css/default.scss */
     .footer__menu li.active a {
       opacity: 0.5; }
-    /* line 893, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 894, C:/Projects/home/takerim/www/css/default.scss */
     .footer__menu a:hover {
       opacity: 0.5; }
-  /* line 895, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 896, C:/Projects/home/takerim/www/css/default.scss */
   .footer__bottom {
     display: flex;
     justify-content: space-between;
     margin-top: 62px; }
-  /* line 896, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 897, C:/Projects/home/takerim/www/css/default.scss */
   .footer__bottom-left {
     width: 49%; }
-  /* line 897, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 898, C:/Projects/home/takerim/www/css/default.scss */
   .footer__bottom-right {
     width: 35%;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between; }
-  /* line 898, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 899, C:/Projects/home/takerim/www/css/default.scss */
   .footer__trademark {
     opacity: 0.7;
     color: #262627;
@@ -3545,10 +3545,10 @@ select, input, textarea {
     font-weight: 300;
     letter-spacing: 0.015em;
     line-height: 1.6em; }
-    /* line 899, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 900, C:/Projects/home/takerim/www/css/default.scss */
     .footer__trademark + .footer__trademark {
       margin-top: 20px; }
-  /* line 901, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 902, C:/Projects/home/takerim/www/css/default.scss */
   .footer__copyright {
     opacity: 0.7;
     color: #262627;
@@ -3558,7 +3558,7 @@ select, input, textarea {
     flex-grow: 1;
     margin-left: 20px;
     flex: 1; }
-  /* line 902, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 903, C:/Projects/home/takerim/www/css/default.scss */
   .footer__certificate {
     opacity: 0.7;
     color: #262627;
@@ -3567,7 +3567,7 @@ select, input, textarea {
     letter-spacing: 0.015em;
     line-height: 1.6em;
     width: 100%; }
-  /* line 904, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 905, C:/Projects/home/takerim/www/css/default.scss */
   .footer__links li {
     display: inline-block;
     color: #262627;
@@ -3575,19 +3575,19 @@ select, input, textarea {
     font-weight: 300;
     margin-left: 72px;
     letter-spacing: 0.015em; }
-    /* line 905, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 906, C:/Projects/home/takerim/www/css/default.scss */
     .footer__links li:first-child {
       margin-left: 0; }
-  /* line 907, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 908, C:/Projects/home/takerim/www/css/default.scss */
   .footer__links a:hover {
     opacity: 0.5; }
-  /* line 909, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 910, C:/Projects/home/takerim/www/css/default.scss */
   .footer__mail {
     font-family: "Helvetica Neue", Arial, sans-serif;
     color: #262627;
     font-size: 13px;
     font-weight: 300; }
-  /* line 910, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 911, C:/Projects/home/takerim/www/css/default.scss */
   .footer__adults {
     display: inline-block;
     font-weight: 300;
@@ -3602,20 +3602,20 @@ select, input, textarea {
     color: #494a4c; }
 
 /*##############################*/
-/* line 915, C:/Projects/home/takerim/www/css/default.scss */
+/* line 916, C:/Projects/home/takerim/www/css/default.scss */
 .detail {
   margin-top: -38px;
   padding-bottom: 58px; }
-  /* line 916, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 917, C:/Projects/home/takerim/www/css/default.scss */
   .detail__actions {
     border-bottom: 1px solid #e5e6e9;
     padding: 16px 0 20px; }
-    /* line 917, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 918, C:/Projects/home/takerim/www/css/default.scss */
     .detail__actions .container {
       display: flex;
       justify-content: space-between;
       align-items: center; }
-  /* line 919, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 920, C:/Projects/home/takerim/www/css/default.scss */
   .detail__action {
     color: rgba(21, 27, 45, 0.56);
     font-size: 16.5px;
@@ -3624,59 +3624,59 @@ select, input, textarea {
     position: relative;
     display: inline-flex;
     align-items: center; }
-    /* line 920, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 921, C:/Projects/home/takerim/www/css/default.scss */
     .detail__action:hover {
       color: #151b2d; }
-    /* line 921, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 922, C:/Projects/home/takerim/www/css/default.scss */
     .detail__action img {
       margin-right: 15px; }
-    /* line 922, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 923, C:/Projects/home/takerim/www/css/default.scss */
     .detail__action_hide img {
       margin-right: 11px; }
-    /* line 923, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 924, C:/Projects/home/takerim/www/css/default.scss */
     .detail__action_allow {
       position: absolute;
       right: 0;
       transform: translate3d(0, 100%, 0);
       opacity: 0;
       pointer-events: none; }
-    /* line 924, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 925, C:/Projects/home/takerim/www/css/default.scss */
     .detail__action + .detail__action {
       margin-left: 57px; }
-  /* line 926, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 927, C:/Projects/home/takerim/www/css/default.scss */
   .detail__actions-left {
     padding-left: 4px; }
-  /* line 927, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 928, C:/Projects/home/takerim/www/css/default.scss */
   .detail__actions-right {
     position: relative; }
-    /* line 929, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 930, C:/Projects/home/takerim/www/css/default.scss */
     .detail__actions-right.active .detail__action_hide {
       opacity: 0;
       pointer-events: none;
       transform: translate3d(0, -100%, 0); }
-    /* line 930, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 931, C:/Projects/home/takerim/www/css/default.scss */
     .detail__actions-right.active .detail__action_allow {
       opacity: 1;
       pointer-events: all;
       transform: translate3d(0, 0, 0); }
-  /* line 933, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 934, C:/Projects/home/takerim/www/css/default.scss */
   .detail__header {
     padding: 57px 100px 64px;
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  /* line 934, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 935, C:/Projects/home/takerim/www/css/default.scss */
   .detail__heading {
     max-width: 676px;
     color: #262627;
     font-size: 32px;
     font-weight: 300;
     line-height: 1.3em; }
-  /* line 935, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 936, C:/Projects/home/takerim/www/css/default.scss */
   .detail__button {
     padding: 0 24px;
     position: relative; }
-    /* line 936, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 937, C:/Projects/home/takerim/www/css/default.scss */
     .detail__button span {
       position: absolute;
       left: 0;
@@ -3688,24 +3688,24 @@ select, input, textarea {
       pointer-events: none;
       transition: all 0.25s ease-in-out;
       color: #fff; }
-    /* line 937, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 938, C:/Projects/home/takerim/www/css/default.scss */
     .detail__button:hover {
       color: transparent; }
-      /* line 938, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 939, C:/Projects/home/takerim/www/css/default.scss */
       .detail__button:hover span {
         opacity: 1;
         pointer-events: all; }
-  /* line 941, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 942, C:/Projects/home/takerim/www/css/default.scss */
   .detail__header-right {
     display: flex;
     align-items: center; }
-  /* line 942, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 943, C:/Projects/home/takerim/www/css/default.scss */
   .detail__price {
     color: #bfc1ca;
     font-size: 18px;
     font-weight: 700;
     margin-right: 16px; }
-  /* line 943, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 944, C:/Projects/home/takerim/www/css/default.scss */
   .detail__goodimage {
     width: calc(68% - 24px);
     overflow: hidden;
@@ -3715,10 +3715,10 @@ select, input, textarea {
     vertical-align: top;
     text-align: center;
     box-shadow: 0 6px 36px 0 rgba(25, 33, 45, 0.02); }
-    /* line 944, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 945, C:/Projects/home/takerim/www/css/default.scss */
     .detail__goodimage img {
       max-width: 100%; }
-  /* line 946, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 947, C:/Projects/home/takerim/www/css/default.scss */
   .detail__usercard {
     width: 32%;
     display: inline-block;
@@ -3727,14 +3727,14 @@ select, input, textarea {
     margin-left: 24px;
     border-radius: 3px;
     box-shadow: 0 6px 36px 0 rgba(25, 33, 45, 0.02); }
-  /* line 947, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 948, C:/Projects/home/takerim/www/css/default.scss */
   .detail__reviewinfo {
     margin-top: 39px;
     padding: 0 100px;
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  /* line 948, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 949, C:/Projects/home/takerim/www/css/default.scss */
   .detail__reviewlink {
     opacity: 0.56;
     color: #151b2d;
@@ -3742,10 +3742,10 @@ select, input, textarea {
     font-weight: 300;
     position: relative;
     padding-right: 45px; }
-    /* line 949, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 950, C:/Projects/home/takerim/www/css/default.scss */
     .detail__reviewlink:hover {
       opacity: 1; }
-    /* line 950, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 951, C:/Projects/home/takerim/www/css/default.scss */
     .detail__reviewlink:after {
       content: "";
       position: absolute;
@@ -3757,7 +3757,7 @@ select, input, textarea {
       height: 1px;
       background-color: #cecfd6;
       opacity: 0.7; }
-  /* line 952, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 953, C:/Projects/home/takerim/www/css/default.scss */
   .detail__reviewshop {
     margin-left: 12px;
     opacity: 0.56;
@@ -3765,73 +3765,73 @@ select, input, textarea {
     font-size: 16.5px;
     font-weight: 300;
     letter-spacing: 0.02em; }
-    /* line 953, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 954, C:/Projects/home/takerim/www/css/default.scss */
     .detail__reviewshop:hover {
       opacity: 1; }
-  /* line 955, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 956, C:/Projects/home/takerim/www/css/default.scss */
   .detail__reviewdate {
     color: #c8c9cd;
     font-size: 16.5px;
     font-weight: 300;
     letter-spacing: 0.03em; }
-  /* line 956, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 957, C:/Projects/home/takerim/www/css/default.scss */
   .detail__textblock {
     margin-top: 58px;
     padding: 0 200px; }
-  /* line 957, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 958, C:/Projects/home/takerim/www/css/default.scss */
   .detail__text {
     color: #494a4c;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.7em; }
-    /* line 958, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 959, C:/Projects/home/takerim/www/css/default.scss */
     .detail__text + .detail__subheading {
       margin-top: 39px; }
-  /* line 960, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 961, C:/Projects/home/takerim/www/css/default.scss */
   .detail__subheading {
     color: #262627;
     font-size: 26px;
     font-weight: 300; }
-    /* line 961, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 962, C:/Projects/home/takerim/www/css/default.scss */
     .detail__subheading + .detail__text {
       margin-top: 45px; }
-  /* line 963, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 964, C:/Projects/home/takerim/www/css/default.scss */
   .detail__imageblock {
     margin: 61px 100px 0;
     display: flex;
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 6px 36px 0 rgba(25, 33, 45, 0.02); }
-    /* line 964, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 965, C:/Projects/home/takerim/www/css/default.scss */
     .detail__imageblock + .detail__textblock {
       margin-top: 47px; }
-  /* line 966, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 967, C:/Projects/home/takerim/www/css/default.scss */
   .detail__halfimage {
     width: 50%;
     height: 500px;
     position: relative;
     overflow: hidden; }
-    /* line 967, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 968, C:/Projects/home/takerim/www/css/default.scss */
     .detail__halfimage img {
       position: absolute;
       right: 0;
       top: 0; }
-  /* line 969, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 970, C:/Projects/home/takerim/www/css/default.scss */
   .detail__listname {
     color: #262627;
     font-size: 18px; }
-  /* line 970, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 971, C:/Projects/home/takerim/www/css/default.scss */
   .detail__list {
     margin-top: 20px;
     padding-left: 38px;
     max-width: 700px; }
-    /* line 971, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 972, C:/Projects/home/takerim/www/css/default.scss */
     .detail__list_ordered {
       counter-reset: num; }
-      /* line 972, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 973, C:/Projects/home/takerim/www/css/default.scss */
       .detail__list_ordered li {
         position: relative; }
-        /* line 973, C:/Projects/home/takerim/www/css/default.scss */
+        /* line 974, C:/Projects/home/takerim/www/css/default.scss */
         .detail__list_ordered li:before {
           content: "0" counter(num);
           counter-increment: num;
@@ -3841,23 +3841,23 @@ select, input, textarea {
           font-weight: 300;
           line-height: 50px;
           margin-right: 32px; }
-    /* line 976, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 977, C:/Projects/home/takerim/www/css/default.scss */
     .detail__list li {
       border-top: 1px solid #e5e6e9; }
-      /* line 977, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 978, C:/Projects/home/takerim/www/css/default.scss */
       .detail__list li:first-child {
         border-top: 0; }
-    /* line 979, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 980, C:/Projects/home/takerim/www/css/default.scss */
     .detail__list p {
       color: #494a4c;
       font-size: 18px;
       font-weight: 300;
       line-height: 50px;
       display: inline-block; }
-    /* line 980, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 981, C:/Projects/home/takerim/www/css/default.scss */
     .detail__list + .detail__text {
       margin-top: 28px; }
-  /* line 982, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 983, C:/Projects/home/takerim/www/css/default.scss */
   .detail__linkblock {
     width: 720px;
     margin: 35px auto 37px;
@@ -3867,7 +3867,7 @@ select, input, textarea {
     position: relative;
     padding: 52px 0;
     padding-left: 181px; }
-  /* line 983, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 984, C:/Projects/home/takerim/www/css/default.scss */
   .detail__linkimage {
     width: 140px;
     height: 100%;
@@ -3876,7 +3876,7 @@ select, input, textarea {
     position: absolute;
     overflow: hidden;
     display: inline-block; }
-    /* line 984, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 985, C:/Projects/home/takerim/www/css/default.scss */
     .detail__linkimage img {
       position: absolute;
       left: 0;
@@ -3888,12 +3888,12 @@ select, input, textarea {
       min-height: 100%;
       width: 0;
       object-fit: cover; }
-  /* line 986, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 987, C:/Projects/home/takerim/www/css/default.scss */
   .detail__linkname {
     color: #262627;
     font-size: 19px;
     font-weight: 300; }
-  /* line 987, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 988, C:/Projects/home/takerim/www/css/default.scss */
   .detail__linksite {
     margin-top: 6px;
     color: #a0a2aa;
@@ -4241,73 +4241,73 @@ select, input, textarea {
     content: url("../img/star_purple.svg"); }
 
 /*##############################*/
-/* line 994, C:/Projects/home/takerim/www/css/default.scss */
+/* line 995, C:/Projects/home/takerim/www/css/default.scss */
 .share {
   border-top: 1px solid #e5e6e9;
   padding: 50px 0 46px; }
-  /* line 995, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 996, C:/Projects/home/takerim/www/css/default.scss */
   .share__block {
     display: flex;
     background-color: #fff;
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 6px 36px 0 rgba(25, 33, 45, 0.02); }
-  /* line 996, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 997, C:/Projects/home/takerim/www/css/default.scss */
   .share__usercard {
     padding: 54px 0 0;
     width: 32%; }
-    /* line 997, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 998, C:/Projects/home/takerim/www/css/default.scss */
     .share__usercard .usercard__stat {
       margin: 0 46px; }
-  /* line 999, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1000, C:/Projects/home/takerim/www/css/default.scss */
   .share__actions {
     width: 68%;
     border-left: 1px solid #eeeff1;
     box-sizing: border-box;
     padding: 95px 100px; }
-  /* line 1000, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1001, C:/Projects/home/takerim/www/css/default.scss */
   .share__text {
     color: #262627;
     font-size: 26px;
     font-weight: 300; }
-  /* line 1001, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1002, C:/Projects/home/takerim/www/css/default.scss */
   .share__smalltext {
     margin-top: 15px;
     color: #494a4c;
     font-size: 18px;
     font-weight: 300; }
-  /* line 1002, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1003, C:/Projects/home/takerim/www/css/default.scss */
   .share__buttonblock {
     margin-top: 58px;
     margin-bottom: 55px;
     display: flex;
     align-items: center; }
-    /* line 1003, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1004, C:/Projects/home/takerim/www/css/default.scss */
     .share__buttonblock .button {
       margin-right: 12px; }
-      /* line 1004, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1005, C:/Projects/home/takerim/www/css/default.scss */
       .share__buttonblock .button:last-child {
         margin-right: 0; }
-  /* line 1007, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1008, C:/Projects/home/takerim/www/css/default.scss */
   .share__bottom {
     margin-top: 47px;
     padding: 0 100px;
     display: flex; }
-  /* line 1008, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1009, C:/Projects/home/takerim/www/css/default.scss */
   .share__infocolumn {
     width: 17.1%; }
-    /* line 1009, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1010, C:/Projects/home/takerim/www/css/default.scss */
     .share__infocolumn_big {
       flex: 1;
       position: relative;
       padding-left: 16px; }
-  /* line 1011, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1012, C:/Projects/home/takerim/www/css/default.scss */
   .share__infotext {
     color: #262627;
     font-size: 19px;
     font-weight: 300;
     margin-bottom: 11px; }
-  /* line 1012, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1013, C:/Projects/home/takerim/www/css/default.scss */
   .share__icon {
     display: inline-block;
     width: 50px;
@@ -4316,7 +4316,7 @@ select, input, textarea {
     border: 1px solid rgba(206, 207, 214, 0.5);
     position: relative;
     vertical-align: middle; }
-    /* line 1013, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1014, C:/Projects/home/takerim/www/css/default.scss */
     .share__icon img, .share__icon svg {
       position: absolute;
       left: 0;
@@ -4324,80 +4324,80 @@ select, input, textarea {
       top: 0;
       bottom: 0;
       margin: auto; }
-    /* line 1014, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1015, C:/Projects/home/takerim/www/css/default.scss */
     .share__icon svg #icon_like,
     .share__icon svg #icon_star {
       transition: all 0.25s ease-in-out; }
-    /* line 1017, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1018, C:/Projects/home/takerim/www/css/default.scss */
     .share__icon_like:hover, .share__icon_like.active {
       background-color: #e8f0d1;
       border-color: #e8f0d1; }
-      /* line 1018, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1019, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_like:hover svg #icon_like, .share__icon_like.active svg #icon_like {
         fill: #99cc00; }
-    /* line 1021, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1022, C:/Projects/home/takerim/www/css/default.scss */
     .share__icon_star {
       margin-right: 12px;
       transition: all 0.25s ease-in-out;
       border: 0; }
-      /* line 1022, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1023, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star svg {
         pointer-events: none; }
-      /* line 1023, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1024, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star:last-of-type {
         margin-right: 0; }
-      /* line 1024, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1025, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.active svg #icon_star {
         fill: #f6f6f6; }
-      /* line 1025, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1026, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.noclick {
         pointer-events: none; }
-      /* line 1027, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1028, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.one.hover svg #icon_star {
         fill: #cb302f; }
-      /* line 1028, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1029, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.one span.hover {
         background-color: rgba(203, 48, 47, 0.15); }
-      /* line 1029, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1030, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.one span.active {
         background-color: #cb302f; }
-      /* line 1032, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1033, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.two.hover svg #icon_star {
         fill: #e08d1a; }
-      /* line 1033, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1034, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.two span.hover {
         background-color: rgba(224, 141, 26, 0.15); }
-      /* line 1034, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1035, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.two span.active {
         background-color: #e08d1a; }
-      /* line 1037, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1038, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.three.hover svg #icon_star {
         fill: #e2c333; }
-      /* line 1038, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1039, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.three span.hover {
         background-color: rgba(226, 195, 51, 0.15); }
-      /* line 1039, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1040, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.three span.active {
         background-color: #e2c333; }
-      /* line 1042, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1043, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.four.hover svg #icon_star {
         fill: #99cc00; }
-      /* line 1043, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1044, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.four span.hover {
         background-color: rgba(153, 204, 0, 0.15); }
-      /* line 1044, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1045, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.four span.active {
         background-color: #99cc00; }
-      /* line 1047, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1048, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.five.hover svg #icon_star {
         fill: #23cf46; }
-      /* line 1048, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1049, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.five span.hover {
         background-color: rgba(35, 207, 70, 0.15); }
-      /* line 1049, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1050, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star.five span.active {
         background-color: #23cf46; }
-      /* line 1051, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1052, C:/Projects/home/takerim/www/css/default.scss */
       .share__icon_star span {
         display: inline-block;
         width: 50%;
@@ -4405,21 +4405,21 @@ select, input, textarea {
         border: 1px solid rgba(206, 207, 214, 0.5);
         box-sizing: border-box;
         transition: all 0.25s ease-in-out; }
-        /* line 1052, C:/Projects/home/takerim/www/css/default.scss */
+        /* line 1053, C:/Projects/home/takerim/www/css/default.scss */
         .share__icon_star span:first-of-type {
           border-radius: 1000px 0 0 1000px;
           border-right: 0; }
-        /* line 1053, C:/Projects/home/takerim/www/css/default.scss */
+        /* line 1054, C:/Projects/home/takerim/www/css/default.scss */
         .share__icon_star span:last-of-type {
           border-radius: 0 1000px 1000px 0;
           border-left: 0; }
-        /* line 1054, C:/Projects/home/takerim/www/css/default.scss */
+        /* line 1055, C:/Projects/home/takerim/www/css/default.scss */
         .share__icon_star span.hover {
           border-color: transparent; }
-        /* line 1055, C:/Projects/home/takerim/www/css/default.scss */
+        /* line 1056, C:/Projects/home/takerim/www/css/default.scss */
         .share__icon_star span.active {
           border-color: transparent; }
-  /* line 1059, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1060, C:/Projects/home/takerim/www/css/default.scss */
   .share__count {
     color: #262627;
     font-size: 32px;
@@ -4427,10 +4427,10 @@ select, input, textarea {
     line-height: 50px;
     display: inline-block;
     vertical-align: middle; }
-    /* line 1060, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1061, C:/Projects/home/takerim/www/css/default.scss */
     .share__count_rating {
       margin-left: 21px; }
-  /* line 1062, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1063, C:/Projects/home/takerim/www/css/default.scss */
   .share__myrating {
     position: absolute;
     left: 340px;
@@ -4443,31 +4443,31 @@ select, input, textarea {
     pointer-events: none;
     transition: all 0.25s ease-in-out;
     white-space: nowrap; }
-    /* line 1063, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1064, C:/Projects/home/takerim/www/css/default.scss */
     .share__myrating.active {
       opacity: 1;
       pointer-events: all; }
-    /* line 1064, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1065, C:/Projects/home/takerim/www/css/default.scss */
     .share__myrating.one {
       color: #cb302f;
       border-color: #cb302f; }
-    /* line 1065, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1066, C:/Projects/home/takerim/www/css/default.scss */
     .share__myrating.two {
       color: #e08d1a;
       border-color: #e08d1a; }
-    /* line 1066, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1067, C:/Projects/home/takerim/www/css/default.scss */
     .share__myrating.three {
       color: #e2c333;
       border-color: #e2c333; }
-    /* line 1067, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1068, C:/Projects/home/takerim/www/css/default.scss */
     .share__myrating.four {
       color: #99cc00;
       border-color: #99cc00; }
-    /* line 1068, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1069, C:/Projects/home/takerim/www/css/default.scss */
     .share__myrating.five {
       color: #23cf46;
       border-color: #23cf46; }
-  /* line 1070, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1071, C:/Projects/home/takerim/www/css/default.scss */
   .share__smallinfotext {
     color: #90929a;
     font-size: 16.5px;
@@ -4476,11 +4476,11 @@ select, input, textarea {
     letter-spacing: 0.03em; }
 
 /*##############################*/
-/* line 1075, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1076, C:/Projects/home/takerim/www/css/default.scss */
 .subscribe {
   border-top: 1px solid #e5e6e9;
   padding: 50px 0; }
-  /* line 1076, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1077, C:/Projects/home/takerim/www/css/default.scss */
   .subscribe__form {
     background-color: #fff;
     display: flex;
@@ -4489,12 +4489,12 @@ select, input, textarea {
     padding: 44px 48px 47px;
     border-radius: 3px;
     box-shadow: 0 6px 36px 0 rgba(25, 33, 45, 0.02); }
-  /* line 1077, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1078, C:/Projects/home/takerim/www/css/default.scss */
   .subscribe__heading {
     color: #262627;
     font-size: 26px;
     font-weight: 300; }
-  /* line 1078, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1079, C:/Projects/home/takerim/www/css/default.scss */
   .subscribe__text {
     margin-top: 9px;
     opacity: 0.56;
@@ -4502,7 +4502,7 @@ select, input, textarea {
     font-size: 16.5px;
     font-weight: 300;
     letter-spacing: 0.025em; }
-  /* line 1080, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1081, C:/Projects/home/takerim/www/css/default.scss */
   .subscribe__field input {
     color: #262627;
     font-size: 19px;
@@ -4510,126 +4510,126 @@ select, input, textarea {
     padding-bottom: 27px;
     border-bottom: 1px solid rgba(206, 207, 214, 0.46);
     width: 404px; }
-  /* line 1082, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1083, C:/Projects/home/takerim/www/css/default.scss */
   .subscribe__button {
     min-width: 191px; }
 
 /*##############################*/
-/* line 1087, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1088, C:/Projects/home/takerim/www/css/default.scss */
 .topauthors {
   border-top: 1px solid #e5e6e9;
   padding-top: 44px;
   padding-bottom: 50px;
   position: relative; }
-  /* line 1088, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1089, C:/Projects/home/takerim/www/css/default.scss */
   .topauthors .container {
     position: relative; }
-  /* line 1089, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1090, C:/Projects/home/takerim/www/css/default.scss */
   .topauthors .container_navcards {
     margin-top: 49px; }
-  /* line 1090, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1091, C:/Projects/home/takerim/www/css/default.scss */
   .topauthors__heading {
     color: #262627;
     font-size: 26px;
     font-weight: 300; }
-  /* line 1091, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1092, C:/Projects/home/takerim/www/css/default.scss */
   .topauthors__cards {
     display: flex;
     justify-content: space-between;
     transition: all 1s ease-in-out; }
-  /* line 1092, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1093, C:/Projects/home/takerim/www/css/default.scss */
   .topauthors__usercard {
     width: 276px;
     border-radius: 3px;
     box-shadow: 0 6px 36px 0 rgba(25, 33, 45, 0.02);
     margin-left: 24px; }
-    /* line 1093, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1094, C:/Projects/home/takerim/www/css/default.scss */
     .topauthors__usercard:first-child {
       margin-left: 0; }
-  /* line 1095, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1096, C:/Projects/home/takerim/www/css/default.scss */
   .topauthors__sorting-list {
     position: absolute;
     top: 9px;
     right: 0; }
-  /* line 1096, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1097, C:/Projects/home/takerim/www/css/default.scss */
   .topauthors__morecard {
     margin-left: 14px;
     width: 296px;
     padding: 40px; }
 
 /*##############################*/
-/* line 1101, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1102, C:/Projects/home/takerim/www/css/default.scss */
 .interesting {
   border-top: 1px solid #e5e6e9;
   padding-top: 44px;
   position: relative; }
-  /* line 1102, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1103, C:/Projects/home/takerim/www/css/default.scss */
   .interesting .container_navcards {
     margin-top: 39px;
     padding: 2px 0; }
-  /* line 1103, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1104, C:/Projects/home/takerim/www/css/default.scss */
   .interesting__heading {
     color: #262627;
     font-size: 26px;
     font-weight: 300; }
-  /* line 1104, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1105, C:/Projects/home/takerim/www/css/default.scss */
   .interesting .reviews__cards {
     flex-wrap: nowrap;
     transition: all 1s ease-in-out;
     padding-bottom: 46px; }
-  /* line 1105, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1106, C:/Projects/home/takerim/www/css/default.scss */
   .interesting .reviews__card {
     width: 296px;
     flex-shrink: 0;
     margin-left: 4px; }
-    /* line 1106, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1107, C:/Projects/home/takerim/www/css/default.scss */
     .interesting .reviews__card:first-child {
       margin-left: 0; }
-    /* line 1107, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1108, C:/Projects/home/takerim/www/css/default.scss */
     .interesting .reviews__card_big {
       width: 596px; }
-  /* line 1109, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1110, C:/Projects/home/takerim/www/css/default.scss */
   .interesting__morecard {
     height: 100%;
     width: 100%;
     padding: 40px; }
-  /* line 1110, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1111, C:/Projects/home/takerim/www/css/default.scss */
   .interesting .cardnav {
     height: calc(100% - 46px);
     bottom: 46px; }
 
 /*##############################*/
 /*##############################*/
-/* line 1117, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1118, C:/Projects/home/takerim/www/css/default.scss */
 .comments {
   border-top: 1px solid #e5e6e9;
   padding-top: 44px;
   padding-bottom: 52px; }
-  /* line 1118, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1119, C:/Projects/home/takerim/www/css/default.scss */
   .comments__heading {
     color: #262627;
     font-size: 26px;
     font-weight: 300; }
-  /* line 1119, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1120, C:/Projects/home/takerim/www/css/default.scss */
   .comments__form {
     margin-top: 49px;
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 0 6px 36px rgba(25, 33, 44, 0.02);
     padding: 45px 50px; }
-  /* line 1120, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1121, C:/Projects/home/takerim/www/css/default.scss */
   .comments__formpanel {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  /* line 1121, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1122, C:/Projects/home/takerim/www/css/default.scss */
   .comments__formavatar {
     width: 60px;
     height: 60px;
     border-radius: 1000px;
     overflow: hidden;
     position: relative; }
-    /* line 1122, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1123, C:/Projects/home/takerim/www/css/default.scss */
     .comments__formavatar img {
       position: absolute;
       left: 0;
@@ -4641,12 +4641,12 @@ select, input, textarea {
       min-height: 100%;
       width: 0;
       object-fit: cover; }
-  /* line 1124, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1125, C:/Projects/home/takerim/www/css/default.scss */
   .comments__formfield {
     flex: 1;
     margin-left: 28px;
     margin-right: 51px; }
-    /* line 1125, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1126, C:/Projects/home/takerim/www/css/default.scss */
     .comments__formfield textarea {
       color: #494a4c;
       font-size: 19px;
@@ -4654,7 +4654,7 @@ select, input, textarea {
       width: 100%;
       resize: none;
       border-bottom: 1px solid #e6e7ea; }
-  /* line 1127, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1128, C:/Projects/home/takerim/www/css/default.scss */
   .comments__formupload {
     width: 50px;
     height: 50px;
@@ -4664,14 +4664,14 @@ select, input, textarea {
     margin-right: 12px;
     display: inline-block;
     transition: all 0.25s ease-in-out; }
-    /* line 1128, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1129, C:/Projects/home/takerim/www/css/default.scss */
     .comments__formupload:hover, .comments__formupload.active {
       box-shadow: 0 4px 12px rgba(153, 204, 0, 0.3);
       background-color: #99cc00; }
-      /* line 1129, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1130, C:/Projects/home/takerim/www/css/default.scss */
       .comments__formupload:hover svg, .comments__formupload.active svg {
         stroke: #fff; }
-    /* line 1131, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1132, C:/Projects/home/takerim/www/css/default.scss */
     .comments__formupload svg {
       position: absolute;
       left: 0;
@@ -4680,16 +4680,16 @@ select, input, textarea {
       bottom: 0;
       margin: auto;
       transition: all 0.25s ease-in-out; }
-  /* line 1133, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1134, C:/Projects/home/takerim/www/css/default.scss */
   .comments__formbutton {
     min-width: 191px;
     transition: all 0.25s ease-in-out; }
-    /* line 1134, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1135, C:/Projects/home/takerim/www/css/default.scss */
     .comments__formbutton[disabled] {
       background-color: #f0f0f0;
       box-shadow: none;
       color: #cecfd6; }
-  /* line 1136, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1137, C:/Projects/home/takerim/www/css/default.scss */
   .comments__firsttext {
     display: none;
     margin-top: 50px;
@@ -4698,22 +4698,22 @@ select, input, textarea {
     font-size: 16.5px;
     font-weight: 300;
     letter-spacing: 0.025em; }
-  /* line 1137, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1138, C:/Projects/home/takerim/www/css/default.scss */
   .comments__loginblock {
     display: none;
     margin-top: 48px; }
-  /* line 1138, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1139, C:/Projects/home/takerim/www/css/default.scss */
   .comments__logintext {
     opacity: 0.56;
     color: #151b2d;
     font-size: 16.5px;
     font-weight: 300;
     letter-spacing: 0.025em; }
-  /* line 1139, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1140, C:/Projects/home/takerim/www/css/default.scss */
   .comments__block {
     padding: 0 100px;
     margin-top: 41px; }
-  /* line 1140, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1141, C:/Projects/home/takerim/www/css/default.scss */
   .comments__shownew {
     opacity: 0.56;
     color: #151b2d;
@@ -4723,12 +4723,12 @@ select, input, textarea {
     display: inline-block;
     cursor: pointer;
     transition: all 0.25s ease-in-out; }
-    /* line 1141, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1142, C:/Projects/home/takerim/www/css/default.scss */
     .comments__shownew span {
       position: relative;
       padding-right: 20px;
       display: inline-block; }
-      /* line 1142, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1143, C:/Projects/home/takerim/www/css/default.scss */
       .comments__shownew span:after {
         content: "";
         display: inline-block;
@@ -4745,16 +4745,16 @@ select, input, textarea {
         opacity: 0.36;
         transition: all 0.25s ease-in-out;
         transform-origin: 50% 25%; }
-    /* line 1144, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1145, C:/Projects/home/takerim/www/css/default.scss */
     .comments__shownew:hover {
       opacity: 1; }
-    /* line 1145, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1146, C:/Projects/home/takerim/www/css/default.scss */
     .comments__shownew.active {
       opacity: 1; }
-      /* line 1146, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1147, C:/Projects/home/takerim/www/css/default.scss */
       .comments__shownew.active span:after {
         transform: rotate(180deg); }
-  /* line 1149, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1150, C:/Projects/home/takerim/www/css/default.scss */
   .comments__submenu {
     position: absolute;
     left: 0;
@@ -4765,28 +4765,28 @@ select, input, textarea {
     transition: all 0.25s ease-in-out;
     display: inline-block;
     z-index: 2; }
-    /* line 1150, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1151, C:/Projects/home/takerim/www/css/default.scss */
     .comments__submenu.active {
       opacity: 1;
       pointer-events: all; }
-    /* line 1151, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1152, C:/Projects/home/takerim/www/css/default.scss */
     .comments__submenu li {
       transition: all 0.25s ease-in-out; }
-      /* line 1152, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1153, C:/Projects/home/takerim/www/css/default.scss */
       .comments__submenu li:hover {
         background-color: #1c2547; }
-    /* line 1154, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1155, C:/Projects/home/takerim/www/css/default.scss */
     .comments__submenu a {
       display: inline-block;
       padding: 16px;
       width: 100%;
       font-size: 16.5px; }
-  /* line 1156, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1157, C:/Projects/home/takerim/www/css/default.scss */
   .comments__actionblock {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  /* line 1157, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1158, C:/Projects/home/takerim/www/css/default.scss */
   .comments__action {
     opacity: 0.56;
     color: #151b2d;
@@ -4794,16 +4794,16 @@ select, input, textarea {
     font-weight: 300;
     margin-left: 48px;
     letter-spacing: 0.03em; }
-    /* line 1158, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1159, C:/Projects/home/takerim/www/css/default.scss */
     .comments__action:first-child {
       margin-left: 0; }
-    /* line 1159, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1160, C:/Projects/home/takerim/www/css/default.scss */
     .comments__action:hover {
       opacity: 1; }
-  /* line 1161, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1162, C:/Projects/home/takerim/www/css/default.scss */
   .comments__list {
     margin-top: 37px; }
-  /* line 1162, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1163, C:/Projects/home/takerim/www/css/default.scss */
   .comments__avatar {
     width: 60px;
     height: 60px;
@@ -4812,7 +4812,7 @@ select, input, textarea {
     position: absolute;
     left: 0;
     top: 4px; }
-    /* line 1163, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1164, C:/Projects/home/takerim/www/css/default.scss */
     .comments__avatar img {
       position: absolute;
       left: 0;
@@ -4824,36 +4824,36 @@ select, input, textarea {
       min-height: 100%;
       width: 0;
       object-fit: cover; }
-  /* line 1165, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1166, C:/Projects/home/takerim/www/css/default.scss */
   .comments__comment {
     padding-left: 78px;
     position: relative;
     margin-top: 36px; }
-    /* line 1166, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1167, C:/Projects/home/takerim/www/css/default.scss */
     .comments__comment:first-child {
       margin-top: 0; }
-    /* line 1168, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1169, C:/Projects/home/takerim/www/css/default.scss */
     .comments__comment:hover .comments__actionicons {
       opacity: 1;
       pointer-events: all; }
-    /* line 1170, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1171, C:/Projects/home/takerim/www/css/default.scss */
     .comments__comment_answer {
       margin-top: 22px;
       margin-left: 78px; }
-  /* line 1172, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1173, C:/Projects/home/takerim/www/css/default.scss */
   .comments__actionicons {
     position: absolute;
     right: 0;
     opacity: 0;
     pointer-events: none;
     transition: all 0.25s ease-in-out; }
-    /* line 1173, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1174, C:/Projects/home/takerim/www/css/default.scss */
     .comments__actionicons_top {
       top: 0; }
-    /* line 1174, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1175, C:/Projects/home/takerim/www/css/default.scss */
     .comments__actionicons_bottom {
       bottom: 0; }
-  /* line 1176, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1177, C:/Projects/home/takerim/www/css/default.scss */
   .comments__link {
     position: absolute;
     bottom: 100%;
@@ -4864,17 +4864,17 @@ select, input, textarea {
     opacity: 0;
     pointer-events: none;
     transition: all 0.25s ease-in-out; }
-    /* line 1177, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1178, C:/Projects/home/takerim/www/css/default.scss */
     .comments__link.active {
       opacity: 1;
       pointer-events: all; }
-    /* line 1178, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1179, C:/Projects/home/takerim/www/css/default.scss */
     .comments__link a {
       display: inline-block;
       width: 100%;
       white-space: nowrap;
       letter-spacing: 0.025em; }
-  /* line 1180, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1181, C:/Projects/home/takerim/www/css/default.scss */
   .comments__share {
     position: absolute;
     bottom: 100%;
@@ -4884,18 +4884,18 @@ select, input, textarea {
     pointer-events: none;
     transition: all 0.25s ease-in-out;
     width: 360px; }
-    /* line 1181, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1182, C:/Projects/home/takerim/www/css/default.scss */
     .comments__share.active {
       opacity: 1;
       pointer-events: all; }
-    /* line 1182, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1183, C:/Projects/home/takerim/www/css/default.scss */
     .comments__share a {
       display: inline-block;
       margin-right: 12px; }
-      /* line 1183, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1184, C:/Projects/home/takerim/www/css/default.scss */
       .comments__share a:last-child {
         margin-right: 0; }
-  /* line 1186, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1187, C:/Projects/home/takerim/www/css/default.scss */
   .comments__addactions {
     position: absolute;
     bottom: 100%;
@@ -4905,34 +4905,34 @@ select, input, textarea {
     pointer-events: none;
     transition: all 0.25s ease-in-out;
     margin-bottom: 11px; }
-    /* line 1187, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1188, C:/Projects/home/takerim/www/css/default.scss */
     .comments__addactions.active {
       opacity: 1;
       pointer-events: all; }
-    /* line 1188, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1189, C:/Projects/home/takerim/www/css/default.scss */
     .comments__addactions li {
       transition: all 0.25s ease-in-out; }
-      /* line 1189, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1190, C:/Projects/home/takerim/www/css/default.scss */
       .comments__addactions li:first-child {
         margin-top: 0; }
-      /* line 1190, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1191, C:/Projects/home/takerim/www/css/default.scss */
       .comments__addactions li:hover {
         background-color: #1c2547; }
-    /* line 1192, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1193, C:/Projects/home/takerim/www/css/default.scss */
     .comments__addactions a {
       display: inline-block;
       padding: 15px 16px;
       letter-spacing: 0.03em;
       width: 100%; }
-  /* line 1194, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1195, C:/Projects/home/takerim/www/css/default.scss */
   .comments__author {
     color: #262627;
     font-size: 16.5px;
     display: inline-block; }
-    /* line 1195, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1196, C:/Projects/home/takerim/www/css/default.scss */
     .comments__author + img {
       margin: 0 6px 0 10px; }
-  /* line 1197, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1198, C:/Projects/home/takerim/www/css/default.scss */
   .comments__date {
     display: inline-block;
     opacity: 0.56;
@@ -4942,11 +4942,11 @@ select, input, textarea {
     position: relative;
     margin-left: 15px;
     letter-spacing: 0.02em; }
-    /* line 1198, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1199, C:/Projects/home/takerim/www/css/default.scss */
     .comments__date:before {
       content: "·";
       margin-right: 10px; }
-  /* line 1200, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1201, C:/Projects/home/takerim/www/css/default.scss */
   .comments__text {
     color: #494a4c;
     font-size: 16.5px;
@@ -4954,7 +4954,7 @@ select, input, textarea {
     margin-top: 4px;
     letter-spacing: 0.01em;
     line-height: 1.6em; }
-  /* line 1201, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1202, C:/Projects/home/takerim/www/css/default.scss */
   .comments__answerlink {
     opacity: 0.4;
     color: #151b2d;
@@ -4963,25 +4963,25 @@ select, input, textarea {
     margin-top: 4px;
     display: inline-block;
     letter-spacing: 0.02em; }
-    /* line 1202, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1203, C:/Projects/home/takerim/www/css/default.scss */
     .comments__answerlink:hover {
       opacity: 1; }
-  /* line 1204, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1205, C:/Projects/home/takerim/www/css/default.scss */
   .comments__logbuttons {
     margin-top: 27px;
     display: flex;
     align-items: center; }
-    /* line 1205, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1206, C:/Projects/home/takerim/www/css/default.scss */
     .comments__logbuttons a {
       margin-right: 12px; }
-      /* line 1206, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1207, C:/Projects/home/takerim/www/css/default.scss */
       .comments__logbuttons a:last-child {
         margin-right: 0; }
-  /* line 1209, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1210, C:/Projects/home/takerim/www/css/default.scss */
   .comments__uploads {
     display: none;
     padding-left: 88px; }
-  /* line 1210, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1211, C:/Projects/home/takerim/www/css/default.scss */
   .comments__upload {
     width: 100px;
     height: 75px;
@@ -4991,10 +4991,10 @@ select, input, textarea {
     display: inline-block;
     margin-right: 12px;
     margin-top: 26px; }
-    /* line 1211, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1212, C:/Projects/home/takerim/www/css/default.scss */
     .comments__upload:last-child {
       margin-right: 0; }
-    /* line 1212, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1213, C:/Projects/home/takerim/www/css/default.scss */
     .comments__upload img {
       position: absolute;
       left: 0;
@@ -5006,7 +5006,7 @@ select, input, textarea {
       min-height: 100%;
       width: 0;
       object-fit: cover; }
-  /* line 1214, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1215, C:/Projects/home/takerim/www/css/default.scss */
   .comments__deleteupload {
     display: inline-block;
     position: absolute;
@@ -5018,10 +5018,10 @@ select, input, textarea {
     background-color: #0a1439;
     cursor: pointer;
     transition: all 0.25s ease-in-out; }
-    /* line 1215, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1216, C:/Projects/home/takerim/www/css/default.scss */
     .comments__deleteupload:hover {
       opacity: 0.7; }
-    /* line 1216, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1217, C:/Projects/home/takerim/www/css/default.scss */
     .comments__deleteupload span {
       display: inline-block;
       position: absolute;
@@ -5035,7 +5035,7 @@ select, input, textarea {
       height: 2px;
       transform: rotate(45deg);
       transition: all 0.25s ease-in-out; }
-      /* line 1217, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1218, C:/Projects/home/takerim/www/css/default.scss */
       .comments__deleteupload span:after {
         content: "";
         display: inline-block;
@@ -5044,15 +5044,15 @@ select, input, textarea {
         height: 2px;
         background-color: #fff;
         transform: rotate(90deg); }
-  /* line 1220, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1221, C:/Projects/home/takerim/www/css/default.scss */
   .comments__actionicon {
     vertical-align: middle;
     display: inline-block;
     margin-left: 22px; }
-    /* line 1221, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1222, C:/Projects/home/takerim/www/css/default.scss */
     .comments__actionicon:first-child {
       margin-left: 0; }
-    /* line 1223, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1224, C:/Projects/home/takerim/www/css/default.scss */
     .comments__actionicon:hover svg,
     .comments__actionicon:hover svg #icon_link,
     .comments__actionicon:hover svg #icon_share,
@@ -5061,23 +5061,23 @@ select, input, textarea {
     .comments__actionicon.active svg #icon_share,
     .comments__actionicon.active svg #icon_commentlike {
       stroke: #99cc00; }
-    /* line 1227, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1228, C:/Projects/home/takerim/www/css/default.scss */
     .comments__actionicon:hover svg #icon_commentdislike, .comments__actionicon.active svg #icon_commentdislike {
       stroke: #d04559; }
-    /* line 1229, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1230, C:/Projects/home/takerim/www/css/default.scss */
     .comments__actionicon svg,
     .comments__actionicon svg #icon_link,
     .comments__actionicon svg #icon_share,
     .comments__actionicon svg #icon_commentlike,
     .comments__actionicon svg #icon_commentdislike {
       transition: all 0.25s ease-in-out; }
-  /* line 1235, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1236, C:/Projects/home/takerim/www/css/default.scss */
   .comments__rating {
     display: inline-block;
     vertical-align: middle;
     margin-left: 12px;
     color: #8dbc00; }
-  /* line 1236, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1237, C:/Projects/home/takerim/www/css/default.scss */
   .comments__topcomments {
     margin-top: 41px;
     position: relative;
@@ -5085,20 +5085,20 @@ select, input, textarea {
     justify-content: space-between;
     align-items: center;
     z-index: 2; }
-  /* line 1237, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1238, C:/Projects/home/takerim/www/css/default.scss */
   .comments__topcomments-heading {
     color: #262627;
     font-size: 19px;
     font-weight: 300; }
-  /* line 1238, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1239, C:/Projects/home/takerim/www/css/default.scss */
   .comments__sorting-list {
     position: relative; }
-  /* line 1239, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1240, C:/Projects/home/takerim/www/css/default.scss */
   .comments__cards {
     display: flex;
     position: relative;
     transition: all 1s ease-in-out; }
-  /* line 1240, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1241, C:/Projects/home/takerim/www/css/default.scss */
   .comments__card {
     width: 276px;
     background-color: #fff;
@@ -5111,29 +5111,29 @@ select, input, textarea {
     margin-left: 24px;
     box-sizing: border-box;
     box-shadow: 0 6px 36px rgba(25, 33, 44, 0.02); }
-    /* line 1241, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1242, C:/Projects/home/takerim/www/css/default.scss */
     .comments__card:hover {
       box-shadow: 0 36px 36px 0 rgba(25, 33, 45, 0.1); }
-    /* line 1242, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1243, C:/Projects/home/takerim/www/css/default.scss */
     .comments__card:first-child {
       margin-left: 0; }
-    /* line 1243, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1244, C:/Projects/home/takerim/www/css/default.scss */
     .comments__card .comments__avatar {
       top: 0;
       bottom: 0;
       margin: auto;
       left: 26px; }
-  /* line 1245, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1246, C:/Projects/home/takerim/www/css/default.scss */
   .comments__cardname {
     color: #262627;
     font-size: 16px; }
-  /* line 1246, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1247, C:/Projects/home/takerim/www/css/default.scss */
   .comments__cardtext {
     color: #494a4c;
     font-size: 16.5px;
     font-weight: 300;
     margin-top: 7px; }
-  /* line 1247, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1248, C:/Projects/home/takerim/www/css/default.scss */
   .comments .container_navcards {
     margin-top: -20px;
     padding-top: 60px;
@@ -5141,7 +5141,7 @@ select, input, textarea {
     margin-bottom: -48px; }
 
 /*##############################*/
-/* line 1252, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1253, C:/Projects/home/takerim/www/css/default.scss */
 .second {
   position: relative;
   box-sizing: border-box;
@@ -5149,19 +5149,19 @@ select, input, textarea {
   display: flex;
   align-items: center;
   top: 0; }
-  /* line 1254, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1255, C:/Projects/home/takerim/www/css/default.scss */
   .second.good .second__top > img:nth-of-type(1) {
     display: block; }
-  /* line 1255, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1256, C:/Projects/home/takerim/www/css/default.scss */
   .second.good .second__top > img:nth-of-type(2) {
     display: none; }
-  /* line 1258, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1259, C:/Projects/home/takerim/www/css/default.scss */
   .second.bad .second__top > img:nth-of-type(1) {
     display: none; }
-  /* line 1259, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1260, C:/Projects/home/takerim/www/css/default.scss */
   .second.bad .second__top > img:nth-of-type(2) {
     display: block; }
-  /* line 1262, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1263, C:/Projects/home/takerim/www/css/default.scss */
   .second__top {
     position: relative;
     display: flex;
@@ -5172,7 +5172,7 @@ select, input, textarea {
     padding-left: 283px;
     position: relative;
     flex-wrap: wrap; }
-    /* line 1263, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1264, C:/Projects/home/takerim/www/css/default.scss */
     .second__top > img {
       height: 269px;
       position: absolute;
@@ -5180,40 +5180,40 @@ select, input, textarea {
       top: 0;
       bottom: 0;
       margin: auto; }
-    /* line 1264, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1265, C:/Projects/home/takerim/www/css/default.scss */
     .second__top > div {
       display: inline-block;
       vertical-align: top;
       width: 277px; }
-      /* line 1265, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1266, C:/Projects/home/takerim/www/css/default.scss */
       .second__top > div:nth-of-type(1) {
         width: 203px; }
-    /* line 1267, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1268, C:/Projects/home/takerim/www/css/default.scss */
     .second__top .button {
       margin-top: 20px;
       min-width: 220px; }
-  /* line 1269, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1270, C:/Projects/home/takerim/www/css/default.scss */
   .second .content {
     width: 100%; }
-  /* line 1270, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1271, C:/Projects/home/takerim/www/css/default.scss */
   .second__blockheading {
     opacity: 0.5;
     color: #494a4c;
     font-size: 20px;
     font-weight: 300; }
-  /* line 1271, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1272, C:/Projects/home/takerim/www/css/default.scss */
   .second__blocktext {
     font-size: 42px;
     font-weight: 300;
     margin-top: 18px;
     line-height: 1.26em; }
-  /* line 1272, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1273, C:/Projects/home/takerim/www/css/default.scss */
   .second__sellerpage {
     font-size: 19px;
     font-weight: 300;
     letter-spacing: 0.48px;
     margin-top: 22px; }
-  /* line 1273, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1274, C:/Projects/home/takerim/www/css/default.scss */
   .second__addtofav {
     display: inline-block;
     font-size: 16.5px;
@@ -5224,10 +5224,10 @@ select, input, textarea {
     padding: 0 30px;
     margin-top: 24px;
     cursor: pointer; }
-    /* line 1274, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1275, C:/Projects/home/takerim/www/css/default.scss */
     .second__addtofav:hover {
       opacity: 0.7; }
-  /* line 1278, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1279, C:/Projects/home/takerim/www/css/default.scss */
   .second__goods-head {
     margin-top: 48px;
     border-top: 1px solid #e5e6e9;
@@ -5235,25 +5235,25 @@ select, input, textarea {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  /* line 1279, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1280, C:/Projects/home/takerim/www/css/default.scss */
   .second__goods-heading {
     font-size: 26px;
     font-weight: 300;
     letter-spacing: 0.015em; }
-  /* line 1280, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1281, C:/Projects/home/takerim/www/css/default.scss */
   .second__goods-share {
     display: flex;
     align-items: center; }
-  /* line 1281, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1282, C:/Projects/home/takerim/www/css/default.scss */
   .second__goods-sharetext {
     opacity: 0.5;
     color: #494a4c;
     font-size: 20px;
     font-weight: 300; }
-  /* line 1282, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1283, C:/Projects/home/takerim/www/css/default.scss */
   .second__goods-social {
     margin-left: 62px; }
-    /* line 1283, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1284, C:/Projects/home/takerim/www/css/default.scss */
     .second__goods-social .icon {
       margin-right: 13px;
       vertical-align: middle;
@@ -5265,50 +5265,50 @@ select, input, textarea {
       justify-content: center;
       align-items: center;
       transition: all .25s ease-in-out; }
-      /* line 1284, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1285, C:/Projects/home/takerim/www/css/default.scss */
       .second__goods-social .icon:hover {
         border-color: #cecfd6; }
-        /* line 1285, C:/Projects/home/takerim/www/css/default.scss */
+        /* line 1286, C:/Projects/home/takerim/www/css/default.scss */
         .second__goods-social .icon:hover:after {
           opacity: 0.7; }
-      /* line 1287, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1288, C:/Projects/home/takerim/www/css/default.scss */
       .second__goods-social .icon:after {
         background-color: transparent;
         transition: all 0.25s ease-in-out; }
-      /* line 1288, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1289, C:/Projects/home/takerim/www/css/default.scss */
       .second__goods-social .icon:last-child {
         margin-right: 0; }
-      /* line 1289, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1290, C:/Projects/home/takerim/www/css/default.scss */
       .second__goods-social .icon.vk:after {
         content: url("../img/vk.svg"); }
-      /* line 1290, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1291, C:/Projects/home/takerim/www/css/default.scss */
       .second__goods-social .icon.facebook:after {
         content: url("../img/facebook.svg"); }
-      /* line 1291, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1292, C:/Projects/home/takerim/www/css/default.scss */
       .second__goods-social .icon.twitter:after {
         content: url("../img/twitter.svg"); }
-      /* line 1292, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1293, C:/Projects/home/takerim/www/css/default.scss */
       .second__goods-social .icon.ok:after {
         content: url("../img/ok.svg"); }
-      /* line 1293, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1294, C:/Projects/home/takerim/www/css/default.scss */
       .second__goods-social .icon.mailru:after {
         content: url("../img/mailru.svg"); }
-  /* line 1296, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1297, C:/Projects/home/takerim/www/css/default.scss */
   .second__goods-cards {
     display: flex;
     transition: all 1s ease-in-out;
     padding-bottom: 46px; }
-  /* line 1297, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1298, C:/Projects/home/takerim/www/css/default.scss */
   .second__card {
     flex-shrink: 0;
     margin-right: 4px; }
-    /* line 1298, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1299, C:/Projects/home/takerim/www/css/default.scss */
     .second__card:last-child {
       margin-right: 0; }
-    /* line 1299, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1300, C:/Projects/home/takerim/www/css/default.scss */
     .second__card:hover {
       z-index: 2; }
-  /* line 1301, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1302, C:/Projects/home/takerim/www/css/default.scss */
   .second__detail-button {
     display: block;
     background-color: #ff73b3;
@@ -5322,57 +5322,60 @@ select, input, textarea {
     font-size: 16.5px;
     font-weight: 400;
     letter-spacing: 0.17px;
-    transition: all .25s ease-in-out; }
-    /* line 1302, C:/Projects/home/takerim/www/css/default.scss */
+    transition: all .25s ease-in-out;
+    padding: 0 3px; }
+    /* line 1303, C:/Projects/home/takerim/www/css/default.scss */
     .second__detail-button:hover {
       opacity: .7; }
-    /* line 1305, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1306, C:/Projects/home/takerim/www/css/default.scss */
     .second__detail-button.active {
       opacity: 0;
       pointer-events: none; }
-    /* line 1309, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1310, C:/Projects/home/takerim/www/css/default.scss */
     .second__detail-button:before, .second__detail-button:after {
       content: url("../img/roseshape.svg");
       position: absolute;
       top: 0;
       height: 100%; }
-    /* line 1310, C:/Projects/home/takerim/www/css/default.scss */
-    .second__detail-button:before {
-      right: 100%; }
     /* line 1311, C:/Projects/home/takerim/www/css/default.scss */
+    .second__detail-button:before {
+      right: 100%;
+      margin-right: -1px; }
+    /* line 1312, C:/Projects/home/takerim/www/css/default.scss */
     .second__detail-button:after {
       left: 100%;
-      transform: rotateY(180deg); }
-  /* line 1313, C:/Projects/home/takerim/www/css/default.scss */
+      transform: rotateY(180deg);
+      margin-left: -1px; }
+  /* line 1314, C:/Projects/home/takerim/www/css/default.scss */
   .second .container_navcards {
     margin-top: 17px; }
-  /* line 1314, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1315, C:/Projects/home/takerim/www/css/default.scss */
   .second .cardnav {
     transform: translateY(-23px); }
-  /* line 1315, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1316, C:/Projects/home/takerim/www/css/default.scss */
   .second_bottom {
     min-height: 0; }
-    /* line 1317, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1318, C:/Projects/home/takerim/www/css/default.scss */
     .second_bottom .content {
       min-height: 0; }
-    /* line 1320, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1321, C:/Projects/home/takerim/www/css/default.scss */
     .second_bottom .second__goods-head {
       justify-content: center; }
-  /* line 1322, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1323, C:/Projects/home/takerim/www/css/default.scss */
   .second .header {
     top: -204px;
     height: 204px;
     padding: 47px 0 52px;
     background-color: #0a1439; }
-  /* line 1323, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1324, C:/Projects/home/takerim/www/css/default.scss */
   .second .actionblock {
     background-color: transparent;
     box-shadow: none; }
-    /* line 1324, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1325, C:/Projects/home/takerim/www/css/default.scss */
     .second .actionblock__rightside {
       transform: translate3d(50%, 0, 0); }
 
-/* line 1329, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1330, C:/Projects/home/takerim/www/css/default.scss */
 .moreinfo .table {
   position: relative;
   z-index: 1;
@@ -5380,33 +5383,33 @@ select, input, textarea {
   padding: 27px 60px;
   box-shadow: 0 6px 36px rgba(25, 33, 45, 0.02);
   border-radius: 3px; }
-  /* line 1330, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1331, C:/Projects/home/takerim/www/css/default.scss */
   .moreinfo .table li {
     padding: 39px 0;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #f2f3f6;
     justify-content: space-between; }
-    /* line 1331, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1332, C:/Projects/home/takerim/www/css/default.scss */
     .moreinfo .table li:last-child {
       border-bottom: none; }
-    /* line 1332, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1333, C:/Projects/home/takerim/www/css/default.scss */
     .moreinfo .table li p {
       font-size: 16px;
       box-sizing: border-box;
       line-height: 1.35em;
       font-weight: 300; }
-    /* line 1333, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1334, C:/Projects/home/takerim/www/css/default.scss */
     .moreinfo .table li a {
       color: #fc57a4; }
-      /* line 1334, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1335, C:/Projects/home/takerim/www/css/default.scss */
       .moreinfo .table li a:hover {
         opacity: .7; }
-    /* line 1338, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1339, C:/Projects/home/takerim/www/css/default.scss */
     .moreinfo .table li p:first-child {
       width: 288px;
       padding-right: 30px; }
-    /* line 1339, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1340, C:/Projects/home/takerim/www/css/default.scss */
     .moreinfo .table li .icon {
       width: 40px;
       height: 0;
@@ -5415,7 +5418,7 @@ select, input, textarea {
       align-items: center;
       border-radius: 1000px;
       transition: all .25s ease-in-out; }
-      /* line 1340, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1341, C:/Projects/home/takerim/www/css/default.scss */
       .moreinfo .table li .icon:after {
         content: "";
         background-color: #edeef3;
@@ -5426,7 +5429,7 @@ select, input, textarea {
         width: 40px;
         height: 40px;
         border-radius: 1000px; }
-      /* line 1341, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1342, C:/Projects/home/takerim/www/css/default.scss */
       .moreinfo .table li .icon.avatar:after {
         width: 40px;
         height: 40px;
@@ -5434,31 +5437,31 @@ select, input, textarea {
         background-image: url(../img/avatar.png);
         background-size: cover;
         background-position: center; }
-      /* line 1342, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1343, C:/Projects/home/takerim/www/css/default.scss */
       .moreinfo .table li .icon.happy:after {
         content: url("../img/smile.svg");
         background-color: #50e3c2;
         box-shadow: 0 15px 35px rgba(79, 227, 194, 0.33); }
-      /* line 1343, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1344, C:/Projects/home/takerim/www/css/default.scss */
       .moreinfo .table li .icon.sad:after {
         content: url("../img/smile2.svg");
         background-color: #ff7373;
         box-shadow: 0 15px 35px rgba(255, 114, 114, 0.33); }
-      /* line 1344, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1345, C:/Projects/home/takerim/www/css/default.scss */
       .moreinfo .table li .icon.displeased:after {
         content: url("../img/smile3.svg");
         background-color: #ffc744;
         box-shadow: 0 15px 35px rgba(243, 209, 79, 0.33); }
-      /* line 1345, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1346, C:/Projects/home/takerim/www/css/default.scss */
       .moreinfo .table li .icon.pin:after {
         content: url("../img/pin.svg"); }
-      /* line 1346, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1347, C:/Projects/home/takerim/www/css/default.scss */
       .moreinfo .table li .icon.dollar:after {
         content: url("../img/dollar.svg"); }
-      /* line 1347, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1348, C:/Projects/home/takerim/www/css/default.scss */
       .moreinfo .table li .icon.cloud:after {
         content: url("../img/cloud.svg"); }
-    /* line 1349, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1350, C:/Projects/home/takerim/www/css/default.scss */
     .moreinfo .table li p.huge {
       width: 226px;
       overflow: hidden;
@@ -5467,48 +5470,48 @@ select, input, textarea {
       font-size: 19px;
       font-weight: 300;
       letter-spacing: 0.48px; }
-      /* line 1350, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1351, C:/Projects/home/takerim/www/css/default.scss */
       .moreinfo .table li p.huge span {
         font-size: 17px;
         display: block; }
-    /* line 1352, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1353, C:/Projects/home/takerim/www/css/default.scss */
     .moreinfo .table li p:last-child {
       width: 575px; }
 
-/* line 1361, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1362, C:/Projects/home/takerim/www/css/default.scss */
 .popup {
   display: none; }
 
 /*##############################*/
-/* line 1365, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1366, C:/Projects/home/takerim/www/css/default.scss */
 .loginform {
   width: 476px;
   background-color: #fff;
   border-radius: 3px;
   text-align: center;
   box-shadow: 0 6px 36px rgba(25, 33, 44, 0.02); }
-  /* line 1366, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1367, C:/Projects/home/takerim/www/css/default.scss */
   .loginform__heading {
     color: #262627;
     font-size: 26px;
     font-weight: 300; }
-    /* line 1367, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1368, C:/Projects/home/takerim/www/css/default.scss */
     .loginform__heading_vote {
       display: none; }
-  /* line 1369, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1370, C:/Projects/home/takerim/www/css/default.scss */
   .loginform__head {
     padding: 34px 0 39px;
     border-bottom: 1px solid #eeeff1; }
-  /* line 1370, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1371, C:/Projects/home/takerim/www/css/default.scss */
   .loginform__social {
     margin-top: 30px; }
-    /* line 1371, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1372, C:/Projects/home/takerim/www/css/default.scss */
     .loginform__social p {
       margin-top: 22px;
       opacity: 0.56;
       color: #151b2d;
       font-weight: 300; }
-  /* line 1373, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1374, C:/Projects/home/takerim/www/css/default.scss */
   .loginform__socialicon {
     display: inline-block;
     vertical-align: middle;
@@ -5517,18 +5520,18 @@ select, input, textarea {
     border-radius: 1000px;
     position: relative;
     margin: 0 8px; }
-    /* line 1374, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1375, C:/Projects/home/takerim/www/css/default.scss */
     .loginform__socialicon:hover {
       opacity: 0.7; }
-    /* line 1375, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1376, C:/Projects/home/takerim/www/css/default.scss */
     .loginform__socialicon_vk {
       background-color: #527eae;
       box-shadow: 0 4px 12px rgba(81, 126, 174, 0.3); }
-    /* line 1376, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1377, C:/Projects/home/takerim/www/css/default.scss */
     .loginform__socialicon_fb {
       background-color: #3e67bf;
       box-shadow: 0 4px 12px rgba(62, 103, 191, 0.3); }
-    /* line 1377, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1378, C:/Projects/home/takerim/www/css/default.scss */
     .loginform__socialicon img {
       position: absolute;
       left: 0;
@@ -5536,12 +5539,12 @@ select, input, textarea {
       top: 0;
       bottom: 0;
       margin: auto; }
-  /* line 1379, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1380, C:/Projects/home/takerim/www/css/default.scss */
   .loginform__field {
     padding: 0 48px;
     margin-top: 25px;
     position: relative; }
-    /* line 1380, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1381, C:/Projects/home/takerim/www/css/default.scss */
     .loginform__field input {
       width: 100%;
       color: #262627;
@@ -5550,7 +5553,7 @@ select, input, textarea {
       padding-bottom: 24px;
       border-bottom: 1px solid rgba(206, 207, 214, 0.46);
       padding-right: 90px; }
-  /* line 1382, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1383, C:/Projects/home/takerim/www/css/default.scss */
   .loginform__forgotpw {
     position: absolute;
     right: 50px;
@@ -5558,20 +5561,20 @@ select, input, textarea {
     color: #262627;
     font-size: 16.5px;
     font-weight: 300; }
-    /* line 1383, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1384, C:/Projects/home/takerim/www/css/default.scss */
     .loginform__forgotpw:hover {
       opacity: 0.7; }
-  /* line 1385, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1386, C:/Projects/home/takerim/www/css/default.scss */
   .loginform__button {
     margin-top: 30px;
     min-width: 191px; }
-  /* line 1386, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1387, C:/Projects/home/takerim/www/css/default.scss */
   .loginform__bottom {
     margin-top: 38px;
     border-top: 1px solid #eeeff1;
     padding: 0 97px;
     padding-bottom: 28px; }
-  /* line 1387, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1388, C:/Projects/home/takerim/www/css/default.scss */
   .loginform__register {
     color: #262627;
     font-size: 16.5px;
@@ -5580,10 +5583,10 @@ select, input, textarea {
     margin-top: -10px;
     padding: 0 10px;
     background-color: #fff; }
-    /* line 1388, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1389, C:/Projects/home/takerim/www/css/default.scss */
     .loginform__register:hover {
       opacity: 0.7; }
-  /* line 1390, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1391, C:/Projects/home/takerim/www/css/default.scss */
   .loginform__text {
     opacity: 0.56;
     color: #151b2d;
@@ -5591,13 +5594,13 @@ select, input, textarea {
     font-weight: 300;
     margin-top: 26px;
     line-height: 1.4em; }
-  /* line 1393, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1394, C:/Projects/home/takerim/www/css/default.scss */
   .loginform.forvote .loginform__heading_main {
     display: none; }
-  /* line 1394, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1395, C:/Projects/home/takerim/www/css/default.scss */
   .loginform.forvote .loginform__heading_vote {
     display: block; }
-  /* line 1397, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1398, C:/Projects/home/takerim/www/css/default.scss */
   .loginform__close {
     background-color: #0a1439;
     position: relative;
@@ -5607,7 +5610,7 @@ select, input, textarea {
     position: absolute;
     left: 22px;
     top: 18px; }
-    /* line 1398, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1399, C:/Projects/home/takerim/www/css/default.scss */
     .loginform__close span {
       display: inline-block;
       position: absolute;
@@ -5620,7 +5623,7 @@ select, input, textarea {
       width: 14px;
       height: 2px;
       transition: all 0.25s ease-in-out; }
-      /* line 1399, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1400, C:/Projects/home/takerim/www/css/default.scss */
       .loginform__close span:before, .loginform__close span:after {
         content: "";
         display: inline-block;
@@ -5634,15 +5637,15 @@ select, input, textarea {
         top: 0;
         bottom: 0;
         margin: auto; }
-      /* line 1400, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1401, C:/Projects/home/takerim/www/css/default.scss */
       .loginform__close span:before {
         transform: translate3d(0, 0, 0) rotate(45deg); }
-      /* line 1401, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1402, C:/Projects/home/takerim/www/css/default.scss */
       .loginform__close span:after {
         transform: translate3d(0, 0, 0) rotate(-45deg); }
 
 /*##############################*/
-/* line 1408, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1409, C:/Projects/home/takerim/www/css/default.scss */
 .thanks {
   position: fixed;
   left: 0;
@@ -5660,10 +5663,10 @@ select, input, textarea {
   transition: all 0.25s ease-in-out;
   opacity: 0;
   pointer-events: none; }
-  /* line 1409, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1410, C:/Projects/home/takerim/www/css/default.scss */
   .thanks__ok {
     font-size: 16.5px; }
-  /* line 1410, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1411, C:/Projects/home/takerim/www/css/default.scss */
   .thanks.active {
     transform: translate3d(0, 0, 0);
     box-shadow: 0 4px 12px rgba(153, 204, 0, 0.3);
@@ -5671,7 +5674,7 @@ select, input, textarea {
     pointer-events: all; }
 
 /*##############################*/
-/* line 1415, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1416, C:/Projects/home/takerim/www/css/default.scss */
 .siteloader {
   opacity: 0;
   pointer-events: none;
@@ -5686,26 +5689,27 @@ select, input, textarea {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #F4F5F9; }
-  /* line 1417, C:/Projects/home/takerim/www/css/default.scss */
+  background-color: #F4F5F9;
+  font-weight: 300; }
+  /* line 1418, C:/Projects/home/takerim/www/css/default.scss */
   .siteloader__circles {
     opacity: 1;
     pointer-events: none;
     transform: translateY(0px); }
-    /* line 1418, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1419, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__circles.visible {
       opacity: 1;
       pointer-events: all;
       transform: translateY(0); }
-      /* line 1419, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1420, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__circles.visible .siteloader__icon {
         transform: translate3d(0, 0, 0);
         opacity: 1; }
-        /* line 1420, C:/Projects/home/takerim/www/css/default.scss */
+        /* line 1421, C:/Projects/home/takerim/www/css/default.scss */
         .siteloader__circles.visible .siteloader__icon:before, .siteloader__circles.visible .siteloader__icon:after {
           opacity: 1;
           transform: translate3d(0, 0px, 0); }
-  /* line 1425, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1426, C:/Projects/home/takerim/www/css/default.scss */
   .siteloader__icon {
     transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, transform 0.25s ease-in-out 0.5s, opacity 0.25s ease-in-out 0.5s;
     position: relative;
@@ -5717,46 +5721,46 @@ select, input, textarea {
     background-color: rgba(228, 229, 236, 0.7);
     transform: translate3d(0, -20px, 0);
     opacity: 0; }
-    /* line 1428, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1429, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon:nth-of-type(2) {
       transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out 0.6s, opacity 0.5s ease-in-out 0.6s; }
-      /* line 1429, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1430, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon:nth-of-type(2):before {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.5s, transform 0.5s ease-in-out 0.5s; }
-      /* line 1430, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1431, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon:nth-of-type(2):after {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.6s, transform 0.5s ease-in-out 0.6s; }
-    /* line 1432, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1433, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon:nth-of-type(3) {
       transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out 0.7s, opacity 0.5s ease-in-out 0.7s; }
-      /* line 1433, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1434, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon:nth-of-type(3):before {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.6s, transform 0.5s ease-in-out 0.6s; }
-      /* line 1434, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1435, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon:nth-of-type(3):after {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.7s, transform 0.5s ease-in-out 0.7s; }
-    /* line 1436, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1437, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon:nth-of-type(4) {
       transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out 0.8s, opacity 0.5s ease-in-out 0.8s; }
-      /* line 1437, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1438, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon:nth-of-type(4):before {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.6s, transform 0.5s ease-in-out 0.6s; }
-      /* line 1438, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1439, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon:nth-of-type(4):after {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.7s, transform 0.5s ease-in-out 0.7s; }
-    /* line 1440, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1441, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon:nth-of-type(5) {
       transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out 0.9s, opacity 0.5s ease-in-out 0.9s; }
-      /* line 1441, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1442, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon:nth-of-type(5):before {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.6s, transform 0.5s ease-in-out 0.6s; }
-      /* line 1442, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1443, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon:nth-of-type(5):after {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.7s, transform 0.5s ease-in-out 0.7s; }
-    /* line 1445, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1446, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon:last-child {
       margin-right: 0; }
-    /* line 1447, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1448, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon:before, .siteloader__icon:after {
       content: "";
       width: 7px;
@@ -5769,18 +5773,18 @@ select, input, textarea {
       border-radius: 50%;
       opacity: 0;
       transform: translate3d(0, -10px, 0); }
-    /* line 1448, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1449, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon:before {
       left: -25px;
       transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.4s, transform 0.5s ease-in-out 0.4s; }
-    /* line 1449, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1450, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon:after {
       right: -25px;
       transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.6s, transform 0.5s ease-in-out 0.6s; }
-    /* line 1451, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1452, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon:first-child:before, .siteloader__icon:last-child:after {
       content: none; }
-    /* line 1454, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1455, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon img {
       position: absolute;
       top: 0;
@@ -5789,67 +5793,67 @@ select, input, textarea {
       left: 0;
       margin: auto;
       transition: all 0.5s ease-in-out; }
-      /* line 1455, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1456, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon img.hand {
         transform: rotate(-45deg); }
-      /* line 1456, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1457, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon img.hand-active {
         transform: rotate(90deg); }
-    /* line 1458, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1459, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon span {
       opacity: 0;
       transition: all .5s ease-in-out;
       transform: translate3d(0, -10px, 0); }
-    /* line 1460, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1461, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon_white {
       background-color: #fff; }
-    /* line 1461, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1462, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon_pink {
       background-color: #FF73B3;
       box-shadow: 0 15px 35px rgba(255, 114, 179, 0.33); }
-      /* line 1462, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1463, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon_pink > img {
         opacity: 0;
         transform: translate3d(0, 10px, 0); }
-      /* line 1463, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1464, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__icon_pink span {
         opacity: 1;
         transform: translate3d(0, 0px, 0); }
-    /* line 1465, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1466, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon_left-dark:before, .siteloader__icon_right-dark:after {
       background-color: #43456c; }
-    /* line 1466, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1467, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__icon_left-pink:before, .siteloader__icon_right-pink:after {
       background-color: #ff73b3; }
-  /* line 1469, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1470, C:/Projects/home/takerim/www/css/default.scss */
   .siteloader.active {
     opacity: 1;
     pointer-events: all; }
 
 /*##############################*/
-/* line 1474, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1475, C:/Projects/home/takerim/www/css/default.scss */
 .siteloader__progress {
   width: 573px;
   margin-top: 70px;
   margin-left: 40px; }
-  /* line 1476, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1477, C:/Projects/home/takerim/www/css/default.scss */
   .siteloader__progress.visible .siteloader__progress_bar {
     opacity: 1;
     pointer-events: all;
     transform: translate3d(0, 0, 0); }
-  /* line 1478, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1479, C:/Projects/home/takerim/www/css/default.scss */
   .siteloader__progress_bar {
     width: 100%;
     height: 6px;
     border-radius: 1000px;
-    background-color: rgba(192, 192, 192, 0.5);
+    background-color: rgba(32, 33, 68, 0.07);
     margin-bottom: 20px;
     transition: all 0.5s ease-in-out, transform 0.5s ease-in-out .9s, opacity 0.5s ease-in-out .9s;
     transform: translate3d(0, 40px, 0);
     opacity: 0;
     pointer-events: none;
     overflow: hidden; }
-    /* line 1479, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1480, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__progress_bar_progressive {
       display: block;
       width: 100%;
@@ -5859,10 +5863,10 @@ select, input, textarea {
       box-shadow: 0 4px 18px rgba(255, 114, 179, 0.5);
       background-color: #ff73b3;
       height: 100%; }
-      /* line 1480, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1481, C:/Projects/home/takerim/www/css/default.scss */
       .siteloader__progress_bar_progressive.active {
         transform: scale3d(1, 1, 1); }
-  /* line 1483, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1484, C:/Projects/home/takerim/www/css/default.scss */
   .siteloader__progress_texts {
     text-align: center;
     display: inline-block;
@@ -5872,34 +5876,32 @@ select, input, textarea {
     transform: translate3d(0, 0, 0);
     transition: transform 9s linear 1s, opacity 0.5s ease-in-out 1s;
     opacity: 0; }
-    /* line 1484, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1485, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__progress_texts.active {
       transform: translate3d(573px, 0, 0);
       opacity: 1; }
-    /* line 1485, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1486, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__progress_texts_percent {
       margin: auto;
       width: 73px;
       border-radius: 20px;
-      background-color: #43456c;
+      background-color: #0a1439;
       line-height: 46px;
       color: #ffffff;
-      font-family: Circe;
       font-size: 19px;
       box-shadow: 0 8px 20px rgba(67, 69, 108, 0.2); }
-    /* line 1486, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1487, C:/Projects/home/takerim/www/css/default.scss */
     .siteloader__progress_texts_text {
       margin: 12px auto 0;
       width: 100%;
       height: 26px;
       opacity: 0.7;
-      color: #43456c;
-      font-family: Circe;
+      color: #262627;
       font-size: 19px;
       line-height: 26px; }
 
 /*##############################*/
-/* line 1492, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1493, C:/Projects/home/takerim/www/css/default.scss */
 .topblock {
   position: fixed !important;
   top: -60px;
@@ -5913,29 +5915,29 @@ select, input, textarea {
   z-index: 100;
   transition: all 0.7s cubic-bezier(0.25, 1, 0.25, 1);
   pointer-events: none; }
-  /* line 1493, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1494, C:/Projects/home/takerim/www/css/default.scss */
   .topblock.visible {
     top: 0;
     opacity: 1;
     pointer-events: all; }
-  /* line 1495, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1496, C:/Projects/home/takerim/www/css/default.scss */
   .topblock.active {
     height: 464px;
     pointer-events: all; }
-    /* line 1496, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1497, C:/Projects/home/takerim/www/css/default.scss */
     .topblock.active aside {
       opacity: 0;
       pointer-events: none;
       top: -20px; }
-    /* line 1497, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1498, C:/Projects/home/takerim/www/css/default.scss */
     .topblock.active form {
       opacity: 1;
       pointer-events: all;
       top: 100px; }
-      /* line 1498, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1499, C:/Projects/home/takerim/www/css/default.scss */
       .topblock.active form .button + .button {
         pointer-events: all; }
-  /* line 1502, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1503, C:/Projects/home/takerim/www/css/default.scss */
   .topblock form {
     text-align: center;
     width: 570px;
@@ -5947,15 +5949,15 @@ select, input, textarea {
     left: 50%;
     top: 70px;
     margin-left: -285px; }
-    /* line 1503, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1504, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form p.huge {
       color: white;
       font-size: 25px;
       line-height: 31px; }
-    /* line 1504, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1505, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form .inputblock {
       margin-top: 25px; }
-    /* line 1505, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1506, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form input {
       background-color: transparent;
       border-bottom: 3px solid rgba(255, 255, 255, 0.1);
@@ -5964,26 +5966,26 @@ select, input, textarea {
       color: #fff;
       line-height: 77px;
       font-size: 19px; }
-    /* line 1506, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1507, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form button {
       opacity: 0;
       pointer-events: none;
       transform: translate3d(0, 30px, 0); }
-      /* line 1507, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1508, C:/Projects/home/takerim/www/css/default.scss */
       .topblock form button.active {
         opacity: 1;
         pointer-events: all;
         transform: translate3d(0, 0, 0); }
-    /* line 1509, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1510, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form .buttons {
       margin-top: 48px; }
-    /* line 1510, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1511, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form .button {
       margin-top: 0;
       width: 186px;
       display: inline-block;
       vertical-align: top; }
-      /* line 1511, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1512, C:/Projects/home/takerim/www/css/default.scss */
       .topblock form .button + .button {
         margin-left: 30px;
         line-height: 48px;
