@@ -15,6 +15,20 @@
 <section class="formscreen formscreen_ebay section">
 	<div class="section-overlay"></div>
 	<div class="content content_column">
+		<?php include "blocks/header.php"; ?>
+		<div class="formscreen__actions actions actions_main active">
+			<div class="actionblock">
+		  		<div class="container">
+		    		<div class="actionblock__leftside">
+			  			<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a><span class="text">Проверь продавца на eBay</span></p>
+					</div>
+					<div class="actionblock__rightside">
+			  			<a href="mailto:contact@taker.im" class="header__mail">Contact@taker.im</a>
+			  			<p class="header__adults">18+</p>
+					</div>
+		      	</div>
+			</div>
+		</div>
 		<div class="container">
 			<p class="formscreen__preheading animated delay1 bounceInUp">Проверь продавца на eBay</p>
 			<h2 class="formscreen__heading animated delay1 bounceInUp">Введите ник продавца или ссылку на его товар или магазин на eBay</h2>
@@ -26,6 +40,7 @@
 			    		<span class="more__dot"></span>
 			    	</div>
 				    <input type="text" name="seller">
+				    <p class="inputlink">http://www.ebay.com/usr/modelmeistershop?_trksid=p2047675.l2559</p>
 				</div>
 				<div class="formscreen__form-bottom">
 					<button class="button button_pink" type="submit">Проверить</button>
@@ -102,12 +117,39 @@
 				</a>
 			</div>
 		</div>
-		<a href="#reviews" class="scroll-link animated fadeInUp nav"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Обзоры покупок</span></a>
+		<a href="#second" class="scroll-link animated fadeInUp nav"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Узнать больше</span></a>
 	</div>
 </section>
 
-<section class="second good">
+<section class="second second_top good" id="second">
 	<div class="content content_column">
+		<?php include "blocks/header.php"; ?>
+		<div class="formscreen__actions actions actions_main active">
+			<div class="actionblock">
+		  		<div class="container">
+		    		<div class="actionblock__leftside">
+			  			<p class="actionblock__watchreview"><a href="#" class="actionblock__icon actionblock__icon_burger"><span></span></a><span class="text">Проверь продавца на eBay</span></p>
+			  			<div class="actionblock__inputblock inputblock">
+		        			<div class="more">
+			  					<span class="more__dot"></span>
+			  					<span class="more__dot"></span>
+			  					<span class="more__dot"></span>
+							</div>
+		     				<p class="actionblock__sellerlink">http://www.ebay.com/usr/modelmeistershop?_trksid=p2047675.l2559</p>
+		     				<p class="actionblock__inputlink inputlink">text</p>
+		      			</div>
+		      			<a href="#change" class="actionblock__changelink">Изменить</a>
+					</div>
+					<div class="actionblock__rightside">
+			  			<a href="#" class="actionblock__commentsbutton">
+			  				<p>Комментарии</p>
+			  				<p>28</p>
+			  			</a>
+			  			<a href="#" class="button button_pink actionblock__goods-button">Товары продавца</a>
+					</div>
+		      	</div>
+			</div>
+		</div>
 		<div class="container">
 			<div class="second__top">
 				<img src="img/good.svg" alt="@@" class="good">
