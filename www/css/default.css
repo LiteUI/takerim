@@ -706,7 +706,7 @@ select, input, textarea {
   .morecard_rose {
     width: 296px;
     padding: 40px;
-    box-shadow: 0 4px 18px rgba(255, 115, 179, 0.3);
+    box-shadow: none;
     background-color: #ff73b3;
     background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.4) 0%, rgba(35, 105, 191, 0.4) 48%, rgba(148, 200, 55, 0.4) 100%);
     position: relative; }
@@ -4386,8 +4386,6 @@ select, input, textarea {
     margin-right: 4px; }
     .second__card:last-child {
       margin-right: 0; }
-    .second__card:hover {
-      z-index: 2; }
   .second__detail-button {
     display: block;
     background-color: #ff73b3;

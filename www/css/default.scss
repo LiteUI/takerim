@@ -171,7 +171,7 @@
 		&_showall {flex: 1 0;}
 	}
 	&__count {font-size: 42px; font-weight: 300; line-height: 53px;}
-	&_rose {width: 296px; padding: 40px; box-shadow: 0 4px 18px rgba(255, 115, 179, 0.3); background-color: #ff73b3; background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.4) 0%, rgba(35, 105, 191, 0.4) 48%, rgba(148, 200, 55, 0.4) 100%); position: relative;
+	&_rose {width: 296px; padding: 40px; box-shadow: none; background-color: #ff73b3; background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.4) 0%, rgba(35, 105, 191, 0.4) 48%, rgba(148, 200, 55, 0.4) 100%); position: relative;
 		.morecard__count {position: absolute; right: 40px; top: 34px; font-size: 16.5px; font-weight: 700; line-height: 1em;}
 		.morecard__text {font-size: 16.5px; line-height: 1.44em; margin-top: 20px;}
 	}
@@ -1304,7 +1304,6 @@
 	&__goods-cards {display: flex; transition: all 1s ease-in-out; padding-bottom: 46px;}
 	&__card {flex-shrink: 0; margin-right: 4px;
 		&:last-child {margin-right: 0;}
-		&:hover {z-index: 2;}
 	}
 	&__detail-button {display: block; background-color: #ff73b3; box-shadow: 0 15px 35px rgba(255, 115, 179, 0.33); line-height: 50px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; color: #fff; font-size: 16.5px; font-weight: 400; letter-spacing: 0.17px; transition: all .25s ease-in-out; padding:0 3px;
 		&:hover {
