@@ -9,7 +9,42 @@
     <?php include "blocks/css.php"; ?>
 </head>
 
-<body> 
+<body>
+
+<div class="siteloader">
+  <ul class="siteloader__circles">
+    <li class="siteloader__icon">
+      <img src="img/icon-1_active.svg"  alt="@@">
+      <span><img src="img/icon-1_pink.svg" alt="@@"></span>
+    </li>
+    <li class="siteloader__icon">
+      <img src="img/icon-2.svg" alt="@@">
+      <span><img src="img/icon-2_pink.svg" alt="@@" ></span>
+    </li>
+    <li class="siteloader__icon">
+      <img class="hand" src="img/icon-3.svg" alt="@@">
+      <span><img class="hand-active" src="img/icon-3_pink.svg" alt="@@" ></span>
+    </li>
+    <li class="siteloader__icon">
+      <img src="img/icon-4.svg" alt="@@">
+      <span><img src="img/icon-4_pink.svg" alt="@@" ></span>
+    </li>
+    <li class="siteloader__icon">
+      <img src="img/icon-5.svg" alt="@@">
+      <span><img src="img/icon-5_pink.svg" alt="@@"></span>
+    </li>
+  </ul>
+  <div class="siteloader__progress">
+    <div class="siteloader__progress_bar">
+	  <span class="siteloader__progress_bar_progressive"></span>
+    </div>
+    <div class="siteloader__progress_texts">
+      <p class="siteloader__progress_texts_percent"><span>0</span> %</p>
+      <p class="siteloader__progress_texts_text">Подключаюсь</p>
+    </div>
+  </div>
+</div>
+
 <div class="page page_ebay">
 
 <section class="formscreen formscreen_ebay section">
@@ -121,6 +156,17 @@
 	</div>
 </section>
 
+<div class="ebay-content">
+<section class="topblock">
+	<form>
+    	<p class="huge">Введите ник продавца или ссылку на его товар<br> или магазин на eBay</p>
+    	<div class="inputblock"><input type="text" name="seller"></div>
+    	<div class="buttons">
+    		<button class="button button_pink" type="submit">Проверить</button>
+    		<a href="#cancel" class="button button_grey">Отмена</a>
+    	</div>
+    </form>
+</section>
 <section class="second second_top good" id="second">
 	<div class="content content_column">
 		<?php include "blocks/header.php"; ?>
@@ -402,6 +448,7 @@
 
 <?php include "blocks/footer.php"; ?>
 
+</div>
 </div>
 <?php include "blocks/forms.php"; ?>
 <?php include "blocks/scripts.php"; ?>
