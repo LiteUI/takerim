@@ -34,6 +34,7 @@
 @media (min-width:1001px) {
 	.actionblock__account-icon {display: none;}
 	.formscreen_ebay .formscreen__actions {display: none;}
+	.page_ebay .formscreen_ebay .formscreen__actions {display: block;}
 	.reviews__showmore, .forums__showmore {display: none;}
 	.mobile {display: none !important;}
 	.header__burger {display: none;}

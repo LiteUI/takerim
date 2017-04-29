@@ -195,8 +195,30 @@ select, input, textarea {
 .page {
   position: relative;
   min-height: 100vh; }
+  .page_main .formscreen_ebay .header .container {
+    opacity: 0;
+    width: 100%;
+    padding: 0 24px; }
   .page_detail {
     margin-top: 204px; }
+  .page_ebay .formscreen_ebay .header {
+    top: -204px;
+    height: 204px;
+    padding: 47px 0 52px;
+    background-color: #0a1439; }
+  .page_ebay .formscreen_ebay__actions {
+    top: 0;
+    width: 100%; }
+    .page_ebay .formscreen_ebay__actions.sticky {
+      position: absolute; }
+  .page_ebay .formscreen_ebay .actionblock {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 16px 0 !important; }
+    .page_ebay .formscreen_ebay .actionblock__watchreview {
+      color: #fff; }
+      .page_ebay .formscreen_ebay .actionblock__watchreview:after {
+        display: none; }
 
 .content {
   position: relative;
@@ -1352,6 +1374,18 @@ select, input, textarea {
     transform: translate3d(0, 204px, 0); }
   .actions.fancybox-margin {
     margin-left: -8.5px; }
+  .actions.ebay {
+    position: fixed; }
+    .actions.ebay .actionblock {
+      background-color: #fff;
+      box-shadow: 0 2px 30px rgba(25, 33, 45, 0.04); }
+      .actions.ebay .actionblock__rightside {
+        transform: translate3d(0, 0, 0); }
+      .actions.ebay .actionblock__goods-button {
+        opacity: 1;
+        pointer-events: all; }
+      .actions.ebay .actionblock .more {
+        background-color: #fff; }
   .actions_detail .actionblock {
     height: 102px;
     padding: 0;
@@ -1487,6 +1521,8 @@ select, input, textarea {
   .actionblock__leftside {
     display: inline-flex;
     align-items: center; }
+  .actionblock__rightside {
+    transition: all 0.25s ease-in-out; }
   .actionblock__icon {
     display: inline-block;
     width: 40px;
@@ -1757,6 +1793,101 @@ select, input, textarea {
     pointer-events: none;
     transition: all 0.25s ease-in-out;
     z-index: 2; }
+  .actionblock__inputblock {
+    width: 236px;
+    position: relative;
+    margin-left: 20px; }
+  .actionblock .more {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9px;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+    transition: all 0.25s ease-in-out;
+    border-radius: 1000px;
+    cursor: pointer; }
+    .actionblock .more:after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 1000px;
+      border: 1px solid #dadbe0;
+      box-sizing: border-box; }
+    .actionblock .more__dot {
+      width: 3px;
+      height: 3px;
+      background-color: #afb0b7;
+      border-radius: 1000px; }
+  .actionblock__sellerlink {
+    white-space: nowrap;
+    direction: rtl;
+    line-height: 36px;
+    font-size: 16px;
+    overflow: hidden; }
+  .actionblock__changelink {
+    display: inline-block;
+    font-size: 16.5px;
+    font-weight: 300;
+    line-height: 38px;
+    border: 1px solid rgba(206, 207, 214, 0.69);
+    border-radius: 1000px;
+    padding: 0 30px;
+    margin-left: 20px; }
+  .actionblock__inputlink {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    box-shadow: 0 12px 36px rgba(25, 33, 45, 0.2);
+    border-radius: 3px;
+    background-color: #0a1439;
+    font-size: 16.5px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    padding: 14px 22px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s ease-in-out;
+    z-index: 1;
+    word-break: break-all;
+    color: #fff; }
+    .actionblock__inputlink.active {
+      opacity: 1;
+      pointer-events: all; }
+  .actionblock__commentsbutton {
+    display: inline-flex;
+    border: 1px solid rgba(206, 207, 214, 0.69);
+    border-radius: 1000px; }
+    .actionblock__commentsbutton p {
+      line-height: 38px;
+      font-size: 16.5px;
+      font-weight: 300;
+      padding: 0 30px; }
+      .actionblock__commentsbutton p:last-child {
+        border-left: 1px solid rgba(206, 207, 214, 0.69);
+        padding: 0 16px; }
+  .actionblock__goods-button {
+    line-height: 40px;
+    font-size: 16.5px;
+    box-shadow: 0 9px 18px rgba(255, 115, 179, 0.18);
+    margin-left: 12px;
+    opacity: 0;
+    pointer-events: none;
+    padding: 0 30px;
+    transition: all 0.25s ease-in-out; }
 
 /*##############################*/
 .searchblock {
@@ -2117,7 +2248,8 @@ select, input, textarea {
         pointer-events: none;
         background-color: #5356ad;
         transition: all 0.25s ease-in-out;
-        border-radius: 1000px; }
+        border-radius: 1000px;
+        cursor: pointer; }
         .formscreen__form .inputblock .more:after {
           content: "";
           display: inline-block;
@@ -2135,7 +2267,28 @@ select, input, textarea {
           background-color: #ffffff;
           border-radius: 1000px; }
     .formscreen__form.filled .inputblock .more {
-      opacity: 1; }
+      opacity: 1;
+      pointer-events: all; }
+    .formscreen__form .inputlink {
+      position: absolute;
+      left: 0;
+      top: 68px;
+      box-shadow: 0 12px 36px rgba(25, 33, 45, 0.2);
+      border-radius: 3px;
+      background-color: #0a1439;
+      font-size: 16.5px;
+      font-weight: 300;
+      letter-spacing: 0.4px;
+      line-height: 22px;
+      padding: 14px 22px;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.25s ease-in-out;
+      z-index: 1;
+      word-break: break-all; }
+      .formscreen__form .inputlink.active {
+        opacity: 1;
+        pointer-events: all; }
   .formscreen__form-bottom {
     margin-top: 40px;
     display: flex;
@@ -2179,10 +2332,7 @@ select, input, textarea {
       top: 5px;
       background-color: transparent; }
       .formscreen_ebay .header .container {
-        width: 100%;
-        padding: 0 24px;
-        box-sizing: border-box;
-        opacity: 0; }
+        box-sizing: border-box; }
     .formscreen_ebay .actionblock {
       background-color: transparent;
       box-shadow: none;
@@ -4090,6 +4240,16 @@ select, input, textarea {
     transform: translateY(-23px); }
   .second_bottom .second__goods-head {
     justify-content: center; }
+  .second .header {
+    top: -204px;
+    height: 204px;
+    padding: 47px 0 52px;
+    background-color: #0a1439; }
+  .second .actionblock {
+    background-color: transparent;
+    box-shadow: none; }
+    .second .actionblock__rightside {
+      transform: translate3d(50%, 0, 0); }
 
 .moreinfo .table {
   position: relative;
@@ -4404,6 +4564,8 @@ select, input, textarea {
     display: none; }
   .formscreen_ebay .formscreen__actions {
     display: none; }
+  .page_ebay .formscreen_ebay .formscreen__actions {
+    display: block; }
   .reviews__showmore, .forums__showmore {
     display: none; }
   .mobile {
