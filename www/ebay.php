@@ -155,7 +155,7 @@
 				</a>
 			</div>
 		</div>
-		<a href="#second" class="scroll-link animated fadeInUp nav"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Узнать больше</span></a>
+		<a href="#second" class="scroll-link nav"><span class="scroll-link__mouse"></span><span class="scroll-link__text">Узнать больше</span></a>
 	</div>
 </section>
 
