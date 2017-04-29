@@ -5327,6 +5327,9 @@ html.ebay-page {
     /* line 1308, C:/Projects/home/takerim/www/css/default.scss */
     .second__card:last-child {
       margin-right: 0; }
+    /* line 1309, C:/Projects/home/takerim/www/css/default.scss */
+    .second__card:hover {
+      z-index: 2; }
   /* line 1311, C:/Projects/home/takerim/www/css/default.scss */
   .second__detail-button {
     display: block;
@@ -5920,7 +5923,7 @@ html.ebay-page {
       line-height: 26px; }
 
 /*##############################*/
-/* line 1502, C:/Projects/home/takerim/www/css/default.scss */
+/* line 1503, C:/Projects/home/takerim/www/css/default.scss */
 .topblock {
   position: fixed !important;
   top: -60px;
@@ -5935,29 +5938,29 @@ html.ebay-page {
   transition: all 0.7s cubic-bezier(0.25, 1, 0.25, 1);
   pointer-events: none;
   font-weight: 300; }
-  /* line 1503, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1504, C:/Projects/home/takerim/www/css/default.scss */
   .topblock.visible {
     top: 0;
     opacity: 1;
     pointer-events: all; }
-  /* line 1505, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1506, C:/Projects/home/takerim/www/css/default.scss */
   .topblock.active {
     height: 464px;
     pointer-events: all; }
-    /* line 1506, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1507, C:/Projects/home/takerim/www/css/default.scss */
     .topblock.active aside {
       opacity: 0;
       pointer-events: none;
       top: -20px; }
-    /* line 1507, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1508, C:/Projects/home/takerim/www/css/default.scss */
     .topblock.active form {
       opacity: 1;
       pointer-events: all;
       top: 100px; }
-      /* line 1508, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1509, C:/Projects/home/takerim/www/css/default.scss */
       .topblock.active form .button + .button {
         pointer-events: all; }
-  /* line 1512, C:/Projects/home/takerim/www/css/default.scss */
+  /* line 1513, C:/Projects/home/takerim/www/css/default.scss */
   .topblock form {
     text-align: center;
     width: 570px;
@@ -5969,15 +5972,15 @@ html.ebay-page {
     left: 50%;
     top: 70px;
     margin-left: -285px; }
-    /* line 1513, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1514, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form p.huge {
       color: white;
       font-size: 25px;
       line-height: 31px; }
-    /* line 1514, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1515, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form .inputblock {
       margin-top: 25px; }
-    /* line 1515, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1516, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form input {
       background-color: transparent;
       border-bottom: 3px solid rgba(255, 255, 255, 0.1);
@@ -5986,26 +5989,26 @@ html.ebay-page {
       color: #fff;
       line-height: 77px;
       font-size: 19px; }
-    /* line 1516, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1517, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form button {
       opacity: 0;
       pointer-events: none;
       transform: translate3d(0, 30px, 0); }
-      /* line 1517, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1518, C:/Projects/home/takerim/www/css/default.scss */
       .topblock form button.active {
         opacity: 1;
         pointer-events: all;
         transform: translate3d(0, 0, 0); }
-    /* line 1519, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1520, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form .buttons {
       margin-top: 48px; }
-    /* line 1520, C:/Projects/home/takerim/www/css/default.scss */
+    /* line 1521, C:/Projects/home/takerim/www/css/default.scss */
     .topblock form .button {
       margin-top: 0;
       width: 186px;
       display: inline-block;
       vertical-align: top; }
-      /* line 1521, C:/Projects/home/takerim/www/css/default.scss */
+      /* line 1522, C:/Projects/home/takerim/www/css/default.scss */
       .topblock form .button + .button {
         margin-left: 30px;
         line-height: 48px;
