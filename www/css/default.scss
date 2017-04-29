@@ -1317,10 +1317,7 @@
 		&:last-child {margin-right: 0;}
 		&:hover {z-index: 2;}
 	}
-	&__detail-button {display: block; background-color: #ff73b3; box-shadow: 0 15px 35px rgba(255, 115, 179, 0.33); line-height: 50px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; color: #fff; font-size: 16.5px; font-weight: 400; letter-spacing: 0.17px; transition: all .25s ease-in-out; padding:0 3px;
-		&:hover {
-			opacity: .7;
-		}
+	&__detail-button {display: block; background-color: #ff73b3; box-shadow: 0 15px 35px rgba(255, 115, 179, 0.33); line-height: 50px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; color: #fff; font-size: 16.5px; font-weight: 400; letter-spacing: 0.17px; padding:0 3px; transition: none;
 		&.active {
 			opacity: 0;
 			pointer-events: none;
