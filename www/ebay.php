@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="ebay-page">
 
 <head>
-    <?php include "blocks/head.php"; ?>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=1360">
+	<meta http-equiv="Content-type" content="text/html; utf-8">
+	<meta http-equiv="Content-language" content="ru-RU"> 
     <meta name="robots" content="all">
     <?php include "blocks/meta.php"; ?>
     <title>Taker.IM</title>

@@ -309,6 +309,13 @@
 	}
 }
 
+html.ebay-page {
+	min-width: 1360px;
+	body {
+		min-width: 1360px;
+	}
+}
+
 .topauthors {
 	&_ebay {
 		.container_navcards {
