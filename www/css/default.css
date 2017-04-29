@@ -1400,6 +1400,8 @@ select, input, textarea {
       .actions.ebay .actionblock__goods-button {
         opacity: 1;
         pointer-events: all; }
+        .actions.ebay .actionblock__goods-button:hover {
+          opacity: 0.7; }
       .actions.ebay .actionblock .more {
         background-color: #fff; }
   .actions_detail .actionblock {
@@ -1862,6 +1864,8 @@ select, input, textarea {
     border-radius: 1000px;
     padding: 0 30px;
     margin-left: 20px; }
+    .actionblock__changelink:hover {
+      opacity: 0.7; }
   .actionblock__inputlink {
     position: absolute;
     left: 0;
@@ -1895,6 +1899,8 @@ select, input, textarea {
       .actionblock__commentsbutton p:last-child {
         border-left: 1px solid rgba(206, 207, 214, 0.69);
         padding: 0 16px; }
+    .actionblock__commentsbutton:hover {
+      opacity: 0.7; }
   .actionblock__goods-button {
     line-height: 40px;
     font-size: 16.5px;
@@ -1904,6 +1910,8 @@ select, input, textarea {
     pointer-events: none;
     padding: 0 30px;
     transition: all 0.25s ease-in-out; }
+    .actionblock__goods-button:hover {
+      opacity: 0.7; }
 
 /*##############################*/
 .searchblock {
@@ -4378,7 +4386,8 @@ select, input, textarea {
     color: #fff;
     font-size: 16.5px;
     font-weight: 400;
-    letter-spacing: 0.17px; }
+    letter-spacing: 0.17px;
+    transition: all 0.25s ease-in-out; }
     .second__detail-button:before, .second__detail-button:after {
       content: url("../img/roseshape.png");
       position: absolute;
@@ -4389,6 +4398,8 @@ select, input, textarea {
     .second__detail-button:after {
       left: 100%;
       transform: rotateY(180deg); }
+    .second__detail-button:hover {
+      opacity: 0.7; }
   .second .container_navcards {
     margin-top: 17px; }
   .second .cardnav {
@@ -4430,7 +4441,10 @@ select, input, textarea {
       box-sizing: border-box;
       line-height: 1.35em; }
     .moreinfo .table li a {
-      color: #fc57a4; }
+      color: #fc57a4;
+      transition: all 0.25s ease-in-out; }
+      .moreinfo .table li a:hover {
+        opacity: 0.7; }
     .moreinfo .table li p:first-child {
       width: 288px;
       padding-right: 30px; }
@@ -4560,7 +4574,7 @@ select, input, textarea {
     font-size: 16.5px;
     font-weight: 300; }
     .loginform__forgotpw:hover {
-      opacity: 0.7; }
+      opacity: 0.5; }
   .loginform__button {
     margin-top: 30px;
     min-width: 191px; }

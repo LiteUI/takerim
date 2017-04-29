@@ -420,7 +420,9 @@
 	&.ebay {position: fixed;
 		.actionblock {background-color: #fff; box-shadow: 0 2px 30px rgba(25, 33, 45, 0.04);
 			&__rightside {transform: translate3d(0,0,0);}
-			&__goods-button {opacity: 1; pointer-events: all;}
+			&__goods-button {opacity: 1; pointer-events: all;
+				&:hover {opacity: 0.7;}
+			}
 			.more {background-color: #fff;}
 		}
 	}
@@ -542,7 +544,9 @@
 	  	&__dot {width: 3px; height: 3px; background-color: #afb0b7; border-radius: 1000px;}
 	}
 	&__sellerlink {white-space: nowrap; direction: rtl; line-height: 36px; font-size: 16px; overflow: hidden;}
-	&__changelink {display: inline-block; font-size: 16.5px; font-weight: 300; line-height: 38px; border: 1px solid rgba(#cecfd6,0.69); border-radius: 1000px; padding: 0 30px; margin-left: 20px;}
+	&__changelink {display: inline-block; font-size: 16.5px; font-weight: 300; line-height: 38px; border: 1px solid rgba(#cecfd6,0.69); border-radius: 1000px; padding: 0 30px; margin-left: 20px;
+		&:hover {opacity: 0.7;}
+	}
 	&__inputlink {position: absolute; left: 0; top: 50px; box-shadow: 0 12px 36px rgba(25, 33, 45, 0.2); border-radius: 3px; background-color: #0a1439; font-size: 16.5px; font-weight: 300; letter-spacing: 0.4px; line-height: 22px; padding: 14px 22px; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out; z-index: 1; word-break: break-all; color: #fff;
 		&.active {opacity: 1; pointer-events: all;}
 	}
@@ -550,8 +554,11 @@
 		p {line-height: 38px; font-size: 16.5px; font-weight: 300; padding: 0 30px;
 			&:last-child {border-left: 1px solid rgba(#cecfd6,0.69); padding: 0 16px;}
 		}
+		&:hover {opacity: 0.7;}
 	}
-	&__goods-button {line-height: 40px; font-size: 16.5px; box-shadow: 0 9px 18px rgba(255, 115, 179, 0.18); margin-left: 12px; opacity: 0; pointer-events: none; padding: 0 30px; transition: all 0.25s ease-in-out;}
+	&__goods-button {line-height: 40px; font-size: 16.5px; box-shadow: 0 9px 18px rgba(255, 115, 179, 0.18); margin-left: 12px; opacity: 0; pointer-events: none; padding: 0 30px; transition: all 0.25s ease-in-out;
+		&:hover {opacity: 0.7;}
+	}
 }
 
 /*##############################*/
@@ -1297,10 +1304,11 @@
 		&:last-child {margin-right: 0;}
 		&:hover {z-index: 2;}
 	}
-	&__detail-button {display: block; background-color: #ff73b3; box-shadow: 0 15px 35px rgba(255, 115, 179, 0.33); line-height: 50px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; color: #fff; font-size: 16.5px; font-weight: 400; letter-spacing: 0.17px;
+	&__detail-button {display: block; background-color: #ff73b3; box-shadow: 0 15px 35px rgba(255, 115, 179, 0.33); line-height: 50px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; color: #fff; font-size: 16.5px; font-weight: 400; letter-spacing: 0.17px; transition: all 0.25s ease-in-out;
 		&:before, &:after {content: url('../img/roseshape.png'); position: absolute; top: 0; height: 100%;}
 		&:before {right: 100%;}
 		&:after {left: 100%; transform: rotateY(180deg);}
+		&:hover {opacity: 0.7;}
 	}
 	.container_navcards {margin-top: 17px;}
 	.cardnav {transform: translateY(-23px);}
@@ -1322,7 +1330,9 @@
 		li {padding: 39px 0; display: flex; align-items: center; border-bottom: 1px solid #f2f3f6; justify-content: space-between;
 			&:last-child {border-bottom: none;}
 			p {font-size: 16px; box-sizing: border-box; line-height: 1.35em;}
-			a {color: #fc57a4;}
+			a {color: #fc57a4; transition: all 0.25s ease-in-out;
+				&:hover {opacity: 0.7;}
+			}
 			p:first-child {width: 288px; padding-right: 30px;}
 			.icon {width: 40px; height: 0; display: inline-flex; justify-content: center; align-items: center; border-radius: 1000px; transition: all .25s ease-in-out;
 				&:after {content: ""; background-color: #edeef3; display: flex; justify-content: center; align-items: center; transition: all .25s ease-in-out;width: 40px; height: 40px; border-radius: 1000px;}
@@ -1368,7 +1378,7 @@
 		input {width: 100%; color: #262627; font-size: 19px; font-weight: 300; padding-bottom: 24px; border-bottom: 1px solid rgba(#cecfd6,0.46); padding-right: 90px;}
 	}
 	&__forgotpw {position: absolute; right: 50px; top: 2px; color: #262627; font-size: 16.5px; font-weight: 300;
-		&:hover {opacity: 0.7;}
+		&:hover {opacity: 0.5;}
 	}
 	&__button {margin-top: 30px; min-width: 191px;}
 	&__bottom {margin-top: 38px; border-top: 1px solid #eeeff1; padding: 0 97px; padding-bottom: 28px;}
