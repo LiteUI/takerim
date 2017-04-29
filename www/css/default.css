@@ -431,7 +431,8 @@ select, input, textarea {
   border-radius: 30px;
   background-color: #99cc00;
   color: #fff;
-  font-size: 19px; }
+  font-size: 19px;
+  cursor: pointer; }
   .button:hover, .button.active:hover {
     opacity: 0.7; }
   .button_social {
@@ -522,6 +523,16 @@ select, input, textarea {
   .button_pink {
     background-color: #ff73b3;
     box-shadow: 0 15px 35px rgba(255, 114, 179, 0.33); }
+  .button_grey {
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid #dadbe0;
+    position: relative;
+    color: #262627;
+    font-weight: 300;
+    padding-left: 36px;
+    padding-right: 36px;
+    letter-spacing: 0.02em; }
 
 /*##############################*/
 .userinfo {
@@ -2781,7 +2792,8 @@ select, input, textarea {
     font-weight: 300;
     letter-spacing: 0.02em;
     flex-grow: 1;
-    margin-left: 20px; }
+    margin-left: 20px;
+    flex: 1; }
   .footer__certificate {
     opacity: 0.7;
     color: #262627;
@@ -3063,6 +3075,131 @@ select, input, textarea {
     color: #a0a2aa;
     font-weight: 300; }
 
+.ebay-section {
+  border-top: 1px solid #e5e6e9;
+  padding: 50px 0; }
+
+.ebay-heading {
+  color: #262627;
+  font-size: 26px;
+  font-weight: 300; }
+
+.white-padding-section {
+  margin: 0 -60px;
+  background-color: white;
+  padding: 44px 60px 50px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  position: relative; }
+  .white-padding-section .ebay-showmore {
+    margin-left: -60px;
+    margin-right: -60px; }
+
+.ebay-table {
+  display: flex;
+  justify-content: flex-start; }
+  .ebay-table a:hover {
+    opacity: .5; }
+  .ebay-table_row {
+    border-top: 1px solid #eeeff1;
+    padding-top: 24px;
+    padding-bottom: 24px; }
+  .ebay-table__col:not(:last-child) {
+    margin-right: 56px; }
+  .ebay-table__col_imagecol {
+    width: 176px; }
+    .ebay-table__col_imagecol:not(:last-child) {
+      margin-right: 36px; }
+    .ebay-table__col_imagecol ~ .ebay-table__col .ebay-table__heading {
+      padding-top: 10px; }
+  .ebay-table__col_flexible {
+    flex: 1; }
+  .ebay-table__image {
+    height: 132px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    transform: translate3d(0, 0, 0); }
+    .ebay-table__image img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      min-height: 100%;
+      min-width: 100%;
+      object-fit: cover; }
+  .ebay-table__heading {
+    font-size: 16px;
+    line-height: 1.625em;
+    color: rgba(38, 38, 39, 0.5);
+    font-weight: 300;
+    white-space: nowrap; }
+  .ebay-table__value {
+    color: #262627;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.36842em;
+    margin-top: 7px; }
+  .ebay-table__subvalue {
+    line-height: 1.625em;
+    font-size: 16px;
+    color: #767983; }
+  .ebay-table_big .ebay-table__value {
+    font-size: 32px;
+    line-height: 1.34375em;
+    margin-top: 3px; }
+  .ebay-table_big .ebay-table__col:not(:last-child) {
+    margin-right: 72px; }
+
+.table-header {
+  display: flex;
+  margin-bottom: 47px; }
+  .table-header__heading {
+    flex: 1; }
+  .table-header__table {
+    margin-top: 5px; }
+
+.ebay-showmore {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .ebay-showmore:before, .ebay-showmore:after {
+    content: "";
+    height: 1px;
+    background-color: #eeeff1;
+    flex: 1; }
+
+.ebay-float-button {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 15px 35px rgba(255, 115, 179, 0.33);
+  border-radius: 100px;
+  background-color: #ff73b3;
+  position: absolute;
+  right: -25px;
+  top: 30%;
+  transition: all .25s ease-in-out;
+  cursor: pointer; }
+  .ebay-float-button:hover {
+    opacity: .8; }
+  .ebay-float-button:before, .ebay-float-button:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 18px;
+    height: 2px;
+    background-color: white; }
+  .ebay-float-button:before {
+    transform: translate3d(0, -3px, 0); }
+  .ebay-float-button:after {
+    transform: translate3d(0, 3px, 0); }
+
 /*##############################*/
 .share {
   border-top: 1px solid #e5e6e9;
@@ -3343,6 +3480,7 @@ select, input, textarea {
     height: calc(100% - 46px);
     bottom: 46px; }
 
+/*##############################*/
 /*##############################*/
 .comments {
   border-top: 1px solid #e5e6e9;
