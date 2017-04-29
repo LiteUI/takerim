@@ -1246,6 +1246,10 @@
 	.container_navcards {margin-top: 17px;}
 	.cardnav {transform: translateY(-23px);}
 	&_bottom {
+		min-height: 0;
+		.content {
+			min-height: 0;
+		}
 		.second__goods-head {justify-content: center;}
 	}
 }
