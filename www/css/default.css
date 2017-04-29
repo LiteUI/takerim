@@ -4228,18 +4228,6 @@ html.ebay-page {
 .cardnav_ebay:before, .cardnav_ebay:after {
   background-color: #6267b9; }
 
-/* line 346, C:/Projects/home/takerim/www/css/_ebay.scss */
-.ebay-allinfo {
-  display: none;
-  overflow: hidden;
-  transform: translate3d(0, 30px, 0);
-  transition: all .5s ease-in-out;
-  opacity: 0; }
-  /* line 353, C:/Projects/home/takerim/www/css/_ebay.scss */
-  .ebay-allinfo.active {
-    transform: translate3d(0, 0px, 0);
-    opacity: 1; }
-
 /* line 359, C:/Projects/home/takerim/www/css/_ebay.scss */
 .ebay-rating {
   display: block; }
