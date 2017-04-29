@@ -205,12 +205,12 @@
 				<img src="img/bad.svg" alt="@@" class="bad">
 				<div>
 					<p class="second__blockheading">Покупать?</p>
-					<p class="second__blocktext" id="yesorno">Да, можно покупать.</p>
+					<p class="second__blocktext yesorno">Да, можно покупать.</p>
 				</div>
 				<div>
 					<p class="second__blockheading">Наш рейтинг продавца</p>
-					<p class="second__blocktext"><span id="ratingnumber">85</span> из 100 <br>
-					<span id="textrating">очень хороший</span></p>
+					<p class="second__blocktext"><span class="ratingnumber">85</span> из 100 <br>
+					<span class="textrating">очень хороший</span></p>
 				</div>
 				<div>
 					<p class="second__blockheading">Стр. проверки продавца</p>
@@ -416,12 +416,12 @@
 				<img src="img/bad.svg" alt="@@" class="bad">
 				<div>
 					<p class="second__blockheading">Покупать?</p>
-					<p class="second__blocktext" id="yesorno">Да, можно покупать.</p>
+					<p class="second__blocktext yesorno">Да, можно покупать.</p>
 				</div>
 				<div>
 					<p class="second__blockheading">Наш рейтинг продавца</p>
-					<p class="second__blocktext"><span id="ratingnumber">85</span> из 100 <br>
-					<span id="textrating">очень хороший</span></p>
+					<p class="second__blocktext"><span class="ratingnumber">85</span> из 100 <br>
+					<span class="textrating">очень хороший</span></p>
 				</div>
 				<div>
 					<p class="second__blockheading">Стр. проверки продавца</p>
