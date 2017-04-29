@@ -265,6 +265,16 @@
 						<p class="goodcard__text">Инновационный мини холодильник OOINO Mini Refrigerator</p>
 					</div>
 				</a>
+				<a href="#" class="second__card goodcard shadow-hover">
+					<div class="goodcard__image">
+						<img src="img/goods2.png" alt="@@">
+					</div>
+					<div class="goodcard__info">
+						<p class="goodcard__number">4967853524565</p>
+						<p class="goodcard__price">€ 499</p>
+						<p class="goodcard__text">Инновационный мини холодильник OOINO Mini Refrigerator</p>
+					</div>
+				</a>
 				<a href="#" class="second__card morecard morecard_rose shadow-hover">
 					<img src="img/ebaylogo.png" alt="@@" class="morecard__logo">
 					<p class="morecard__count">+ 8 669</p>
