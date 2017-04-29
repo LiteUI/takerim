@@ -385,6 +385,9 @@
 	</div>
 </section>
 
+<!-- ТОП 10 продавцов -->
+<?php include "blocks/ebay/ebay-top10.php"; ?>
+
 <!-- История продаж продавца -->
 <?php include "blocks/ebay/ebay-history.php"; ?>
 

@@ -177,3 +177,16 @@
 		transform: translate3d(0,3px,0);
 	}
 }
+
+.topauthors {
+	&_ebay {
+		.container_navcards {
+			padding-bottom: 0;
+		}
+		
+		.usercard__name {
+			margin-top: 30px;
+			margin-bottom: 33px;
+		}
+	}
+}
