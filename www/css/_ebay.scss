@@ -25,6 +25,15 @@
 	display: flex;
 	justify-content: flex-start;
 	
+	&-wrapper {
+		position: relative;
+	}
+	
+	&__float-button {
+		top: 0 !important;
+		right: -85px !important;
+	}
+	
 	a:hover {
 		opacity: .5;
 	}
@@ -39,7 +48,7 @@
 		margin-right: 56px;
 	}
 	
-	&__col {
+	&__col {		
 		&_imagecol {
 			width: 176px;
 			
@@ -55,6 +64,79 @@
 		&_flexible {
 			flex: 1;
 		}
+	}
+	
+	&_review {
+		padding-top: 34px;
+		padding-bottom: 39px;
+		
+		.ebay-table {
+			&__icon {
+				position: absolute;
+				left: 0;
+				top: 3px;
+			}
+			
+			&__col {
+				width: 176px;
+					
+				&:not(:last-child) {
+					margin-right: 24px;
+				}
+				
+				&:first-child {
+					padding-left: 58px;
+					position: relative;
+					flex: 1;
+				}
+				
+				&.ebay-table_review__bigcol {
+					width: 276px;
+				}
+				
+			}
+			
+			&__value {
+				font-size: 16px;
+				line-height: (22/16)*1em;
+				margin-top: 1px;
+				
+				& + .ebay-table {
+					&__subvalue {
+						margin-top: 11px;
+					}
+				}
+			}
+		}
+			
+		&_good .ebay-table {
+			&__icon:after {
+				content: url("../img/smile.svg");
+				background-color: #50e3c2;
+				box-shadow: 0 15px 35px rgba(79, 227, 194, 0.33);
+			}
+		}
+		
+		&_bad .ebay-table {
+			&__icon:after {
+				content: url("../img/smile2.svg");
+				background-color: #ff7373;
+				box-shadow: 0 15px 35px rgba(255, 114, 114, 0.33);
+			}
+		}
+		
+		&_normal .ebay-table {
+			&__icon:after {
+				content: url("../img/smile3.svg");
+				background-color: #ffc744;
+				box-shadow: 0 15px 35px rgba(243, 209, 79, 0.33);
+			}
+		}
+	}
+	
+	&__icon {width: 40px; height: 40px; display: inline-flex; justify-content: center; align-items: center; border-radius: 1000px; transition: all .25s ease-in-out;
+	
+		&:after {content: ""; background-color: #edeef3; display: flex; justify-content: center; align-items: center; transition: all .25s ease-in-out;width: 40px; height: 40px; border-radius: 1000px;}
 	}
 	
 	&__image {
@@ -91,12 +173,27 @@
 		font-weight: 300;
 		line-height: (26/19)*1em;
 		margin-top: 7px;
+		
+		&+.ebay-table {
+			&__value {
+				margin-top: 15px;
+			}
+			
+			&__subvalue {
+				margin-top: 2px;
+			}
+		}
 	}
 	
 	&__subvalue {
 		line-height: (26/16)*1em;
 		font-size: 16px;
 		color: #767983;
+		
+		&_small {
+			font-size: 14px;
+			line-height: (18/14)*1em;
+		}
 	}
 	
 	&_big {
@@ -118,12 +215,45 @@
 	display: flex;
 	margin-bottom: 47px;
 	
+	&_justify {
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 37px;
+	}
+	
 	&__heading {
 		flex: 1;
+		padding-right: 50px;
 	}
 	
 	&__table {
 		margin-top: 5px;
+	}
+}
+
+.ebay-reviews-icons {display:inline-block; margin-left: 10px;
+	&__icon {display: inline-block; width: 40px; height: 40px; display: inline-flex; justify-content: center; align-items: center; border-radius: 1000px; transition: all .25s ease-in-out; vertical-align: middle; margin-left: -10px;
+	
+		&:after {content: ""; background-color: #edeef3; display: flex; justify-content: center; align-items: center; transition: all .25s ease-in-out;width: 40px; height: 40px; border-radius: 1000px;}
+		
+		&_good:after {
+			content: url("../img/smile.svg");
+			background-color: #50e3c2;
+			box-shadow: 0 15px 35px rgba(79, 227, 194, 0.33);
+		}
+		
+		&_bad:after {
+			content: url("../img/smile2.svg");
+			background-color: #ff7373;
+			box-shadow: 0 15px 35px rgba(255, 114, 114, 0.33);
+		}
+		
+		&_normal:after {
+			content: url("../img/smile3.svg");
+			background-color: #ffc744;
+			box-shadow: 0 15px 35px rgba(243, 209, 79, 0.33);
+		}
+		
 	}
 }
 
@@ -188,5 +318,39 @@
 			margin-top: 30px;
 			margin-bottom: 33px;
 		}
+	}
+}
+
+.ebay-pink-link {
+	color: #ff73b3;
+	
+	&:hover {
+		opacity: .7;
+	}
+}
+
+.ebay-rating {
+	display: block;
+	
+	&:after {
+		content: "";
+		width: 13px;
+		height: 12px;
+		display: inline-flex;
+		margin-left: 4px;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	&_yellow:after {
+		content: url("../img/star_yellow.svg");
+	}
+	
+	&_red:after {
+		content: url("../img/star_red.svg");
+	}
+	
+	&_purple:after {
+		content: url("../img/star_purple.svg");
 	}
 }
