@@ -118,7 +118,10 @@ $col:(100-($col-m*11))/12; // Ширина колонки
 
 // Основы //
 html {width:100%; height:100%;}
-body {width:100%; min-height:100%; font-size:0; font-family: "Foco", Arial, sans-serif; background-color: #f6f6f6;}
+body {width:100%; min-height:100%; font-size:0; font-family: "Foco", Arial, sans-serif; background-color: #f6f6f6;
+	&.active .page_ebay .formscreen_ebay {top:-200px; opacity:0;}
+    &.active .ebay-content {display:block;}
+}
 
 html, body {overflow-x: hidden;}
 
