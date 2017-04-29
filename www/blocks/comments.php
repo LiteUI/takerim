@@ -1,4 +1,4 @@
-<section class="comments">
+<section class="comments" id="comments">
 	<div class="container">
 		<h3 class="comments__heading">Комментарии</h3>
 		<form action="" class="comments__form" id="commentform">

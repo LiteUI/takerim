@@ -190,11 +190,11 @@
 		      			<a href="#change" class="actionblock__changelink">Изменить</a>
 					</div>
 					<div class="actionblock__rightside">
-			  			<a href="#" class="actionblock__commentsbutton">
+			  			<a href="#comments" class="actionblock__commentsbutton alternav">
 			  				<p>Комментарии</p>
 			  				<p>28</p>
 			  			</a>
-			  			<a href="#" class="button button_pink actionblock__goods-button">Товары продавца</a>
+			  			<a href="#goods" class="button button_pink actionblock__goods-button alternav">Товары продавца</a>
 					</div>
 		      	</div>
 			</div>
@@ -218,7 +218,7 @@
 					<a href="#" class="second__addtofav" id="tofavourites">Добавить в избранное</a>
 				</div>
 			</div>
-			<div class="second__goods-head">
+			<div class="second__goods-head" id="goods">
 				<p class="second__goods-heading">Товары  Sorokins в продаже</p>
 				<div class="second__goods-share">
 					<p class="second__goods-sharetext">Расскажи друзьям о продавце</p>
