@@ -4449,6 +4449,8 @@ html.ebay-page {
     margin-right: 4px; }
     .second__card:last-child {
       margin-right: 0; }
+    .second__card:hover {
+      z-index: 2; }
   .second__detail-button {
     display: block;
     background-color: #ff73b3;
@@ -4948,7 +4950,8 @@ html.ebay-page {
   display: flex;
   z-index: 100;
   transition: all 0.7s cubic-bezier(0.25, 1, 0.25, 1);
-  pointer-events: none; }
+  pointer-events: none;
+  font-weight: 300; }
   .topblock.visible {
     top: 0;
     opacity: 1;
