@@ -161,7 +161,7 @@
 
 <div class="ebay-content">
 <section class="topblock">
-	<form>
+	<form autocomplete="off">
     	<p class="huge">Введите ник продавца или ссылку на его товар<br> или магазин на eBay</p>
     	<div class="inputblock"><input type="text" name="seller"></div>
     	<div class="buttons">
@@ -190,11 +190,11 @@
 		      			<a href="#change" class="actionblock__changelink">Изменить</a>
 					</div>
 					<div class="actionblock__rightside">
-			  			<a href="#" class="actionblock__commentsbutton">
+			  			<a href="#comments" class="actionblock__commentsbutton alternav">
 			  				<p>Комментарии</p>
 			  				<p>28</p>
 			  			</a>
-			  			<a href="#" class="button button_pink actionblock__goods-button">Товары продавца</a>
+			  			<a href="#goods" class="button button_pink actionblock__goods-button alternav">Товары продавца</a>
 					</div>
 		      	</div>
 			</div>
@@ -218,7 +218,7 @@
 					<a href="#" class="second__addtofav" id="tofavourites">Добавить в избранное</a>
 				</div>
 			</div>
-			<div class="second__goods-head">
+			<div class="second__goods-head" id="goods">
 				<p class="second__goods-heading">Товары  Sorokins в продаже</p>
 				<div class="second__goods-share">
 					<p class="second__goods-sharetext">Расскажи друзьям о продавце</p>
@@ -238,7 +238,9 @@
 				<a href="#" class="cardnav__arrow next"><img src="img/navarrow.svg" alt="@@"></a>
 			</div>
 			<div class="second__goods-cards js-navcards">
-				<a href="#" class="second__card goodcard shadow-hover">
+				<a href="#" class="second__card goodcard">
+				<div class="reviews__card-shadow">
+					<div class="reviews__card-wrapper"></div>
 					<div class="goodcard__image">
 						<img src="img/goods9.png" alt="@@">
 					</div>
@@ -247,41 +249,54 @@
 						<p class="goodcard__price">€ 499</p>
 						<p class="goodcard__text">Инновационный мини холодильник OOINO Mini Refrigerator</p>
 					</div>
+				</div>
 				</a>
-				<a href="#" class="second__card goodcard shadow-hover">
+				<a href="#" class="second__card goodcard">
+				<div class="reviews__card-shadow">
+					<div class="reviews__card-wrapper"></div>
 					<div class="goodcard__image">
-						<img src="img/goods4.png" alt="@@">
-					</div>
-					<div class="goodcard__info">
-						<p class="goodcard__number">3963254525665</p>
-						<p class="goodcard__price">€ 192</p>
-						<p class="goodcard__text">Сбалансированные беспроводные наушники Gravity</p>
-					</div>
-				</a>
-				<a href="#" class="second__card goodcard shadow-hover">
-					<div class="goodcard__image">
-						<img src="img/goods2.png" alt="@@">
+						<img src="img/goods9.png" alt="@@">
 					</div>
 					<div class="goodcard__info">
 						<p class="goodcard__number">4967853524565</p>
 						<p class="goodcard__price">€ 499</p>
 						<p class="goodcard__text">Инновационный мини холодильник OOINO Mini Refrigerator</p>
 					</div>
+				</div>
 				</a>
-				<a href="#" class="second__card goodcard shadow-hover">
+				<a href="#" class="second__card goodcard">
+				<div class="reviews__card-shadow">
+					<div class="reviews__card-wrapper"></div>
 					<div class="goodcard__image">
-						<img src="img/goods2.png" alt="@@">
+						<img src="img/goods9.png" alt="@@">
 					</div>
 					<div class="goodcard__info">
 						<p class="goodcard__number">4967853524565</p>
 						<p class="goodcard__price">€ 499</p>
 						<p class="goodcard__text">Инновационный мини холодильник OOINO Mini Refrigerator</p>
 					</div>
+				</div>
 				</a>
-				<a href="#" class="second__card morecard morecard_rose shadow-hover">
+				<a href="#" class="second__card goodcard">
+				<div class="reviews__card-shadow">
+					<div class="reviews__card-wrapper"></div>
+					<div class="goodcard__image">
+						<img src="img/goods9.png" alt="@@">
+					</div>
+					<div class="goodcard__info">
+						<p class="goodcard__number">4967853524565</p>
+						<p class="goodcard__price">€ 499</p>
+						<p class="goodcard__text">Инновационный мини холодильник OOINO Mini Refrigerator</p>
+					</div>
+				</div>
+				</a>
+				<a href="#" class="second__card morecard morecard_rose">
+				<div class="reviews__card-shadow">
+					<div class="reviews__card-wrapper"></div>
 					<img src="img/ebaylogo.png" alt="@@" class="morecard__logo">
 					<p class="morecard__count">+ 8 669</p>
 					<p class="morecard__text">Показать все товары<br> Sorokins</p>
+				</div>
 				</a>
 			</div>
 		</div>
