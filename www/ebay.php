@@ -431,6 +431,9 @@
 	</div>
 </section>
 
+<!-- Отзывы о продавце -->
+<?php include "blocks/ebay/ebay-reviews.php"; ?>
+
 <!-- ТОП 10 продавцов -->
 <?php include "blocks/ebay/ebay-top10.php"; ?>
 

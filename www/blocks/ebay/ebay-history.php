@@ -27,6 +27,9 @@
   			
   			<!-- Основная таблица -->
   			<div class="ebay-table-wrapper">
+  				<!-- Розовая кнопка -->
+  				<span class="ebay-float-button ebay-table__float-button"></span>
+  				
   				<!-- Строка -->
   				<div class="ebay-table ebay-table_row ebay">
   					<div class="ebay-table__col ebay-table__col_imagecol">
@@ -110,9 +113,6 @@
   			<div class="ebay-showmore">
   				<a href="#" class="button button_grey">Показать еще</a>
   			</div>
-  			
-  			<!-- Розовая кнопка -->
-  			<span class="ebay-float-button"></span>
   		</div>
 	</div>
 </section>
