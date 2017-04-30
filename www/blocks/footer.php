@@ -35,7 +35,7 @@
 			</div>
 			<div class="footer__bottom-right">
 				<p class="footer__certificate">Свидетельство Роскомнадзора ЭЛ № ФС77-60626 от 20.01.2015<br> Запрещено для детей 18+</p>
-				<a href="#" class="footer__mail">Contacts@taker.im</a>
+				<a href="#" class="footer__mail">contacts@taker.im</a>
 				<p class="footer__copyright">&copy; TakerIm 2004-2016. Все права защищены</p>
 			</div>
 		</div>

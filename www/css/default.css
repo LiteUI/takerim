@@ -2336,7 +2336,7 @@ select, input, textarea {
       font-weight: 300;
       padding: 0 30px; }
       /* line 567, C:/Projects/home/takerim/www/css/default.scss */
-      .actionblock__commentsbutton p:last-child {
+      .actionblock__commentsbutton p + p {
         border-left: 1px solid rgba(206, 207, 214, 0.69);
         padding: 0 16px; }
     /* line 569, C:/Projects/home/takerim/www/css/default.scss */

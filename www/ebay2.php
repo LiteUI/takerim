@@ -191,8 +191,7 @@
 					</div>
 					<div class="actionblock__rightside">
 			  			<a href="#comments" class="actionblock__commentsbutton alternav">
-			  				<p>Комментарии</p>
-			  				<p>28</p>
+			  				<p>Оставить комментарий</p>
 			  			</a>
 			  			<a href="#goods" class="button button_pink actionblock__goods-button alternav">Товары продавца</a>
 					</div>
@@ -470,7 +469,7 @@
 <!-- История продаж продавца -->
 <?php include "blocks/ebay/ebay-history.php"; ?>
 
-<?php include "blocks/comments.php"; ?>
+<?php include "blocks/emptycomments.php"; ?>
 
 </section>
 
